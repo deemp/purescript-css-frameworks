@@ -12,7 +12,7 @@
     let
       pkgs = inputs.nixpkgs.legacyPackages.${system};
       inherit (inputs.devshell.functions.${system}) mkCommands mkRunCommands mkShell;
-      packages = inputs.purescript-tools.packages.${system} // { inherit (pkgs) perl; };
+      packages = inputs.purescript-tools.packages.${system} // { inherit (pkgs) perl purescript; };
       tools = __attrValues packages;
       devShells.default = mkShell {
         packages = tools;
