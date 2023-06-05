@@ -1,11 +1,11 @@
 {
-    "name": "purescript-my-project",
+    "name": "purescript-halogen-css-frameworks",
     "license": [
         "Apache-2.0"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/tonicebrian/purescript-halogen-bootstrap5"
+        "url": "https://github.com/deemp/purescript-halogen-css-frameworks"
     },
     "ignore": [
         "**/.*",
