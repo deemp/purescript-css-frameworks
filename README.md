@@ -60,58 +60,64 @@ Framework lists were taken from [purescript-react-icons](https://github.com/andy
 
 Module documentation is [published on Pursuit](http://pursuit.purescript.org/packages/urescript-halogen-css-frameworks).
 
-## Generate
-
-1. Install `perl`.
-1. If necessary, update `css/bootstrap*.css` files.
-1. Run the script.
-
-   ```console
-   perl gen.pl
-   ```
-
 ## Contribute
 
-1. Find the framework `.css` file. Let's call it `file`.
-2. Find the framework repo/site. Let's call it `site`.
-3. Find the framework license file. Let's call it `license`.
-4. Create a directory for the framework `.css` in the [./css](./css) directory. Let's call the new directory `framework`.
-5. Create a file `framework/LICENSE`. Let's call it `LICENSE`.
-6. Copy the `file` into `framework/all.css`.
-7. Fill the `LICENSE`. See an [example](./css/pure/LICENSE).
-   1. The `file` may contain some comments in the top. Let's call them `comments`. Add a section to `LICENSE`.
+1. Find the framework `.css` file. Let's call it `{file}`.
+2. The `{file}` may contain some comments in the top. Let's call them `{comments}`.
+3. Find the framework repo/site. Let's call it `{site}`.
+4. Find the framework license text. Let's call it `{license}`.
+5. Let's call the link to that text a `{link}`.
+6. Create a directory for the framework `.css` in the [./css](./css) directory. Let's call the new directory `{framework}`.
+7. Create a file `{framework}/LICENSE`. Let's call it `{LICENSE}`.
+8. Copy the `{file}` into `{framework}/all.css`.
+9. Compose the `{LICENSE}`. See an [example](./css/pure/LICENSE). Add the relevant sections.
 
-      ```console
+   1. ```console
       == License section from .css
 
-      ... here go the comments ...
+      ... {comments} ...
       ```
 
-   1. Add a section to `LICENSE`.
-
-      ```console
+   2. ```console
       == License link
 
-      ... here goes the link to the license ...
+      ... {link} ...
       ```
 
-   1. Add a section to `LICENSE`.
-
-      ```console
+   3. ```console
       == License content
 
-      ... here goes the license text ...
+      ... {license} ...
       ```
 
-8. Edit the table [Libraries](#libraries).
+10. Edit a relevant table in [Libraries](#libraries).
+11. Install [perl](https://www.perl.org/) or use the [Nix devshell](#nix).
+12. Run the generator.
 
-### Nix flake
+      ```console
+      perl gen.pl
+      ```
 
-There's a [Nix flake](https://nixos.wiki/wiki/Flakes) with PureScript tools.
-They're loaded via [direnv](https://direnv.net/) or via `nix develop`.
+13. Commit, make a Pull Request.
+
+### Nix
+
+This repo provides a [Nix flake](https://nixos.wiki/wiki/Flakes) with PureScript tools.
+
+Enable flakes, then run:
+
+```console
+nix develop
+```
+
+Additionally, you may want to use [direnv](https://direnv.net/) to load the tools automatically when you enter this repo directory.
+
+```console
+direnv allow
+```
 
 ## License
 
 - The original repo was [licensed](https://github.com/tonicebrian/purescript-halogen-bootstrap5/blob/0a9cdb113e7cd558f0b155e09ff70c88de2d3865/spago.dhall#L5) under the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0).
 
-- This repo is licensed under the same license.
+- This repo is licensed under the same [license](./LICENSE).
