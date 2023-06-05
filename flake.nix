@@ -16,6 +16,7 @@
       tools = __attrValues packages;
       devShells.default = mkShell {
         packages = tools;
+        bash.extra = ''export LC_ALL=C.UTF-8'';
         commands = mkCommands "tools" tools;
       };
     in
