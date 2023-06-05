@@ -1,4 +1,4 @@
-module Halogen.Themes.Bulma where
+module Halogen.Frameworks.Bulma where
 
 import Halogen.HTML.Core (ClassName(..))
 

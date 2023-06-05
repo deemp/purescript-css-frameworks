@@ -1,4 +1,4 @@
-module Halogen.Themes.Pure.GridsResponsive where
+module Halogen.Frameworks.Pure.GridsResponsive where
 
 import Halogen.HTML.Core (ClassName(..))
 

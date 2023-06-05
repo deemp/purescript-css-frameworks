@@ -1,4 +1,4 @@
-module Halogen.Themes.TablerIcons where
+module Halogen.Frameworks.TablerIcons where
 
 import Halogen.HTML.Core (ClassName(..))
 

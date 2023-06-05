@@ -1,4 +1,4 @@
-module Halogen.Themes.WeatherIcons where
+module Halogen.Frameworks.WeatherIcons where
 
 import Halogen.HTML.Core (ClassName(..))
 

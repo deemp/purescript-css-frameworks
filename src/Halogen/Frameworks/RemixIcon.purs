@@ -1,4 +1,4 @@
-module Halogen.Themes.RemixIcon where
+module Halogen.Frameworks.RemixIcon where
 
 import Halogen.HTML.Core (ClassName(..))
 

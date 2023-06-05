@@ -1,4 +1,4 @@
-module Halogen.Themes.Picnic where
+module Halogen.Frameworks.Picnic where
 
 import Halogen.HTML.Core (ClassName(..))
 

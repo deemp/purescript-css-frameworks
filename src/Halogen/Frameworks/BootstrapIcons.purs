@@ -1,4 +1,4 @@
-module Halogen.Themes.BootstrapIcons where
+module Halogen.Frameworks.BootstrapIcons where
 
 import Halogen.HTML.Core (ClassName(..))
 

@@ -1,4 +1,4 @@
-module Halogen.Themes.Primer where
+module Halogen.Frameworks.Primer where
 
 import Halogen.HTML.Core (ClassName(..))
 

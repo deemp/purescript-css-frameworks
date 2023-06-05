@@ -1,4 +1,4 @@
-module Halogen.Themes.SimpleLineIcons where
+module Halogen.Frameworks.SimpleLineIcons where
 
 import Halogen.HTML.Core (ClassName(..))
 

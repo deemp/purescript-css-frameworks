@@ -1,4 +1,4 @@
-module Halogen.Themes.UIkit where
+module Halogen.Frameworks.UIkit where
 
 import Halogen.HTML.Core (ClassName(..))
 

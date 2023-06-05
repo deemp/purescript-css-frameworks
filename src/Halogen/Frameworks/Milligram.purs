@@ -1,4 +1,4 @@
-module Halogen.Themes.Milligram where
+module Halogen.Frameworks.Milligram where
 
 import Halogen.HTML.Core (ClassName(..))
 

@@ -1,4 +1,4 @@
-module Halogen.Themes.ThemifyIcons where
+module Halogen.Frameworks.ThemifyIcons where
 
 import Halogen.HTML.Core (ClassName(..))
 

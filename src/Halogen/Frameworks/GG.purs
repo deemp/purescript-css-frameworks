@@ -1,4 +1,4 @@
-module Halogen.Themes.GG where
+module Halogen.Frameworks.GG where
 
 import Halogen.HTML.Core (ClassName(..))
 

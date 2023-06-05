@@ -1,4 +1,4 @@
-module Halogen.Themes.FontAwesome where
+module Halogen.Frameworks.FontAwesome where
 
 import Halogen.HTML.Core (ClassName(..))
 

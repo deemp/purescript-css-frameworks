@@ -1,4 +1,4 @@
-module Halogen.Themes.Carbon where
+module Halogen.Frameworks.Carbon where
 
 import Halogen.HTML.Core (ClassName(..))
 

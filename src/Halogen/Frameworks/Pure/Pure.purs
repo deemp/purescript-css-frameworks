@@ -1,4 +1,4 @@
-module Halogen.Themes.Pure.Pure where
+module Halogen.Frameworks.Pure.Pure where
 
 import Halogen.HTML.Core (ClassName(..))
 

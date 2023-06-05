@@ -1,4 +1,4 @@
-module Halogen.Themes.BoxIcons where
+module Halogen.Frameworks.BoxIcons where
 
 import Halogen.HTML.Core (ClassName(..))
 

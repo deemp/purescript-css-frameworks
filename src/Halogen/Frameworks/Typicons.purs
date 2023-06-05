@@ -1,4 +1,4 @@
-module Halogen.Themes.Typicons where
+module Halogen.Frameworks.Typicons where
 
 import Halogen.HTML.Core (ClassName(..))
 

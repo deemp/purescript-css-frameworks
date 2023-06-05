@@ -1,4 +1,4 @@
-module Halogen.Themes.VSCodeCodicons where
+module Halogen.Frameworks.VSCodeCodicons where
 
 import Halogen.HTML.Core (ClassName(..))
 

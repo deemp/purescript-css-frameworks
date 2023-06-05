@@ -13,7 +13,7 @@ sub uniq (@data) {
 
 sub convert ($dirCss, $moduleName) {
 
-    my $themes = "Halogen.Themes";
+    my $themes = "Halogen.Frameworks";
     $moduleName = "$themes.$moduleName";
 
     # = collect all class names

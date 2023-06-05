@@ -1,4 +1,4 @@
-module Halogen.Themes.Chota where
+module Halogen.Frameworks.Chota where
 
 import Halogen.HTML.Core (ClassName(..))
 

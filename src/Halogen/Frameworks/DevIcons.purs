@@ -1,4 +1,4 @@
-module Halogen.Themes.DevIcons where
+module Halogen.Frameworks.DevIcons where
 
 import Halogen.HTML.Core (ClassName(..))
 
