@@ -1,13 +1,13 @@
-# purescript-halogen-css-frameworks
+# purescript-css-frameworks
 
-Classes from multiple `CSS` frameworks for `purescript-halogen`.
+`ClassName`s from multiple `CSS` frameworks.
 
 Inspired by [purescript-halogen-bootstrap5](https://github.com/tonicebrian/purescript-halogen-bootstrap5) and [purescript-react-icons](https://github.com/andys8/purescript-react-icons).
 
 ## Installation
 
 ```console
-spago install halogen-classes
+spago install css-frameworks
 ```
 
 ## Libraries
@@ -24,7 +24,7 @@ Framework lists were taken from [purescript-react-icons](https://github.com/andy
 | download                                                                                  | version                                                                                                                                                             | directory         | license                                                           |
 | ----------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ----------------------------------------------------------------- |
 | [Bootstrap Icons](https://icons.getbootstrap.com/#install)                                | [1.10.5](https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css)                                                                              | bootstrap-icons   | [MIT](https://opensource.org/licenses/MIT)                        |
-| [Boxicons](https://boxicons.com/usage#usage-as-font)                                      | [2.1.4](https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css)                                                                                                      | boxicons          | [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/) |
+| [Boxicons](https://boxicons.com/usage#usage-as-font)                                      | [2.1.4](https://unpkg.com/boxicons@2.1.4/css/boxicons.css)                                                                                                      | boxicons          | [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/) |
 | [css.gg](https://github.com/astrit/css.gg#1-all-icons)                                    | [2.0.0](https://github.com/astrit/css.gg/blob/8a6913598e4e2b10aaf69b9cb7e10e7213828965/icons/all.css)                                                               | css.gg            | [MIT](https://opensource.org/licenses/MIT)                        |
 | [Devicons](https://github.com/vorillaz/devicons#use-devicons-with-a-single-line-of-code)  | [1.8.0](cdn.jsdelivr.net/npm/devicons@1.8.0/css/devicons.min.css)                                                                                                   | devicons          | [MIT](https://opensource.org/licenses/MIT)                        |
 | [Fontawesome](https://fontawesome.com/download)                                           | [6.4.0](https://use.fontawesome.com/releases/v6.4.0/fontawesome-free-6.4.0-web.zip), free for web                                                                   | fontawesome       | [CC BY 4.0 License](https://creativecommons.org/licenses/by/4.0/) |
@@ -43,55 +43,51 @@ Framework lists were taken from [purescript-react-icons](https://github.com/andy
 | [Pure](https://purecss.io/)                                                               | 3.0.0, [pure](https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/pure.css), [grids-responsive](https://cdn.jsdelivr.net/npm/purecss@3.0.0/build/grids-responsive.css) | pure              | [BSD-3-Clause](https://opensource.org/license/bsd-3-clause/)      |
 | [Milligram](https://milligram.io/#usage)                                                  | [1.4.1](https://cdnjs.cloudflare.com/ajax/libs/milligram/1.4.1/milligram.css)                                                                                       | milligram         | [MIT](https://opensource.org/licenses/MIT)                        |
 | [Picnic](https://picnicss.com/)                                                           | [latest](https://cdn.jsdelivr.net/npm/picnic)                                                                                                                       | picnic            | [MIT](https://opensource.org/licenses/MIT)                        |
-| [Chota](https://jenil.github.io/chota/#start)                                             | [0.9.2](https://unpkg.com/chota@0.9.2/dist/chota.min.css)                                                                                                           | chota             | [MIT](https://opensource.org/licenses/MIT)                        |
+| [Chota](https://jenil.github.io/chota/#start)                                             | [0.9.2](https://unpkg.com/chota@0.9.2/dist/chota.css)                                                                                                           | chota             | [MIT](https://opensource.org/licenses/MIT)                        |
 
 ### General Purpose
 
 | download                                                                                  | version                                                                                         | directory  | license                                                           |
 | ----------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | ---------- | ----------------------------------------------------------------- |
-| [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr) | [5.3.0](https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css)                | bootstrap  | [MIT](https://opensource.org/licenses/MIT)                        |
-| [Bulma](https://github.com/jgthms/bulma#css-only)                                         | [0.9.4](https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css)                             | bulma      | [MIT](https://opensource.org/licenses/MIT)                        |
+| [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/download/#cdn-via-jsdelivr) | [5.3.0](https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.css)                | bootstrap  | [MIT](https://opensource.org/licenses/MIT)                        |
+| [Bulma](https://github.com/jgthms/bulma#css-only)                                         | [0.9.4](https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.css)                             | bulma      | [MIT](https://opensource.org/licenses/MIT)                        |
 | [Foundation](https://get.foundation/sites/docs/installation.html#cdn-links)               | [6.7.5](https://cdn.jsdelivr.net/npm/foundation-sites@6.7.5/dist/css/foundation.min.css)        | foundation | [MIT](https://opensource.org/licenses/MIT)                        |
 | [UIkit](https://github.com/uikit/uikit#getting-started)                                   | [3.16.19](https://cdn.jsdelivr.net/npm/uikit@3.16.19/dist/js/uikit.min.js)                      | uikit      | [MIT](https://opensource.org/licenses/MIT)                        |
 | [Primer](https://primer.style/css/getting-started#using-primer-css-on-a-static-site)      | [21.0.2](https://cdn.jsdelivr.net/npm/@primer/css@21.0.2/dist/primer.min.css)                   | primer     | [MIT](https://opensource.org/licenses/MIT)                        |
-| Carbon                                                                                    | [10.58.3](https://cdn.jsdelivr.net/npm/carbon-components@10.58.3/css/carbon-components.min.css) | carbon     | [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
+| Carbon                                                                                    | [10.58.3](https://cdn.jsdelivr.net/npm/carbon-components@10.58.3/css/carbon-components.css) | carbon     | [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0) |
 
 ## Documentation
 
-Module documentation is [published on Pursuit](http://pursuit.purescript.org/packages/urescript-halogen-css-frameworks).
+Module documentation [on Pursuit](http://pursuit.purescript.org/packages/purescript-css-frameworks) (coming soon).
 
 ## Contribute
 
-1. Find the framework `.css` file. Let's call it `{file}`.
-2. The `{file}` may contain some comments in the top. Let's call them `{comments}`.
-3. Find the framework repo/site. Let's call it `{site}`.
-4. Find the framework license text. Let's call it `{license}`.
-5. Let's call the link to that text a `{link}`.
-6. Create a directory for the framework `.css` in the [./css](./css) directory. Let's call the new directory `{framework}`.
-7. Create a file `{framework}/LICENSE`. Let's call it `{LICENSE}`.
-8. Copy the `{file}` into `{framework}/all.css`.
-9. Compose the `{LICENSE}`. See an [example](./css/pure/LICENSE). Add the relevant sections.
+### New framework
+
+1. Find the framework repo/site. Let's call it `{site}`.
+2. Find a framework (preferrably not minified) `.css` file. Let's call it `{file}`.
+3. Find the framework license text. Let's call it `{license}`.
+4. Let's call the link to that text a `{link}`.
+5. Create a directory for the framework `.css` in the [./css](./css) directory. Let's call the new directory `{framework}`.
+6. Create a file `{framework}/LICENSE`. Let's call it `{LICENSE}`.
+7. Copy the `{file}` into `{framework}/all.css`.
+8. If the `{file}` was minified, format it so that it's not minified.
+9. Compose the `{LICENSE}`. See an [example](./css/pure/LICENSE). Add relevant sections.
 
    1. ```console
-      == License section from .css
-
-      ... {comments} ...
-      ```
-
-   2. ```console
       == License link
 
       ... {link} ...
       ```
 
-   3. ```console
+   2. ```console
       == License content
 
       ... {license} ...
       ```
 
 10. Edit a relevant table in [Libraries](#libraries).
-11. Install [perl](https://www.perl.org/) or use the [Nix devshell](#nix).
+11. Install [perl](https://www.perl.org/) or use a [Nix devshell](#nix-dev-tools).
 12. Run the generator.
 
       ```console
@@ -100,21 +96,23 @@ Module documentation is [published on Pursuit](http://pursuit.purescript.org/pac
 
 13. Commit, make a Pull Request.
 
-### Nix
+## Nix dev tools
 
-This repo provides a [Nix flake](https://nixos.wiki/wiki/Flakes) with PureScript tools.
+This repo provides a [Nix flake](https://nixos.wiki/wiki/Flakes) with `PureScript` tools.
 
-Enable flakes, then run:
+1. [Install Nix](https://github.com/deemp/flakes/blob/main/README/InstallNix.md)
 
-```console
-nix develop
-```
+1. Start a devshell
 
-Additionally, you may want to use [direnv](https://direnv.net/) to load the tools automatically when you enter this repo directory.
+      ```console
+      nix develop
+      ```
 
-```console
-direnv allow
-```
+1. (Optionally) use `direnv`.
+
+      ```console
+      direnv allow
+      ```
 
 ## License
 
