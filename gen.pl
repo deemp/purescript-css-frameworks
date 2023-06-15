@@ -22,16 +22,22 @@ sub convert ($dirCss, $moduleName) {
     my $fileTmp = "$css.tmp";
     my $file;
 
-    my @allClassNames;
-
-    open (fileF, '<', $css) or die $!;
     
-    my @lines = grep ($_ !~ /(url|\/\*|filter:)/, <fileF>);
+    my @lines = do {
+        open (fileF, '<', $css) or die $!;
+        grep ($_ !~ /(url|filter:)/, <fileF>);
+    };
+
+    my $allLines = "";
 
     for my $line (@lines) {
-        my @classNames = $line =~ /\.([a-zA-Z][-a-zA-Z0-9]*)/g;
-        push(@allClassNames, @classNames);
+        $allLines = $allLines . " " . $line;
     }
+
+    $allLines =~ s/\/\*(?:(?!\*\/).)*\*\/\n?//sg;
+
+    my @allClassNames = $allLines =~ /\.([a-zA-Z][-a-zA-Z0-9]*)/g;
+
     my @classNames = uniq (sort @allClassNames);
 
     # = write purescript code
@@ -46,29 +52,31 @@ sub convert ($dirCss, $moduleName) {
     # == prepare directory 
     mkdir dirname($filePurs);
 
-    # == write purs file
-    open(filePursF, '>', $filePurs) or die $!;
+    {
+        # == write purs file
+        open(filePursF, '>', $filePurs) or die $!;
 
-    my $header = qq{
+        my $header = qq{
         module $moduleName where
 
         import Web.HTML.Common (ClassName(..))
 
         };
 
-    $header =~ s/^ {8}//mg;
-    $header =~ s/^\s+//;
-    
-    print filePursF $header;
+        $header =~ s/^ {8}//mg;
+        $header =~ s/^\s+//;
+        
+        print filePursF $header;
 
-    for my $className (@classNames) {
-        chomp $className;
-        my $classNameCamel = ($className =~ s/[_-]([a-z0-9])/\u$1/gr);
-        $classNameCamel =~ s/^([A-Z])/_$1/;
-        $classNameCamel =~ s/-/_/g;
-        print filePursF "$classNameCamel :: ClassName\n";
-        print filePursF "$classNameCamel = ClassName \"$className\"\n\n";
-    }
+        for my $className (@classNames) {
+            chomp $className;
+            my $classNameCamel = ($className =~ s/[_-]([a-z0-9])/\u$1/gr);
+            $classNameCamel =~ s/^([A-Z])/_$1/;
+            $classNameCamel =~ s/-/_/g;
+            print filePursF "$classNameCamel :: ClassName\n";
+            print filePursF "$classNameCamel = ClassName \"$className\"\n\n";
+        }
+    };
 }
 
 convert ("bootstrap", "Bootstrap");
