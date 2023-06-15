@@ -1,6 +1,6 @@
-module Halogen.Frameworks.DevIcons where
+module CSSFrameworks.DevIcons where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 devicons :: ClassName
 devicons = ClassName "devicons"

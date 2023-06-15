@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Pure.GridsResponsive where
+module CSSFrameworks.Pure.GridsResponsive where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 pureULg1 :: ClassName
 pureULg1 = ClassName "pure-u-lg-1"

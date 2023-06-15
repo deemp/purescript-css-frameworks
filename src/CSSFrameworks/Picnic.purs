@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Picnic where
+module CSSFrameworks.Picnic where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 active :: ClassName
 active = ClassName "active"

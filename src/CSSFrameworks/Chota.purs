@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Chota where
+module CSSFrameworks.Chota where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 active :: ClassName
 active = ClassName "active"

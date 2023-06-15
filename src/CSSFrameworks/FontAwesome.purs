@@ -1,6 +1,6 @@
-module Halogen.Frameworks.FontAwesome where
+module CSSFrameworks.FontAwesome where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 fa :: ClassName
 fa = ClassName "fa"

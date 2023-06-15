@@ -1,6 +1,6 @@
-module Halogen.Frameworks.GG where
+module CSSFrameworks.GG where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 ggAbstract :: ClassName
 ggAbstract = ClassName "gg-abstract"

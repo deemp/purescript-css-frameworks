@@ -1,6 +1,6 @@
-module Halogen.Frameworks.WeatherIcons where
+module CSSFrameworks.WeatherIcons where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 wi :: ClassName
 wi = ClassName "wi"

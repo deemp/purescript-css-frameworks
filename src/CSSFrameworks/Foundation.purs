@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Foundation where
+module CSSFrameworks.Foundation where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 accordion :: ClassName
 accordion = ClassName "accordion"

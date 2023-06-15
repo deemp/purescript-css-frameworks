@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Carbon where
+module CSSFrameworks.Carbon where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 animate :: ClassName
 animate = ClassName "animate"

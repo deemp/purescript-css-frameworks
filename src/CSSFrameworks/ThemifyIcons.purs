@@ -1,6 +1,6 @@
-module Halogen.Frameworks.ThemifyIcons where
+module CSSFrameworks.ThemifyIcons where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 tiAngleDoubleDown :: ClassName
 tiAngleDoubleDown = ClassName "ti-angle-double-down"

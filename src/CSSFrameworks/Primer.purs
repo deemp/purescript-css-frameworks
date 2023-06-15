@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Primer where
+module CSSFrameworks.Primer where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 _AnimatedEllipsis :: ClassName
 _AnimatedEllipsis = ClassName "AnimatedEllipsis"

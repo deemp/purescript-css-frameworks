@@ -1,6 +1,6 @@
-module Halogen.Frameworks.VSCodeCodicons where
+module CSSFrameworks.VSCodeCodicons where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 codicon :: ClassName
 codicon = ClassName "codicon"

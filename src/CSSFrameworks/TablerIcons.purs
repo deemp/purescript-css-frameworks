@@ -1,6 +1,6 @@
-module Halogen.Frameworks.TablerIcons where
+module CSSFrameworks.TablerIcons where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 ti :: ClassName
 ti = ClassName "ti"

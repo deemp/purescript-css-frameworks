@@ -1,6 +1,6 @@
-module Halogen.Frameworks.RemixIcon where
+module CSSFrameworks.RemixIcon where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 ri10x :: ClassName
 ri10x = ClassName "ri-10x"

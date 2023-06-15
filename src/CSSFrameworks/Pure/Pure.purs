@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Pure.Pure where
+module CSSFrameworks.Pure.Pure where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 hidden :: ClassName
 hidden = ClassName "hidden"

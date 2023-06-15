@@ -1,6 +1,6 @@
-module Halogen.Frameworks.UIkit where
+module CSSFrameworks.UIkit where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 ukAccordion :: ClassName
 ukAccordion = ClassName "uk-accordion"

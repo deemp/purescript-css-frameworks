@@ -1,6 +1,6 @@
-module Halogen.Frameworks.BootstrapIcons where
+module CSSFrameworks.BootstrapIcons where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 bi :: ClassName
 bi = ClassName "bi"

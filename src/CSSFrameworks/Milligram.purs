@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Milligram where
+module CSSFrameworks.Milligram where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 button :: ClassName
 button = ClassName "button"

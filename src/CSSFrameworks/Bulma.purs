@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Bulma where
+module CSSFrameworks.Bulma where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 areLarge :: ClassName
 areLarge = ClassName "are-large"

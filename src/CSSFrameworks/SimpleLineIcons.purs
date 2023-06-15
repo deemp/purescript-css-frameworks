@@ -1,6 +1,6 @@
-module Halogen.Frameworks.SimpleLineIcons where
+module CSSFrameworks.SimpleLineIcons where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 iconActionRedo :: ClassName
 iconActionRedo = ClassName "icon-action-redo"

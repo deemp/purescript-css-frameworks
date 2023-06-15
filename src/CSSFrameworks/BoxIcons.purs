@@ -1,6 +1,6 @@
-module Halogen.Frameworks.BoxIcons where
+module CSSFrameworks.BoxIcons where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 bx :: ClassName
 bx = ClassName "bx"

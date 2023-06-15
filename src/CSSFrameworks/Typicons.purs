@@ -1,6 +1,6 @@
-module Halogen.Frameworks.Typicons where
+module CSSFrameworks.Typicons where
 
-import Halogen.HTML.Core (ClassName(..))
+import Web.HTML.Common (ClassName(..))
 
 typcn :: ClassName
 typcn = ClassName "typcn"
