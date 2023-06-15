@@ -7745,9 +7745,6 @@ srOnly = ClassName "sr-only"
 state :: ClassName
 state = ClassName "state"
 
-style :: ClassName
-style = ClassName "style"
-
 subnav :: ClassName
 subnav = ClassName "subnav"
 
