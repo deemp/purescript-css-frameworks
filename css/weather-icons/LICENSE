@@ -1,21 +1,13 @@
-/*!
- *  Weather Icons 2.0.10
- *  Updated November 1, 2020
- *  Weather themed icons for Bootstrap
- *  Author - Erik Flowers - erik@helloerik.com
- *  Email: erik@helloerik.com
- *  Twitter: http://twitter.com/Erik_UX
- *  ------------------------------------------------------------------------------
- *  Maintained at http://erikflowers.github.io/weather-icons
- *
- *  License
- *  ------------------------------------------------------------------------------
- *  - Font licensed under SIL OFL 1.1 -
- *    http://scripts.sil.org/OFL
- *  - CSS, SCSS and LESS are licensed under MIT License -
- *    http://opensource.org/licenses/mit-license.html
- *  - Documentation licensed under CC BY 3.0 -
- *    http://creativecommons.org/licenses/by/3.0/
- *  - Inspired by and works great as a companion with Font Awesome
- *    "Font Awesome by Dave Gandy - http://fontawesome.io"
- */
+== License link
+
+http://opensource.org/licenses/mit-license.html
+
+== License content
+
+Copyright <YEAR> <COPYRIGHT HOLDER>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
