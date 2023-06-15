@@ -13,7 +13,7 @@ sub uniq (@data) {
 
 sub convert ($dirCss, $moduleName) {
 
-    my $themes = "Halogen.Frameworks";
+    my $themes = "CSSFrameworks";
     $moduleName = "$themes.$moduleName";
 
     # = collect all class names
@@ -52,7 +52,7 @@ sub convert ($dirCss, $moduleName) {
     my $header = qq{
         module $moduleName where
 
-        import Halogen.HTML.Core (ClassName(..))
+        import Web.HTML.Common (ClassName(..))
 
         };
 
