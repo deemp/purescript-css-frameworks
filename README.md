@@ -100,19 +100,41 @@ Module documentation [on Pursuit](http://pursuit.purescript.org/packages/purescr
 
 This repo provides a [Nix flake](https://nixos.wiki/wiki/Flakes) with `PureScript` tools.
 
-1. [Install Nix](https://github.com/deemp/flakes/blob/main/README/InstallNix.md)
+1. [Install Nix](https://github.com/deemp/flakes/blob/main/README/InstallNix.md).
 
-1. Start a devshell
+1. Start a devshell.
 
-      ```console
-      nix develop
-      ```
+    ```console
+    nix develop
+    ```
 
 1. (Optionally) use `direnv`.
 
-      ```console
-      direnv allow
-      ```
+    ```console
+    direnv allow
+    ```
+
+## Release new version
+
+- Commit all changes.
+- Update the version appropriately.
+
+    ```console
+    spago bump-version patch --no-dry-run
+    ```
+
+- Push to `GitHub`.
+
+    ```console
+    git push --follow-tags
+    ```
+
+- Publish the package and docs.
+
+    ```console
+    npx pulp login
+    npx pulp publish
+    ```
 
 ## License
 
