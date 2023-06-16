@@ -1,11 +1,11 @@
 {
-    "name": "purescript-halogen-css-frameworks",
+    "name": "purescript-css-frameworks",
     "license": [
         "Apache-2.0"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/deemp/purescript-halogen-css-frameworks"
+        "url": "https://github.com/deemp/purescript-css-frameworks"
     },
     "ignore": [
         "**/.*",
@@ -14,6 +14,6 @@
         "output"
     ],
     "dependencies": {
-        "purescript-halogen": "^v7.0.0"
+        "purescript-web-html": "^v4.1.0"
     }
 }
