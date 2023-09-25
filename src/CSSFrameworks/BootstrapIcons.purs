@@ -173,8 +173,17 @@ biAlignTop = ClassName "bi-align-top"
 biAlipay :: ClassName
 biAlipay = ClassName "bi-alipay"
 
+biAlphabet :: ClassName
+biAlphabet = ClassName "bi-alphabet"
+
+biAlphabetUppercase :: ClassName
+biAlphabetUppercase = ClassName "bi-alphabet-uppercase"
+
 biAlt :: ClassName
 biAlt = ClassName "bi-alt"
+
+biAmazon :: ClassName
+biAmazon = ClassName "bi-amazon"
 
 biAmd :: ClassName
 biAmd = ClassName "bi-amd"
@@ -383,6 +392,9 @@ biArrowUpSquare = ClassName "bi-arrow-up-square"
 biArrowUpSquareFill :: ClassName
 biArrowUpSquareFill = ClassName "bi-arrow-up-square-fill"
 
+biArrows :: ClassName
+biArrows = ClassName "bi-arrows"
+
 biArrowsAngleContract :: ClassName
 biArrowsAngleContract = ClassName "bi-arrows-angle-contract"
 
@@ -392,14 +404,23 @@ biArrowsAngleExpand = ClassName "bi-arrows-angle-expand"
 biArrowsCollapse :: ClassName
 biArrowsCollapse = ClassName "bi-arrows-collapse"
 
+biArrowsCollapseVertical :: ClassName
+biArrowsCollapseVertical = ClassName "bi-arrows-collapse-vertical"
+
 biArrowsExpand :: ClassName
 biArrowsExpand = ClassName "bi-arrows-expand"
+
+biArrowsExpandVertical :: ClassName
+biArrowsExpandVertical = ClassName "bi-arrows-expand-vertical"
 
 biArrowsFullscreen :: ClassName
 biArrowsFullscreen = ClassName "bi-arrows-fullscreen"
 
 biArrowsMove :: ClassName
 biArrowsMove = ClassName "bi-arrows-move"
+
+biArrowsVertical :: ClassName
+biArrowsVertical = ClassName "bi-arrows-vertical"
 
 biAspectRatio :: ClassName
 biAspectRatio = ClassName "bi-aspect-ratio"
@@ -421,6 +442,30 @@ biAwardFill = ClassName "bi-award-fill"
 
 biBack :: ClassName
 biBack = ClassName "bi-back"
+
+biBackpack :: ClassName
+biBackpack = ClassName "bi-backpack"
+
+biBackpackFill :: ClassName
+biBackpackFill = ClassName "bi-backpack-fill"
+
+biBackpack2 :: ClassName
+biBackpack2 = ClassName "bi-backpack2"
+
+biBackpack2Fill :: ClassName
+biBackpack2Fill = ClassName "bi-backpack2-fill"
+
+biBackpack3 :: ClassName
+biBackpack3 = ClassName "bi-backpack3"
+
+biBackpack3Fill :: ClassName
+biBackpack3Fill = ClassName "bi-backpack3-fill"
+
+biBackpack4 :: ClassName
+biBackpack4 = ClassName "bi-backpack4"
+
+biBackpack4Fill :: ClassName
+biBackpack4Fill = ClassName "bi-backpack4-fill"
 
 biBackspace :: ClassName
 biBackspace = ClassName "bi-backspace"
@@ -554,6 +599,12 @@ biBalloonHeart = ClassName "bi-balloon-heart"
 biBalloonHeartFill :: ClassName
 biBalloonHeartFill = ClassName "bi-balloon-heart-fill"
 
+biBan :: ClassName
+biBan = ClassName "bi-ban"
+
+biBanFill :: ClassName
+biBanFill = ClassName "bi-ban-fill"
+
 biBandaid :: ClassName
 biBandaid = ClassName "bi-bandaid"
 
@@ -634,6 +685,9 @@ biBezier2 = ClassName "bi-bezier2"
 
 biBicycle :: ClassName
 biBicycle = ClassName "bi-bicycle"
+
+biBing :: ClassName
+biBing = ClassName "bi-bing"
 
 biBinoculars :: ClassName
 biBinoculars = ClassName "bi-binoculars"
@@ -884,6 +938,9 @@ biBrightnessLow = ClassName "bi-brightness-low"
 biBrightnessLowFill :: ClassName
 biBrightnessLowFill = ClassName "bi-brightness-low-fill"
 
+biBrilliance :: ClassName
+biBrilliance = ClassName "bi-brilliance"
+
 biBroadcast :: ClassName
 biBroadcast = ClassName "bi-broadcast"
 
@@ -1012,6 +1069,18 @@ biCSquare = ClassName "bi-c-square"
 
 biCSquareFill :: ClassName
 biCSquareFill = ClassName "bi-c-square-fill"
+
+biCake :: ClassName
+biCake = ClassName "bi-cake"
+
+biCakeFill :: ClassName
+biCakeFill = ClassName "bi-cake-fill"
+
+biCake2 :: ClassName
+biCake2 = ClassName "bi-cake2"
+
+biCake2Fill :: ClassName
+biCake2Fill = ClassName "bi-cake2-fill"
 
 biCalculator :: ClassName
 biCalculator = ClassName "bi-calculator"
@@ -1901,6 +1970,12 @@ biConeStriped = ClassName "bi-cone-striped"
 biController :: ClassName
 biController = ClassName "bi-controller"
 
+biCookie :: ClassName
+biCookie = ClassName "bi-cookie"
+
+biCopy :: ClassName
+biCopy = ClassName "bi-copy"
+
 biCpu :: ClassName
 biCpu = ClassName "bi-cpu"
 
@@ -1927,6 +2002,12 @@ biCreditCardFill = ClassName "bi-credit-card-fill"
 
 biCrop :: ClassName
 biCrop = ClassName "bi-crop"
+
+biCrosshair :: ClassName
+biCrosshair = ClassName "bi-crosshair"
+
+biCrosshair2 :: ClassName
+biCrosshair2 = ClassName "bi-crosshair2"
 
 biCup :: ClassName
 biCup = ClassName "bi-cup"
@@ -2198,6 +2279,12 @@ biDropletFill = ClassName "bi-droplet-fill"
 biDropletHalf :: ClassName
 biDropletHalf = ClassName "bi-droplet-half"
 
+biDuffle :: ClassName
+biDuffle = ClassName "bi-duffle"
+
+biDuffleFill :: ClassName
+biDuffleFill = ClassName "bi-duffle-fill"
+
 biEar :: ClassName
 biEar = ClassName "bi-ear"
 
@@ -2246,6 +2333,12 @@ biEmojiAngry = ClassName "bi-emoji-angry"
 biEmojiAngryFill :: ClassName
 biEmojiAngryFill = ClassName "bi-emoji-angry-fill"
 
+biEmojiAstonished :: ClassName
+biEmojiAstonished = ClassName "bi-emoji-astonished"
+
+biEmojiAstonishedFill :: ClassName
+biEmojiAstonishedFill = ClassName "bi-emoji-astonished-fill"
+
 biEmojiDizzy :: ClassName
 biEmojiDizzy = ClassName "bi-emoji-dizzy"
 
@@ -2263,6 +2356,18 @@ biEmojiFrown = ClassName "bi-emoji-frown"
 
 biEmojiFrownFill :: ClassName
 biEmojiFrownFill = ClassName "bi-emoji-frown-fill"
+
+biEmojiGrimace :: ClassName
+biEmojiGrimace = ClassName "bi-emoji-grimace"
+
+biEmojiGrimaceFill :: ClassName
+biEmojiGrimaceFill = ClassName "bi-emoji-grimace-fill"
+
+biEmojiGrin :: ClassName
+biEmojiGrin = ClassName "bi-emoji-grin"
+
+biEmojiGrinFill :: ClassName
+biEmojiGrinFill = ClassName "bi-emoji-grin-fill"
 
 biEmojiHeartEyes :: ClassName
 biEmojiHeartEyes = ClassName "bi-emoji-heart-eyes"
@@ -2306,6 +2411,18 @@ biEmojiSunglasses = ClassName "bi-emoji-sunglasses"
 biEmojiSunglassesFill :: ClassName
 biEmojiSunglassesFill = ClassName "bi-emoji-sunglasses-fill"
 
+biEmojiSurprise :: ClassName
+biEmojiSurprise = ClassName "bi-emoji-surprise"
+
+biEmojiSurpriseFill :: ClassName
+biEmojiSurpriseFill = ClassName "bi-emoji-surprise-fill"
+
+biEmojiTear :: ClassName
+biEmojiTear = ClassName "bi-emoji-tear"
+
+biEmojiTearFill :: ClassName
+biEmojiTearFill = ClassName "bi-emoji-tear-fill"
+
 biEmojiWink :: ClassName
 biEmojiWink = ClassName "bi-emoji-wink"
 
@@ -2314,6 +2431,18 @@ biEmojiWinkFill = ClassName "bi-emoji-wink-fill"
 
 biEnvelope :: ClassName
 biEnvelope = ClassName "bi-envelope"
+
+biEnvelopeArrowDown :: ClassName
+biEnvelopeArrowDown = ClassName "bi-envelope-arrow-down"
+
+biEnvelopeArrowDownFill :: ClassName
+biEnvelopeArrowDownFill = ClassName "bi-envelope-arrow-down-fill"
+
+biEnvelopeArrowUp :: ClassName
+biEnvelopeArrowUp = ClassName "bi-envelope-arrow-up"
+
+biEnvelopeArrowUpFill :: ClassName
+biEnvelopeArrowUpFill = ClassName "bi-envelope-arrow-up-fill"
 
 biEnvelopeAt :: ClassName
 biEnvelopeAt = ClassName "bi-envelope-at"
@@ -2459,6 +2588,9 @@ biExplicit = ClassName "bi-explicit"
 biExplicitFill :: ClassName
 biExplicitFill = ClassName "bi-explicit-fill"
 
+biExposure :: ClassName
+biExposure = ClassName "bi-exposure"
+
 biEye :: ClassName
 biEye = ClassName "bi-eye"
 
@@ -2500,6 +2632,12 @@ biFastForwardCircleFill = ClassName "bi-fast-forward-circle-fill"
 
 biFastForwardFill :: ClassName
 biFastForwardFill = ClassName "bi-fast-forward-fill"
+
+biFeather :: ClassName
+biFeather = ClassName "bi-feather"
+
+biFeather2 :: ClassName
+biFeather2 = ClassName "bi-feather2"
 
 biFile :: ClassName
 biFile = ClassName "bi-file"
@@ -3071,6 +3209,18 @@ biFlag = ClassName "bi-flag"
 biFlagFill :: ClassName
 biFlagFill = ClassName "bi-flag-fill"
 
+biFloppy :: ClassName
+biFloppy = ClassName "bi-floppy"
+
+biFloppyFill :: ClassName
+biFloppyFill = ClassName "bi-floppy-fill"
+
+biFloppy2 :: ClassName
+biFloppy2 = ClassName "bi-floppy2"
+
+biFloppy2Fill :: ClassName
+biFloppy2Fill = ClassName "bi-floppy2-fill"
+
 biFlower1 :: ClassName
 biFlower1 = ClassName "bi-flower1"
 
@@ -3170,6 +3320,9 @@ biGenderFemale = ClassName "bi-gender-female"
 biGenderMale :: ClassName
 biGenderMale = ClassName "bi-gender-male"
 
+biGenderNeuter :: ClassName
+biGenderNeuter = ClassName "bi-gender-neuter"
+
 biGenderTrans :: ClassName
 biGenderTrans = ClassName "bi-gender-trans"
 
@@ -3196,6 +3349,9 @@ biGit = ClassName "bi-git"
 
 biGithub :: ClassName
 biGithub = ClassName "bi-github"
+
+biGitlab :: ClassName
+biGitlab = ClassName "bi-gitlab"
 
 biGlobe :: ClassName
 biGlobe = ClassName "bi-globe"
@@ -3403,6 +3559,12 @@ biHexagonFill = ClassName "bi-hexagon-fill"
 
 biHexagonHalf :: ClassName
 biHexagonHalf = ClassName "bi-hexagon-half"
+
+biHighlighter :: ClassName
+biHighlighter = ClassName "bi-highlighter"
+
+biHighlights :: ClassName
+biHighlights = ClassName "bi-highlights"
 
 biHospital :: ClassName
 biHospital = ClassName "bi-hospital"
@@ -3788,6 +3950,12 @@ biLock = ClassName "bi-lock"
 biLockFill :: ClassName
 biLockFill = ClassName "bi-lock-fill"
 
+biLuggage :: ClassName
+biLuggage = ClassName "bi-luggage"
+
+biLuggageFill :: ClassName
+biLuggageFill = ClassName "bi-luggage-fill"
+
 biLungs :: ClassName
 biLungs = ClassName "bi-lungs"
 
@@ -3806,8 +3974,14 @@ biMagnetFill = ClassName "bi-magnet-fill"
 biMailbox :: ClassName
 biMailbox = ClassName "bi-mailbox"
 
+biMailboxFlag :: ClassName
+biMailboxFlag = ClassName "bi-mailbox-flag"
+
 biMailbox2 :: ClassName
 biMailbox2 = ClassName "bi-mailbox2"
+
+biMailbox2Flag :: ClassName
+biMailbox2Flag = ClassName "bi-mailbox2-flag"
 
 biMap :: ClassName
 biMap = ClassName "bi-map"
@@ -3820,6 +3994,9 @@ biMarkdown = ClassName "bi-markdown"
 
 biMarkdownFill :: ClassName
 biMarkdownFill = ClassName "bi-markdown-fill"
+
+biMarkerTip :: ClassName
+biMarkerTip = ClassName "bi-marker-tip"
 
 biMask :: ClassName
 biMask = ClassName "bi-mask"
@@ -3977,6 +4154,9 @@ biNodePlus = ClassName "bi-node-plus"
 biNodePlusFill :: ClassName
 biNodePlusFill = ClassName "bi-node-plus-fill"
 
+biNoiseReduction :: ClassName
+biNoiseReduction = ClassName "bi-noise-reduction"
+
 biNut :: ClassName
 biNut = ClassName "bi-nut"
 
@@ -3986,6 +4166,12 @@ biNutFill = ClassName "bi-nut-fill"
 biNvidia :: ClassName
 biNvidia = ClassName "bi-nvidia"
 
+biNvme :: ClassName
+biNvme = ClassName "bi-nvme"
+
+biNvmeFill :: ClassName
+biNvmeFill = ClassName "bi-nvme-fill"
+
 biOctagon :: ClassName
 biOctagon = ClassName "bi-octagon"
 
@@ -3994,6 +4180,9 @@ biOctagonFill = ClassName "bi-octagon-fill"
 
 biOctagonHalf :: ClassName
 biOctagonHalf = ClassName "bi-octagon-half"
+
+biOpencollective :: ClassName
+biOpencollective = ClassName "bi-opencollective"
 
 biOpticalAudio :: ClassName
 biOpticalAudio = ClassName "bi-optical-audio"
@@ -4042,6 +4231,12 @@ biPass = ClassName "bi-pass"
 
 biPassFill :: ClassName
 biPassFill = ClassName "bi-pass-fill"
+
+biPassport :: ClassName
+biPassport = ClassName "bi-passport"
+
+biPassportFill :: ClassName
+biPassportFill = ClassName "bi-passport-fill"
 
 biPatchCheck :: ClassName
 biPatchCheck = ClassName "bi-patch-check"
@@ -4109,6 +4304,12 @@ biPcHorizontal = ClassName "bi-pc-horizontal"
 biPciCard :: ClassName
 biPciCard = ClassName "bi-pci-card"
 
+biPciCardNetwork :: ClassName
+biPciCardNetwork = ClassName "bi-pci-card-network"
+
+biPciCardSound :: ClassName
+biPciCardSound = ClassName "bi-pci-card-sound"
+
 biPeace :: ClassName
 biPeace = ClassName "bi-peace"
 
@@ -4153,6 +4354,9 @@ biPerson = ClassName "bi-person"
 
 biPersonAdd :: ClassName
 biPersonAdd = ClassName "bi-person-add"
+
+biPersonArmsUp :: ClassName
+biPersonArmsUp = ClassName "bi-person-arms-up"
 
 biPersonBadge :: ClassName
 biPersonBadge = ClassName "bi-person-badge"
@@ -4238,6 +4442,9 @@ biPersonPlus = ClassName "bi-person-plus"
 biPersonPlusFill :: ClassName
 biPersonPlusFill = ClassName "bi-person-plus-fill"
 
+biPersonRaisedHand :: ClassName
+biPersonRaisedHand = ClassName "bi-person-raised-hand"
+
 biPersonRolodex :: ClassName
 biPersonRolodex = ClassName "bi-person-rolodex"
 
@@ -4246,6 +4453,12 @@ biPersonSlash = ClassName "bi-person-slash"
 
 biPersonSquare :: ClassName
 biPersonSquare = ClassName "bi-person-square"
+
+biPersonStanding :: ClassName
+biPersonStanding = ClassName "bi-person-standing"
+
+biPersonStandingDress :: ClassName
+biPersonStandingDress = ClassName "bi-person-standing-dress"
 
 biPersonUp :: ClassName
 biPersonUp = ClassName "bi-person-up"
@@ -4264,6 +4477,12 @@ biPersonVideo2 = ClassName "bi-person-video2"
 
 biPersonVideo3 :: ClassName
 biPersonVideo3 = ClassName "bi-person-video3"
+
+biPersonWalking :: ClassName
+biPersonWalking = ClassName "bi-person-walking"
+
+biPersonWheelchair :: ClassName
+biPersonWheelchair = ClassName "bi-person-wheelchair"
 
 biPersonWorkspace :: ClassName
 biPersonWorkspace = ClassName "bi-person-workspace"
@@ -4496,6 +4715,9 @@ biRSquare = ClassName "bi-r-square"
 biRSquareFill :: ClassName
 biRSquareFill = ClassName "bi-r-square-fill"
 
+biRadar :: ClassName
+biRadar = ClassName "bi-radar"
+
 biRadioactive :: ClassName
 biRadioactive = ClassName "bi-radioactive"
 
@@ -4676,6 +4898,18 @@ biSegmentedNav = ClassName "bi-segmented-nav"
 biSend :: ClassName
 biSend = ClassName "bi-send"
 
+biSendArrowDown :: ClassName
+biSendArrowDown = ClassName "bi-send-arrow-down"
+
+biSendArrowDownFill :: ClassName
+biSendArrowDownFill = ClassName "bi-send-arrow-down-fill"
+
+biSendArrowUp :: ClassName
+biSendArrowUp = ClassName "bi-send-arrow-up"
+
+biSendArrowUpFill :: ClassName
+biSendArrowUpFill = ClassName "bi-send-arrow-up-fill"
+
 biSendCheck :: ClassName
 biSendCheck = ClassName "bi-send-check"
 
@@ -4717,6 +4951,9 @@ biSendXFill = ClassName "bi-send-x-fill"
 
 biServer :: ClassName
 biServer = ClassName "bi-server"
+
+biShadows :: ClassName
+biShadows = ClassName "bi-shadows"
 
 biShare :: ClassName
 biShare = ClassName "bi-share"
@@ -4931,6 +5168,12 @@ biSim = ClassName "bi-sim"
 biSimFill :: ClassName
 biSimFill = ClassName "bi-sim-fill"
 
+biSimSlash :: ClassName
+biSimSlash = ClassName "bi-sim-slash"
+
+biSimSlashFill :: ClassName
+biSimSlashFill = ClassName "bi-sim-slash-fill"
+
 biSinaWeibo :: ClassName
 biSinaWeibo = ClassName "bi-sina-weibo"
 
@@ -5093,6 +5336,9 @@ biSortUpAlt = ClassName "bi-sort-up-alt"
 biSoundwave :: ClassName
 biSoundwave = ClassName "bi-soundwave"
 
+biSourceforge :: ClassName
+biSourceforge = ClassName "bi-sourceforge"
+
 biSpeaker :: ClassName
 biSpeaker = ClassName "bi-speaker"
 
@@ -5192,6 +5438,9 @@ biStripe = ClassName "bi-stripe"
 biSubscript :: ClassName
 biSubscript = ClassName "bi-subscript"
 
+biSubstack :: ClassName
+biSubstack = ClassName "bi-substack"
+
 biSubtract :: ClassName
 biSubtract = ClassName "bi-subtract"
 
@@ -5218,6 +5467,24 @@ biSuitSpade = ClassName "bi-suit-spade"
 
 biSuitSpadeFill :: ClassName
 biSuitSpadeFill = ClassName "bi-suit-spade-fill"
+
+biSuitcase :: ClassName
+biSuitcase = ClassName "bi-suitcase"
+
+biSuitcaseFill :: ClassName
+biSuitcaseFill = ClassName "bi-suitcase-fill"
+
+biSuitcaseLg :: ClassName
+biSuitcaseLg = ClassName "bi-suitcase-lg"
+
+biSuitcaseLgFill :: ClassName
+biSuitcaseLgFill = ClassName "bi-suitcase-lg-fill"
+
+biSuitcase2 :: ClassName
+biSuitcase2 = ClassName "bi-suitcase2"
+
+biSuitcase2Fill :: ClassName
+biSuitcase2Fill = ClassName "bi-suitcase2-fill"
 
 biSun :: ClassName
 biSun = ClassName "bi-sun"
@@ -5396,6 +5663,12 @@ biThermometerSnow = ClassName "bi-thermometer-snow"
 biThermometerSun :: ClassName
 biThermometerSun = ClassName "bi-thermometer-sun"
 
+biThreads :: ClassName
+biThreads = ClassName "bi-threads"
+
+biThreadsFill :: ClassName
+biThreadsFill = ClassName "bi-threads-fill"
+
 biThreeDots :: ClassName
 biThreeDots = ClassName "bi-three-dots"
 
@@ -5474,6 +5747,9 @@ biTrainLightrailFrontFill = ClassName "bi-train-lightrail-front-fill"
 biTranslate :: ClassName
 biTranslate = ClassName "bi-translate"
 
+biTransparency :: ClassName
+biTransparency = ClassName "bi-transparency"
+
 biTrash :: ClassName
 biTrash = ClassName "bi-trash"
 
@@ -5546,6 +5822,9 @@ biTwitch = ClassName "bi-twitch"
 biTwitter :: ClassName
 biTwitter = ClassName "bi-twitter"
 
+biTwitterX :: ClassName
+biTwitterX = ClassName "bi-twitter-x"
+
 biType :: ClassName
 biType = ClassName "bi-type"
 
@@ -5560,6 +5839,15 @@ biTypeH2 = ClassName "bi-type-h2"
 
 biTypeH3 :: ClassName
 biTypeH3 = ClassName "bi-type-h3"
+
+biTypeH4 :: ClassName
+biTypeH4 = ClassName "bi-type-h4"
+
+biTypeH5 :: ClassName
+biTypeH5 = ClassName "bi-type-h5"
+
+biTypeH6 :: ClassName
+biTypeH6 = ClassName "bi-type-h6"
 
 biTypeItalic :: ClassName
 biTypeItalic = ClassName "bi-type-italic"
@@ -5674,6 +5962,9 @@ biViewList = ClassName "bi-view-list"
 
 biViewStacked :: ClassName
 biViewStacked = ClassName "bi-view-stacked"
+
+biVignette :: ClassName
+biVignette = ClassName "bi-vignette"
 
 biVimeo :: ClassName
 biVimeo = ClassName "bi-vimeo"

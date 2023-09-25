@@ -2051,6 +2051,9 @@ ggUserRemove = ClassName "gg-user-remove"
 ggUserlane :: ClassName
 ggUserlane = ClassName "gg-userlane"
 
+ggVercel :: ClassName
+ggVercel = ClassName "gg-vercel"
+
 ggViewCols :: ClassName
 ggViewCols = ClassName "gg-view-cols"
 
@@ -2104,9 +2107,6 @@ ggYinyang = ClassName "gg-yinyang"
 
 ggYoutube :: ClassName
 ggYoutube = ClassName "gg-youtube"
-
-ggZeit :: ClassName
-ggZeit = ClassName "gg-zeit"
 
 ggZoomIn :: ClassName
 ggZoomIn = ClassName "gg-zoom-in"

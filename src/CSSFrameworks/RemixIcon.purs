@@ -635,6 +635,12 @@ riBearSmileFill = ClassName "ri-bear-smile-fill"
 riBearSmileLine :: ClassName
 riBearSmileLine = ClassName "ri-bear-smile-line"
 
+riBeerFill :: ClassName
+riBeerFill = ClassName "ri-beer-fill"
+
+riBeerLine :: ClassName
+riBeerLine = ClassName "ri-beer-line"
+
 riBehanceFill :: ClassName
 riBehanceFill = ClassName "ri-behance-fill"
 
@@ -1328,6 +1334,12 @@ riChromeFill = ClassName "ri-chrome-fill"
 riChromeLine :: ClassName
 riChromeLine = ClassName "ri-chrome-line"
 
+riCircleFill :: ClassName
+riCircleFill = ClassName "ri-circle-fill"
+
+riCircleLine :: ClassName
+riCircleLine = ClassName "ri-circle-line"
+
 riClapperboardFill :: ClassName
 riClapperboardFill = ClassName "ri-clapperboard-fill"
 
@@ -1775,6 +1787,18 @@ riCrossFill = ClassName "ri-cross-fill"
 riCrossLine :: ClassName
 riCrossLine = ClassName "ri-cross-line"
 
+riCrosshair2Fill :: ClassName
+riCrosshair2Fill = ClassName "ri-crosshair-2-fill"
+
+riCrosshair2Line :: ClassName
+riCrosshair2Line = ClassName "ri-crosshair-2-line"
+
+riCrosshairFill :: ClassName
+riCrosshairFill = ClassName "ri-crosshair-fill"
+
+riCrosshairLine :: ClassName
+riCrosshairLine = ClassName "ri-crosshair-line"
+
 riCss3Fill :: ClassName
 riCss3Fill = ClassName "ri-css3-fill"
 
@@ -2095,6 +2119,9 @@ riDropboxFill = ClassName "ri-dropbox-fill"
 
 riDropboxLine :: ClassName
 riDropboxLine = ClassName "ri-dropbox-line"
+
+riDropdownList :: ClassName
+riDropdownList = ClassName "ri-dropdown-list"
 
 riDualSim1Fill :: ClassName
 riDualSim1Fill = ClassName "ri-dual-sim-1-fill"
@@ -2429,6 +2456,12 @@ riFileChartFill = ClassName "ri-file-chart-fill"
 riFileChartLine :: ClassName
 riFileChartLine = ClassName "ri-file-chart-line"
 
+riFileCloseFill :: ClassName
+riFileCloseFill = ClassName "ri-file-close-fill"
+
+riFileCloseLine :: ClassName
+riFileCloseLine = ClassName "ri-file-close-line"
+
 riFileCloudFill :: ClassName
 riFileCloudFill = ClassName "ri-file-cloud-fill"
 
@@ -2510,6 +2543,12 @@ riFileHwpFill = ClassName "ri-file-hwp-fill"
 riFileHwpLine :: ClassName
 riFileHwpLine = ClassName "ri-file-hwp-line"
 
+riFileImageFill :: ClassName
+riFileImageFill = ClassName "ri-file-image-fill"
+
+riFileImageLine :: ClassName
+riFileImageLine = ClassName "ri-file-image-line"
+
 riFileInfoFill :: ClassName
 riFileInfoFill = ClassName "ri-file-info-fill"
 
@@ -2566,6 +2605,12 @@ riFilePaperFill = ClassName "ri-file-paper-fill"
 
 riFilePaperLine :: ClassName
 riFilePaperLine = ClassName "ri-file-paper-line"
+
+riFilePdf2Fill :: ClassName
+riFilePdf2Fill = ClassName "ri-file-pdf-2-fill"
+
+riFilePdf2Line :: ClassName
+riFilePdf2Line = ClassName "ri-file-pdf-2-line"
 
 riFilePdfFill :: ClassName
 riFilePdfFill = ClassName "ri-file-pdf-fill"
@@ -2650,6 +2695,12 @@ riFileUserFill = ClassName "ri-file-user-fill"
 
 riFileUserLine :: ClassName
 riFileUserLine = ClassName "ri-file-user-line"
+
+riFileVideoFill :: ClassName
+riFileVideoFill = ClassName "ri-file-video-fill"
+
+riFileVideoLine :: ClassName
+riFileVideoLine = ClassName "ri-file-video-line"
 
 riFileWarningFill :: ClassName
 riFileWarningFill = ClassName "ri-file-warning-fill"
@@ -2891,6 +2942,12 @@ riFolderHistoryFill = ClassName "ri-folder-history-fill"
 riFolderHistoryLine :: ClassName
 riFolderHistoryLine = ClassName "ri-folder-history-line"
 
+riFolderImageFill :: ClassName
+riFolderImageFill = ClassName "ri-folder-image-fill"
+
+riFolderImageLine :: ClassName
+riFolderImageLine = ClassName "ri-folder-image-line"
+
 riFolderInfoFill :: ClassName
 riFolderInfoFill = ClassName "ri-folder-info-fill"
 
@@ -2983,6 +3040,12 @@ riFolderUserFill = ClassName "ri-folder-user-fill"
 
 riFolderUserLine :: ClassName
 riFolderUserLine = ClassName "ri-folder-user-line"
+
+riFolderVideoFill :: ClassName
+riFolderVideoFill = ClassName "ri-folder-video-fill"
+
+riFolderVideoLine :: ClassName
+riFolderVideoLine = ClassName "ri-folder-video-line"
 
 riFolderWarningFill :: ClassName
 riFolderWarningFill = ClassName "ri-folder-warning-fill"
@@ -3476,6 +3539,12 @@ riHeavyShowersFill = ClassName "ri-heavy-showers-fill"
 riHeavyShowersLine :: ClassName
 riHeavyShowersLine = ClassName "ri-heavy-showers-line"
 
+riHexagonFill :: ClassName
+riHexagonFill = ClassName "ri-hexagon-fill"
+
+riHexagonLine :: ClassName
+riHexagonLine = ClassName "ri-hexagon-line"
+
 riHistoryFill :: ClassName
 riHistoryFill = ClassName "ri-history-fill"
 
@@ -3697,6 +3766,12 @@ riIndeterminateCircleFill = ClassName "ri-indeterminate-circle-fill"
 
 riIndeterminateCircleLine :: ClassName
 riIndeterminateCircleLine = ClassName "ri-indeterminate-circle-line"
+
+riInfinityFill :: ClassName
+riInfinityFill = ClassName "ri-infinity-fill"
+
+riInfinityLine :: ClassName
+riInfinityLine = ClassName "ri-infinity-line"
 
 riInformationFill :: ClassName
 riInformationFill = ClassName "ri-information-fill"
@@ -4448,6 +4523,12 @@ riMenuFoldLine = ClassName "ri-menu-fold-line"
 riMenuLine :: ClassName
 riMenuLine = ClassName "ri-menu-line"
 
+riMenuSearchFill :: ClassName
+riMenuSearchFill = ClassName "ri-menu-search-fill"
+
+riMenuSearchLine :: ClassName
+riMenuSearchLine = ClassName "ri-menu-search-line"
+
 riMenuUnfoldFill :: ClassName
 riMenuUnfoldFill = ClassName "ri-menu-unfold-fill"
 
@@ -4802,6 +4883,12 @@ riNurseFill = ClassName "ri-nurse-fill"
 riNurseLine :: ClassName
 riNurseLine = ClassName "ri-nurse-line"
 
+riOctagonFill :: ClassName
+riOctagonFill = ClassName "ri-octagon-fill"
+
+riOctagonLine :: ClassName
+riOctagonLine = ClassName "ri-octagon-line"
+
 riOilFill :: ClassName
 riOilFill = ClassName "ri-oil-fill"
 
@@ -5008,6 +5095,12 @@ riPencilRulerFill = ClassName "ri-pencil-ruler-fill"
 
 riPencilRulerLine :: ClassName
 riPencilRulerLine = ClassName "ri-pencil-ruler-line"
+
+riPentagonFill :: ClassName
+riPentagonFill = ClassName "ri-pentagon-fill"
+
+riPentagonLine :: ClassName
+riPentagonLine = ClassName "ri-pentagon-line"
 
 riPercentFill :: ClassName
 riPercentFill = ClassName "ri-percent-fill"
@@ -5390,6 +5483,12 @@ riRecordMailFill = ClassName "ri-record-mail-fill"
 riRecordMailLine :: ClassName
 riRecordMailLine = ClassName "ri-record-mail-line"
 
+riRectangleFill :: ClassName
+riRectangleFill = ClassName "ri-rectangle-fill"
+
+riRectangleLine :: ClassName
+riRectangleLine = ClassName "ri-rectangle-line"
+
 riRecycleFill :: ClassName
 riRecycleFill = ClassName "ri-recycle-fill"
 
@@ -5546,6 +5645,12 @@ riRewindMiniFill = ClassName "ri-rewind-mini-fill"
 riRewindMiniLine :: ClassName
 riRewindMiniLine = ClassName "ri-rewind-mini-line"
 
+riRfidFill :: ClassName
+riRfidFill = ClassName "ri-rfid-fill"
+
+riRfidLine :: ClassName
+riRfidLine = ClassName "ri-rfid-line"
+
 riRhythmFill :: ClassName
 riRhythmFill = ClassName "ri-rhythm-fill"
 
@@ -5569,6 +5674,12 @@ riRoadsterFill = ClassName "ri-roadster-fill"
 
 riRoadsterLine :: ClassName
 riRoadsterLine = ClassName "ri-roadster-line"
+
+riRobot2Fill :: ClassName
+riRobot2Fill = ClassName "ri-robot-2-fill"
+
+riRobot2Line :: ClassName
+riRobot2Line = ClassName "ri-robot-2-line"
 
 riRobotFill :: ClassName
 riRobotFill = ClassName "ri-robot-fill"
@@ -5881,6 +5992,12 @@ riShapeFill = ClassName "ri-shape-fill"
 
 riShapeLine :: ClassName
 riShapeLine = ClassName "ri-shape-line"
+
+riShapesFill :: ClassName
+riShapesFill = ClassName "ri-shapes-fill"
+
+riShapesLine :: ClassName
+riShapesLine = ClassName "ri-shapes-line"
 
 riShareBoxFill :: ClassName
 riShareBoxFill = ClassName "ri-share-box-fill"
@@ -6200,6 +6317,9 @@ riSlackLine = ClassName "ri-slack-line"
 riSlashCommands :: ClassName
 riSlashCommands = ClassName "ri-slash-commands"
 
+riSlashCommands2 :: ClassName
+riSlashCommands2 = ClassName "ri-slash-commands-2"
+
 riSliceFill :: ClassName
 riSliceFill = ClassName "ri-slice-fill"
 
@@ -6379,6 +6499,12 @@ riSpyFill = ClassName "ri-spy-fill"
 
 riSpyLine :: ClassName
 riSpyLine = ClassName "ri-spy-line"
+
+riSquareFill :: ClassName
+riSquareFill = ClassName "ri-square-fill"
+
+riSquareLine :: ClassName
+riSquareLine = ClassName "ri-square-line"
 
 riStackFill :: ClassName
 riStackFill = ClassName "ri-stack-fill"
@@ -6737,6 +6863,12 @@ riTempHotFill = ClassName "ri-temp-hot-fill"
 riTempHotLine :: ClassName
 riTempHotLine = ClassName "ri-temp-hot-line"
 
+riTentFill :: ClassName
+riTentFill = ClassName "ri-tent-fill"
+
+riTentLine :: ClassName
+riTentLine = ClassName "ri-tent-line"
+
 riTerminalBoxFill :: ClassName
 riTerminalBoxFill = ClassName "ri-terminal-box-fill"
 
@@ -6781,6 +6913,12 @@ riThermometerFill = ClassName "ri-thermometer-fill"
 
 riThermometerLine :: ClassName
 riThermometerLine = ClassName "ri-thermometer-line"
+
+riThreadsFill :: ClassName
+riThreadsFill = ClassName "ri-threads-fill"
+
+riThreadsLine :: ClassName
+riThreadsLine = ClassName "ri-threads-line"
 
 riThumbDownFill :: ClassName
 riThumbDownFill = ClassName "ri-thumb-down-fill"
@@ -6914,11 +7052,23 @@ riTreasureMapFill = ClassName "ri-treasure-map-fill"
 riTreasureMapLine :: ClassName
 riTreasureMapLine = ClassName "ri-treasure-map-line"
 
+riTreeFill :: ClassName
+riTreeFill = ClassName "ri-tree-fill"
+
+riTreeLine :: ClassName
+riTreeLine = ClassName "ri-tree-line"
+
 riTrelloFill :: ClassName
 riTrelloFill = ClassName "ri-trello-fill"
 
 riTrelloLine :: ClassName
 riTrelloLine = ClassName "ri-trello-line"
+
+riTriangleFill :: ClassName
+riTriangleFill = ClassName "ri-triangle-fill"
+
+riTriangleLine :: ClassName
+riTriangleLine = ClassName "ri-triangle-line"
 
 riTrophyFill :: ClassName
 riTrophyFill = ClassName "ri-trophy-fill"
@@ -6961,6 +7111,12 @@ riTwitterFill = ClassName "ri-twitter-fill"
 
 riTwitterLine :: ClassName
 riTwitterLine = ClassName "ri-twitter-line"
+
+riTwitterXFill :: ClassName
+riTwitterXFill = ClassName "ri-twitter-x-fill"
+
+riTwitterXLine :: ClassName
+riTwitterXLine = ClassName "ri-twitter-x-line"
 
 riTyphoonFill :: ClassName
 riTyphoonFill = ClassName "ri-typhoon-fill"
@@ -7082,6 +7238,12 @@ riUserFollowFill = ClassName "ri-user-follow-fill"
 riUserFollowLine :: ClassName
 riUserFollowLine = ClassName "ri-user-follow-line"
 
+riUserForbidFill :: ClassName
+riUserForbidFill = ClassName "ri-user-forbid-fill"
+
+riUserForbidLine :: ClassName
+riUserForbidLine = ClassName "ri-user-forbid-line"
+
 riUserHeartFill :: ClassName
 riUserHeartFill = ClassName "ri-user-heart-fill"
 
@@ -7156,6 +7318,12 @@ riUserVoiceFill = ClassName "ri-user-voice-fill"
 
 riUserVoiceLine :: ClassName
 riUserVoiceLine = ClassName "ri-user-voice-line"
+
+riVerifiedBadgeFill :: ClassName
+riVerifiedBadgeFill = ClassName "ri-verified-badge-fill"
+
+riVerifiedBadgeLine :: ClassName
+riVerifiedBadgeLine = ClassName "ri-verified-badge-line"
 
 riVideoAddFill :: ClassName
 riVideoAddFill = ClassName "ri-video-add-fill"

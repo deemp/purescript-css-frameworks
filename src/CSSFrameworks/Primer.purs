@@ -203,6 +203,9 @@ _FormControlHorizontalGroup = ClassName "FormControl-horizontalGroup"
 _FormControlInlineValidation :: ClassName
 _FormControlInlineValidation = ClassName "FormControl-inlineValidation"
 
+_FormControlInlineValidation_Visual :: ClassName
+_FormControlInlineValidation_Visual = ClassName "FormControl-inlineValidation--visual"
+
 _FormControlInput :: ClassName
 _FormControlInput = ClassName "FormControl-input"
 
@@ -8227,6 +8230,9 @@ wbBreakWord = ClassName "wb-break-word"
 
 widthAuto :: ClassName
 widthAuto = ClassName "width-auto"
+
+widthComfortable :: ClassName
+widthComfortable = ClassName "width-comfortable"
 
 widthFit :: ClassName
 widthFit = ClassName "width-fit"

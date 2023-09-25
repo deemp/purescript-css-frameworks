@@ -917,6 +917,9 @@ bx_MultiSelect_Filterable_InputFocused = ClassName "bx--multi-select--filterable
 bx_MultiSelect_Inline :: ClassName
 bx_MultiSelect_Inline = ClassName "bx--multi-select--inline"
 
+bx_MultiSelect_Invalid_Focused :: ClassName
+bx_MultiSelect_Invalid_Focused = ClassName "bx--multi-select--invalid--focused"
+
 bx_MultiSelect_Selected :: ClassName
 bx_MultiSelect_Selected = ClassName "bx--multi-select--selected"
 

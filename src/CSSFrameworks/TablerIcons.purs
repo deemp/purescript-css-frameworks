@@ -5,6 +5,9 @@ import Web.HTML.Common (ClassName(..))
 ti :: ClassName
 ti = ClassName "ti"
 
+ti12Hours :: ClassName
+ti12Hours = ClassName "ti-12-hours"
+
 ti123 :: ClassName
 ti123 = ClassName "ti-123"
 
@@ -185,6 +188,9 @@ tiAirConditioning = ClassName "ti-air-conditioning"
 tiAirConditioningDisabled :: ClassName
 tiAirConditioningDisabled = ClassName "ti-air-conditioning-disabled"
 
+tiAirTrafficControl :: ClassName
+tiAirTrafficControl = ClassName "ti-air-traffic-control"
+
 tiAlarm :: ClassName
 tiAlarm = ClassName "ti-alarm"
 
@@ -224,11 +230,17 @@ tiAlertCircle = ClassName "ti-alert-circle"
 tiAlertCircleFilled :: ClassName
 tiAlertCircleFilled = ClassName "ti-alert-circle-filled"
 
+tiAlertCircleOff :: ClassName
+tiAlertCircleOff = ClassName "ti-alert-circle-off"
+
 tiAlertHexagon :: ClassName
 tiAlertHexagon = ClassName "ti-alert-hexagon"
 
 tiAlertHexagonFilled :: ClassName
 tiAlertHexagonFilled = ClassName "ti-alert-hexagon-filled"
+
+tiAlertHexagonOff :: ClassName
+tiAlertHexagonOff = ClassName "ti-alert-hexagon-off"
 
 tiAlertOctagon :: ClassName
 tiAlertOctagon = ClassName "ti-alert-octagon"
@@ -238,6 +250,9 @@ tiAlertOctagonFilled = ClassName "ti-alert-octagon-filled"
 
 tiAlertSmall :: ClassName
 tiAlertSmall = ClassName "ti-alert-small"
+
+tiAlertSmallOff :: ClassName
+tiAlertSmallOff = ClassName "ti-alert-small-off"
 
 tiAlertSquare :: ClassName
 tiAlertSquare = ClassName "ti-alert-square"
@@ -251,11 +266,17 @@ tiAlertSquareRounded = ClassName "ti-alert-square-rounded"
 tiAlertSquareRoundedFilled :: ClassName
 tiAlertSquareRoundedFilled = ClassName "ti-alert-square-rounded-filled"
 
+tiAlertSquareRoundedOff :: ClassName
+tiAlertSquareRoundedOff = ClassName "ti-alert-square-rounded-off"
+
 tiAlertTriangle :: ClassName
 tiAlertTriangle = ClassName "ti-alert-triangle"
 
 tiAlertTriangleFilled :: ClassName
 tiAlertTriangleFilled = ClassName "ti-alert-triangle-filled"
+
+tiAlertTriangleOff :: ClassName
+tiAlertTriangleOff = ClassName "ti-alert-triangle-off"
 
 tiAlien :: ClassName
 tiAlien = ClassName "ti-alien"
@@ -281,11 +302,20 @@ tiAlignBoxBottomRight = ClassName "ti-align-box-bottom-right"
 tiAlignBoxBottomRightFilled :: ClassName
 tiAlignBoxBottomRightFilled = ClassName "ti-align-box-bottom-right-filled"
 
+tiAlignBoxCenterBottom :: ClassName
+tiAlignBoxCenterBottom = ClassName "ti-align-box-center-bottom"
+
 tiAlignBoxCenterMiddle :: ClassName
 tiAlignBoxCenterMiddle = ClassName "ti-align-box-center-middle"
 
 tiAlignBoxCenterMiddleFilled :: ClassName
 tiAlignBoxCenterMiddleFilled = ClassName "ti-align-box-center-middle-filled"
+
+tiAlignBoxCenterStretch :: ClassName
+tiAlignBoxCenterStretch = ClassName "ti-align-box-center-stretch"
+
+tiAlignBoxCenterTop :: ClassName
+tiAlignBoxCenterTop = ClassName "ti-align-box-center-top"
 
 tiAlignBoxLeftBottom :: ClassName
 tiAlignBoxLeftBottom = ClassName "ti-align-box-left-bottom"
@@ -298,6 +328,9 @@ tiAlignBoxLeftMiddle = ClassName "ti-align-box-left-middle"
 
 tiAlignBoxLeftMiddleFilled :: ClassName
 tiAlignBoxLeftMiddleFilled = ClassName "ti-align-box-left-middle-filled"
+
+tiAlignBoxLeftStretch :: ClassName
+tiAlignBoxLeftStretch = ClassName "ti-align-box-left-stretch"
 
 tiAlignBoxLeftTop :: ClassName
 tiAlignBoxLeftTop = ClassName "ti-align-box-left-top"
@@ -316,6 +349,9 @@ tiAlignBoxRightMiddle = ClassName "ti-align-box-right-middle"
 
 tiAlignBoxRightMiddleFilled :: ClassName
 tiAlignBoxRightMiddleFilled = ClassName "ti-align-box-right-middle-filled"
+
+tiAlignBoxRightStretch :: ClassName
+tiAlignBoxRightStretch = ClassName "ti-align-box-right-stretch"
 
 tiAlignBoxRightTop :: ClassName
 tiAlignBoxRightTop = ClassName "ti-align-box-right-top"
@@ -364,6 +400,9 @@ tiAlphabetGreek = ClassName "ti-alphabet-greek"
 
 tiAlphabetLatin :: ClassName
 tiAlphabetLatin = ClassName "ti-alphabet-latin"
+
+tiAlt :: ClassName
+tiAlt = ClassName "ti-alt"
 
 tiAmbulance :: ClassName
 tiAmbulance = ClassName "ti-ambulance"
@@ -452,6 +491,9 @@ tiAppsFilled = ClassName "ti-apps-filled"
 tiAppsOff :: ClassName
 tiAppsOff = ClassName "ti-apps-off"
 
+tiArcheryArrow :: ClassName
+tiArcheryArrow = ClassName "ti-archery-arrow"
+
 tiArchive :: ClassName
 tiArchive = ClassName "ti-archive"
 
@@ -529,6 +571,9 @@ tiArrowBadgeUp = ClassName "ti-arrow-badge-up"
 
 tiArrowBadgeUpFilled :: ClassName
 tiArrowBadgeUpFilled = ClassName "ti-arrow-badge-up-filled"
+
+tiArrowBarBoth :: ClassName
+tiArrowBarBoth = ClassName "ti-arrow-bar-both"
 
 tiArrowBarDown :: ClassName
 tiArrowBarDown = ClassName "ti-arrow-bar-down"
@@ -640,6 +685,9 @@ tiArrowBigUpLinesFilled = ClassName "ti-arrow-big-up-lines-filled"
 
 tiArrowBounce :: ClassName
 tiArrowBounce = ClassName "ti-arrow-bounce"
+
+tiArrowCapsule :: ClassName
+tiArrowCapsule = ClassName "ti-arrow-capsule"
 
 tiArrowCurveLeft :: ClassName
 tiArrowCurveLeft = ClassName "ti-arrow-curve-left"
@@ -1076,6 +1124,9 @@ tiAugmentedReality2 = ClassName "ti-augmented-reality-2"
 tiAugmentedRealityOff :: ClassName
 tiAugmentedRealityOff = ClassName "ti-augmented-reality-off"
 
+tiAutomaticGearbox :: ClassName
+tiAutomaticGearbox = ClassName "ti-automatic-gearbox"
+
 tiAward :: ClassName
 tiAward = ClassName "ti-award"
 
@@ -1271,11 +1322,71 @@ tiBaselineDensitySmall = ClassName "ti-baseline-density-small"
 tiBasket :: ClassName
 tiBasket = ClassName "ti-basket"
 
+tiBasketBolt :: ClassName
+tiBasketBolt = ClassName "ti-basket-bolt"
+
+tiBasketCancel :: ClassName
+tiBasketCancel = ClassName "ti-basket-cancel"
+
+tiBasketCheck :: ClassName
+tiBasketCheck = ClassName "ti-basket-check"
+
+tiBasketCode :: ClassName
+tiBasketCode = ClassName "ti-basket-code"
+
+tiBasketCog :: ClassName
+tiBasketCog = ClassName "ti-basket-cog"
+
+tiBasketDiscount :: ClassName
+tiBasketDiscount = ClassName "ti-basket-discount"
+
+tiBasketDollar :: ClassName
+tiBasketDollar = ClassName "ti-basket-dollar"
+
+tiBasketDown :: ClassName
+tiBasketDown = ClassName "ti-basket-down"
+
+tiBasketExclamation :: ClassName
+tiBasketExclamation = ClassName "ti-basket-exclamation"
+
 tiBasketFilled :: ClassName
 tiBasketFilled = ClassName "ti-basket-filled"
 
+tiBasketHeart :: ClassName
+tiBasketHeart = ClassName "ti-basket-heart"
+
+tiBasketMinus :: ClassName
+tiBasketMinus = ClassName "ti-basket-minus"
+
 tiBasketOff :: ClassName
 tiBasketOff = ClassName "ti-basket-off"
+
+tiBasketPause :: ClassName
+tiBasketPause = ClassName "ti-basket-pause"
+
+tiBasketPin :: ClassName
+tiBasketPin = ClassName "ti-basket-pin"
+
+tiBasketPlus :: ClassName
+tiBasketPlus = ClassName "ti-basket-plus"
+
+tiBasketQuestion :: ClassName
+tiBasketQuestion = ClassName "ti-basket-question"
+
+tiBasketSearch :: ClassName
+tiBasketSearch = ClassName "ti-basket-search"
+
+tiBasketShare :: ClassName
+tiBasketShare = ClassName "ti-basket-share"
+
+tiBasketStar :: ClassName
+tiBasketStar = ClassName "ti-basket-star"
+
+tiBasketUp :: ClassName
+tiBasketUp = ClassName "ti-basket-up"
+
+tiBasketX :: ClassName
+tiBasketX = ClassName "ti-basket-x"
 
 tiBat :: ClassName
 tiBat = ClassName "ti-bat"
@@ -1577,6 +1688,9 @@ tiBookUpload = ClassName "ti-book-upload"
 tiBookmark :: ClassName
 tiBookmark = ClassName "ti-bookmark"
 
+tiBookmarkAi :: ClassName
+tiBookmarkAi = ClassName "ti-bookmark-ai"
+
 tiBookmarkEdit :: ClassName
 tiBookmarkEdit = ClassName "ti-bookmark-edit"
 
@@ -1597,6 +1711,9 @@ tiBookmarkQuestion = ClassName "ti-bookmark-question"
 
 tiBookmarks :: ClassName
 tiBookmarks = ClassName "ti-bookmarks"
+
+tiBookmarksFilled :: ClassName
+tiBookmarksFilled = ClassName "ti-bookmarks-filled"
 
 tiBookmarksOff :: ClassName
 tiBookmarksOff = ClassName "ti-bookmarks-off"
@@ -1664,14 +1781,23 @@ tiBottleOff = ClassName "ti-bottle-off"
 tiBounceLeft :: ClassName
 tiBounceLeft = ClassName "ti-bounce-left"
 
+tiBounceLeftFilled :: ClassName
+tiBounceLeftFilled = ClassName "ti-bounce-left-filled"
+
 tiBounceRight :: ClassName
 tiBounceRight = ClassName "ti-bounce-right"
+
+tiBounceRightFilled :: ClassName
+tiBounceRightFilled = ClassName "ti-bounce-right-filled"
 
 tiBow :: ClassName
 tiBow = ClassName "ti-bow"
 
 tiBowl :: ClassName
 tiBowl = ClassName "ti-bowl"
+
+tiBowlFilled :: ClassName
+tiBowlFilled = ClassName "ti-bowl-filled"
 
 tiBox :: ClassName
 tiBox = ClassName "ti-box"
@@ -2024,6 +2150,9 @@ tiBrandCypress = ClassName "ti-brand-cypress"
 tiBrandD3 :: ClassName
 tiBrandD3 = ClassName "ti-brand-d3"
 
+tiBrandDatabricks :: ClassName
+tiBrandDatabricks = ClassName "ti-brand-databricks"
+
 tiBrandDaysCounter :: ClassName
 tiBrandDaysCounter = ClassName "ti-brand-days-counter"
 
@@ -2276,6 +2405,9 @@ tiBrandJavascript = ClassName "ti-brand-javascript"
 tiBrandJuejin :: ClassName
 tiBrandJuejin = ClassName "ti-brand-juejin"
 
+tiBrandKbin :: ClassName
+tiBrandKbin = ClassName "ti-brand-kbin"
+
 tiBrandKick :: ClassName
 tiBrandKick = ClassName "ti-brand-kick"
 
@@ -2333,6 +2465,9 @@ tiBrandMcdonalds = ClassName "ti-brand-mcdonalds"
 tiBrandMedium :: ClassName
 tiBrandMedium = ClassName "ti-brand-medium"
 
+tiBrandMeetup :: ClassName
+tiBrandMeetup = ClassName "ti-brand-meetup"
+
 tiBrandMercedes :: ClassName
 tiBrandMercedes = ClassName "ti-brand-mercedes"
 
@@ -2341,6 +2476,9 @@ tiBrandMessenger = ClassName "ti-brand-messenger"
 
 tiBrandMeta :: ClassName
 tiBrandMeta = ClassName "ti-brand-meta"
+
+tiBrandMinecraft :: ClassName
+tiBrandMinecraft = ClassName "ti-brand-minecraft"
 
 tiBrandMiniprogram :: ClassName
 tiBrandMiniprogram = ClassName "ti-brand-miniprogram"
@@ -2383,6 +2521,9 @@ tiBrandNextcloud = ClassName "ti-brand-nextcloud"
 
 tiBrandNextjs :: ClassName
 tiBrandNextjs = ClassName "ti-brand-nextjs"
+
+tiBrandNodejs :: ClassName
+tiBrandNodejs = ClassName "ti-brand-nodejs"
 
 tiBrandNordVpn :: ClassName
 tiBrandNordVpn = ClassName "ti-brand-nord-vpn"
@@ -2428,6 +2569,9 @@ tiBrandOpera = ClassName "ti-brand-opera"
 
 tiBrandPagekit :: ClassName
 tiBrandPagekit = ClassName "ti-brand-pagekit"
+
+tiBrandParsinta :: ClassName
+tiBrandParsinta = ClassName "ti-brand-parsinta"
 
 tiBrandPatreon :: ClassName
 tiBrandPatreon = ClassName "ti-brand-patreon"
@@ -2509,6 +2653,9 @@ tiBrandRedux = ClassName "ti-brand-redux"
 
 tiBrandRevolut :: ClassName
 tiBrandRevolut = ClassName "ti-brand-revolut"
+
+tiBrandRumble :: ClassName
+tiBrandRumble = ClassName "ti-brand-rumble"
 
 tiBrandRust :: ClassName
 tiBrandRust = ClassName "ti-brand-rust"
@@ -2630,6 +2777,9 @@ tiBrandTailwind = ClassName "ti-brand-tailwind"
 tiBrandTaobao :: ClassName
 tiBrandTaobao = ClassName "ti-brand-taobao"
 
+tiBrandTeams :: ClassName
+tiBrandTeams = ClassName "ti-brand-teams"
+
 tiBrandTed :: ClassName
 tiBrandTed = ClassName "ti-brand-ted"
 
@@ -2642,17 +2792,20 @@ tiBrandTerraform = ClassName "ti-brand-terraform"
 tiBrandTether :: ClassName
 tiBrandTether = ClassName "ti-brand-tether"
 
+tiBrandThreads :: ClassName
+tiBrandThreads = ClassName "ti-brand-threads"
+
 tiBrandThreejs :: ClassName
 tiBrandThreejs = ClassName "ti-brand-threejs"
 
 tiBrandTidal :: ClassName
 tiBrandTidal = ClassName "ti-brand-tidal"
 
-tiBrandTiktoFilled :: ClassName
-tiBrandTiktoFilled = ClassName "ti-brand-tikto-filled"
-
 tiBrandTiktok :: ClassName
 tiBrandTiktok = ClassName "ti-brand-tiktok"
+
+tiBrandTiktokFilled :: ClassName
+tiBrandTiktokFilled = ClassName "ti-brand-tiktok-filled"
 
 tiBrandTinder :: ClassName
 tiBrandTinder = ClassName "ti-brand-tinder"
@@ -2783,17 +2936,29 @@ tiBrandWix = ClassName "ti-brand-wix"
 tiBrandWordpress :: ClassName
 tiBrandWordpress = ClassName "ti-brand-wordpress"
 
+tiBrandX :: ClassName
+tiBrandX = ClassName "ti-brand-x"
+
+tiBrandXFilled :: ClassName
+tiBrandXFilled = ClassName "ti-brand-x-filled"
+
 tiBrandXamarin :: ClassName
 tiBrandXamarin = ClassName "ti-brand-xamarin"
 
 tiBrandXbox :: ClassName
 tiBrandXbox = ClassName "ti-brand-xbox"
 
+tiBrandXdeep :: ClassName
+tiBrandXdeep = ClassName "ti-brand-xdeep"
+
 tiBrandXing :: ClassName
 tiBrandXing = ClassName "ti-brand-xing"
 
 tiBrandYahoo :: ClassName
 tiBrandYahoo = ClassName "ti-brand-yahoo"
+
+tiBrandYandex :: ClassName
+tiBrandYandex = ClassName "ti-brand-yandex"
 
 tiBrandYatse :: ClassName
 tiBrandYatse = ClassName "ti-brand-yatse"
@@ -2803,6 +2968,9 @@ tiBrandYcombinator = ClassName "ti-brand-ycombinator"
 
 tiBrandYoutube :: ClassName
 tiBrandYoutube = ClassName "ti-brand-youtube"
+
+tiBrandYoutubeFilled :: ClassName
+tiBrandYoutubeFilled = ClassName "ti-brand-youtube-filled"
 
 tiBrandYoutubeKids :: ClassName
 tiBrandYoutubeKids = ClassName "ti-brand-youtube-kids"
@@ -2837,6 +3005,9 @@ tiBreadOff = ClassName "ti-bread-off"
 tiBriefcase :: ClassName
 tiBriefcase = ClassName "ti-briefcase"
 
+tiBriefcase2 :: ClassName
+tiBriefcase2 = ClassName "ti-briefcase-2"
+
 tiBriefcaseOff :: ClassName
 tiBriefcaseOff = ClassName "ti-briefcase-off"
 
@@ -2849,6 +3020,9 @@ tiBrightness2 = ClassName "ti-brightness-2"
 tiBrightnessDown :: ClassName
 tiBrightnessDown = ClassName "ti-brightness-down"
 
+tiBrightnessDownFilled :: ClassName
+tiBrightnessDownFilled = ClassName "ti-brightness-down-filled"
+
 tiBrightnessHalf :: ClassName
 tiBrightnessHalf = ClassName "ti-brightness-half"
 
@@ -2857,6 +3031,9 @@ tiBrightnessOff = ClassName "ti-brightness-off"
 
 tiBrightnessUp :: ClassName
 tiBrightnessUp = ClassName "ti-brightness-up"
+
+tiBrightnessUpFilled :: ClassName
+tiBrightnessUpFilled = ClassName "ti-brightness-up-filled"
 
 tiBroadcast :: ClassName
 tiBroadcast = ClassName "ti-broadcast"
@@ -3011,6 +3188,9 @@ tiButterfly = ClassName "ti-butterfly"
 tiCactus :: ClassName
 tiCactus = ClassName "ti-cactus"
 
+tiCactusFilled :: ClassName
+tiCactusFilled = ClassName "ti-cactus-filled"
+
 tiCactusOff :: ClassName
 tiCactusOff = ClassName "ti-cactus-off"
 
@@ -3022,6 +3202,9 @@ tiCakeOff = ClassName "ti-cake-off"
 
 tiCalculator :: ClassName
 tiCalculator = ClassName "ti-calculator"
+
+tiCalculatorFilled :: ClassName
+tiCalculatorFilled = ClassName "ti-calculator-filled"
 
 tiCalculatorOff :: ClassName
 tiCalculatorOff = ClassName "ti-calculator-off"
@@ -3059,6 +3242,9 @@ tiCalendarEvent = ClassName "ti-calendar-event"
 tiCalendarExclamation :: ClassName
 tiCalendarExclamation = ClassName "ti-calendar-exclamation"
 
+tiCalendarFilled :: ClassName
+tiCalendarFilled = ClassName "ti-calendar-filled"
+
 tiCalendarHeart :: ClassName
 tiCalendarHeart = ClassName "ti-calendar-heart"
 
@@ -3079,6 +3265,9 @@ tiCalendarPlus = ClassName "ti-calendar-plus"
 
 tiCalendarQuestion :: ClassName
 tiCalendarQuestion = ClassName "ti-calendar-question"
+
+tiCalendarRepeat :: ClassName
+tiCalendarRepeat = ClassName "ti-calendar-repeat"
 
 tiCalendarSearch :: ClassName
 tiCalendarSearch = ClassName "ti-calendar-search"
@@ -3179,8 +3368,14 @@ tiCamper = ClassName "ti-camper"
 tiCampfire :: ClassName
 tiCampfire = ClassName "ti-campfire"
 
+tiCampfireFilled :: ClassName
+tiCampfireFilled = ClassName "ti-campfire-filled"
+
 tiCandle :: ClassName
 tiCandle = ClassName "ti-candle"
+
+tiCandleFilled :: ClassName
+tiCandleFilled = ClassName "ti-candle-filled"
 
 tiCandy :: ClassName
 tiCandy = ClassName "ti-candy"
@@ -3194,8 +3389,23 @@ tiCane = ClassName "ti-cane"
 tiCannabis :: ClassName
 tiCannabis = ClassName "ti-cannabis"
 
+tiCapsule :: ClassName
+tiCapsule = ClassName "ti-capsule"
+
+tiCapsuleFilled :: ClassName
+tiCapsuleFilled = ClassName "ti-capsule-filled"
+
+tiCapsuleHorizontal :: ClassName
+tiCapsuleHorizontal = ClassName "ti-capsule-horizontal"
+
+tiCapsuleHorizontalFilled :: ClassName
+tiCapsuleHorizontalFilled = ClassName "ti-capsule-horizontal-filled"
+
 tiCapture :: ClassName
 tiCapture = ClassName "ti-capture"
+
+tiCaptureFilled :: ClassName
+tiCaptureFilled = ClassName "ti-capture-filled"
 
 tiCaptureOff :: ClassName
 tiCaptureOff = ClassName "ti-capture-off"
@@ -3209,8 +3419,14 @@ tiCarCrane = ClassName "ti-car-crane"
 tiCarCrash :: ClassName
 tiCarCrash = ClassName "ti-car-crash"
 
+tiCarGarage :: ClassName
+tiCarGarage = ClassName "ti-car-garage"
+
 tiCarOff :: ClassName
 tiCarOff = ClassName "ti-car-off"
+
+tiCarSuv :: ClassName
+tiCarSuv = ClassName "ti-car-suv"
 
 tiCarTurbine :: ClassName
 tiCarTurbine = ClassName "ti-car-turbine"
@@ -3227,17 +3443,38 @@ tiCardboardsOff = ClassName "ti-cardboards-off"
 tiCards :: ClassName
 tiCards = ClassName "ti-cards"
 
+tiCardsFilled :: ClassName
+tiCardsFilled = ClassName "ti-cards-filled"
+
 tiCaretDown :: ClassName
 tiCaretDown = ClassName "ti-caret-down"
+
+tiCaretDownFilled :: ClassName
+tiCaretDownFilled = ClassName "ti-caret-down-filled"
 
 tiCaretLeft :: ClassName
 tiCaretLeft = ClassName "ti-caret-left"
 
+tiCaretLeftFilled :: ClassName
+tiCaretLeftFilled = ClassName "ti-caret-left-filled"
+
+tiCaretLeftRight :: ClassName
+tiCaretLeftRight = ClassName "ti-caret-left-right"
+
 tiCaretRight :: ClassName
 tiCaretRight = ClassName "ti-caret-right"
 
+tiCaretRightFilled :: ClassName
+tiCaretRightFilled = ClassName "ti-caret-right-filled"
+
 tiCaretUp :: ClassName
 tiCaretUp = ClassName "ti-caret-up"
+
+tiCaretUpDown :: ClassName
+tiCaretUpDown = ClassName "ti-caret-up-down"
+
+tiCaretUpFilled :: ClassName
+tiCaretUpFilled = ClassName "ti-caret-up-filled"
 
 tiCarouselHorizontal :: ClassName
 tiCarouselHorizontal = ClassName "ti-carousel-horizontal"
@@ -3283,6 +3520,9 @@ tiCategory = ClassName "ti-category"
 
 tiCategory2 :: ClassName
 tiCategory2 = ClassName "ti-category-2"
+
+tiCategoryFilled :: ClassName
+tiCategoryFilled = ClassName "ti-category-filled"
 
 tiCe :: ClassName
 tiCe = ClassName "ti-ce"
@@ -3512,6 +3752,18 @@ tiChessRook = ClassName "ti-chess-rook"
 tiChessRookFilled :: ClassName
 tiChessRookFilled = ClassName "ti-chess-rook-filled"
 
+tiChevronCompactDown :: ClassName
+tiChevronCompactDown = ClassName "ti-chevron-compact-down"
+
+tiChevronCompactLeft :: ClassName
+tiChevronCompactLeft = ClassName "ti-chevron-compact-left"
+
+tiChevronCompactRight :: ClassName
+tiChevronCompactRight = ClassName "ti-chevron-compact-right"
+
+tiChevronCompactUp :: ClassName
+tiChevronCompactUp = ClassName "ti-chevron-compact-up"
+
 tiChevronDown :: ClassName
 tiChevronDown = ClassName "ti-chevron-down"
 
@@ -3524,8 +3776,14 @@ tiChevronDownRight = ClassName "ti-chevron-down-right"
 tiChevronLeft :: ClassName
 tiChevronLeft = ClassName "ti-chevron-left"
 
+tiChevronLeftPipe :: ClassName
+tiChevronLeftPipe = ClassName "ti-chevron-left-pipe"
+
 tiChevronRight :: ClassName
 tiChevronRight = ClassName "ti-chevron-right"
+
+tiChevronRightPipe :: ClassName
+tiChevronRightPipe = ClassName "ti-chevron-right-pipe"
 
 tiChevronUp :: ClassName
 tiChevronUp = ClassName "ti-chevron-up"
@@ -3695,6 +3953,39 @@ tiCircleChevronsUp = ClassName "ti-circle-chevrons-up"
 tiCircleDashed :: ClassName
 tiCircleDashed = ClassName "ti-circle-dashed"
 
+tiCircleDashedNumber0 :: ClassName
+tiCircleDashedNumber0 = ClassName "ti-circle-dashed-number-0"
+
+tiCircleDashedNumber1 :: ClassName
+tiCircleDashedNumber1 = ClassName "ti-circle-dashed-number-1"
+
+tiCircleDashedNumber2 :: ClassName
+tiCircleDashedNumber2 = ClassName "ti-circle-dashed-number-2"
+
+tiCircleDashedNumber3 :: ClassName
+tiCircleDashedNumber3 = ClassName "ti-circle-dashed-number-3"
+
+tiCircleDashedNumber4 :: ClassName
+tiCircleDashedNumber4 = ClassName "ti-circle-dashed-number-4"
+
+tiCircleDashedNumber5 :: ClassName
+tiCircleDashedNumber5 = ClassName "ti-circle-dashed-number-5"
+
+tiCircleDashedNumber6 :: ClassName
+tiCircleDashedNumber6 = ClassName "ti-circle-dashed-number-6"
+
+tiCircleDashedNumber7 :: ClassName
+tiCircleDashedNumber7 = ClassName "ti-circle-dashed-number-7"
+
+tiCircleDashedNumber8 :: ClassName
+tiCircleDashedNumber8 = ClassName "ti-circle-dashed-number-8"
+
+tiCircleDashedNumber9 :: ClassName
+tiCircleDashedNumber9 = ClassName "ti-circle-dashed-number-9"
+
+tiCircleDashedX :: ClassName
+tiCircleDashedX = ClassName "ti-circle-dashed-x"
+
 tiCircleDot :: ClassName
 tiCircleDot = ClassName "ti-circle-dot"
 
@@ -3803,6 +4094,9 @@ tiCircleLetterZ = ClassName "ti-circle-letter-z"
 tiCircleMinus :: ClassName
 tiCircleMinus = ClassName "ti-circle-minus"
 
+tiCircleMinus2 :: ClassName
+tiCircleMinus2 = ClassName "ti-circle-minus-2"
+
 tiCircleNumber0 :: ClassName
 tiCircleNumber0 = ClassName "ti-circle-number-0"
 
@@ -3838,6 +4132,9 @@ tiCircleOff = ClassName "ti-circle-off"
 
 tiCirclePlus :: ClassName
 tiCirclePlus = ClassName "ti-circle-plus"
+
+tiCirclePlus2 :: ClassName
+tiCirclePlus2 = ClassName "ti-circle-plus-2"
 
 tiCircleRectangle :: ClassName
 tiCircleRectangle = ClassName "ti-circle-rectangle"
@@ -3968,8 +4265,14 @@ tiClipboardX = ClassName "ti-clipboard-x"
 tiClock :: ClassName
 tiClock = ClassName "ti-clock"
 
+tiClock12 :: ClassName
+tiClock12 = ClassName "ti-clock-12"
+
 tiClock2 :: ClassName
 tiClock2 = ClassName "ti-clock-2"
+
+tiClock24 :: ClassName
+tiClock24 = ClassName "ti-clock-24"
 
 tiClockBolt :: ClassName
 tiClockBolt = ClassName "ti-clock-bolt"
@@ -4145,6 +4448,9 @@ tiCloudLockOpen = ClassName "ti-cloud-lock-open"
 tiCloudMinus :: ClassName
 tiCloudMinus = ClassName "ti-cloud-minus"
 
+tiCloudNetwork :: ClassName
+tiCloudNetwork = ClassName "ti-cloud-network"
+
 tiCloudOff :: ClassName
 tiCloudOff = ClassName "ti-cloud-off"
 
@@ -4279,6 +4585,9 @@ tiColumnInsertLeft = ClassName "ti-column-insert-left"
 
 tiColumnInsertRight :: ClassName
 tiColumnInsertRight = ClassName "ti-column-insert-right"
+
+tiColumnRemove :: ClassName
+tiColumnRemove = ClassName "ti-column-remove"
 
 tiColumns :: ClassName
 tiColumns = ClassName "ti-columns"
@@ -4604,6 +4913,9 @@ tiCurrencyEuro = ClassName "ti-currency-euro"
 tiCurrencyEuroOff :: ClassName
 tiCurrencyEuroOff = ClassName "ti-currency-euro-off"
 
+tiCurrencyFlorin :: ClassName
+tiCurrencyFlorin = ClassName "ti-currency-florin"
+
 tiCurrencyForint :: ClassName
 tiCurrencyForint = ClassName "ti-currency-forint"
 
@@ -4844,6 +5156,9 @@ tiDeviceAirpods = ClassName "ti-device-airpods"
 tiDeviceAirpodsCase :: ClassName
 tiDeviceAirpodsCase = ClassName "ti-device-airpods-case"
 
+tiDeviceAirtag :: ClassName
+tiDeviceAirtag = ClassName "ti-device-airtag"
+
 tiDeviceAnalytics :: ClassName
 tiDeviceAnalytics = ClassName "ti-device-analytics"
 
@@ -4933,6 +5248,9 @@ tiDeviceDesktopX = ClassName "ti-device-desktop-x"
 
 tiDeviceFloppy :: ClassName
 tiDeviceFloppy = ClassName "ti-device-floppy"
+
+tiDeviceGamePad :: ClassName
+tiDeviceGamePad = ClassName "ti-device-game-pad"
 
 tiDeviceGamepad :: ClassName
 tiDeviceGamepad = ClassName "ti-device-gamepad"
@@ -5228,6 +5546,9 @@ tiDeviceNintendo = ClassName "ti-device-nintendo"
 tiDeviceNintendoOff :: ClassName
 tiDeviceNintendoOff = ClassName "ti-device-nintendo-off"
 
+tiDeviceProjector :: ClassName
+tiDeviceProjector = ClassName "ti-device-projector"
+
 tiDeviceRemote :: ClassName
 tiDeviceRemote = ClassName "ti-device-remote"
 
@@ -5326,6 +5647,12 @@ tiDeviceTvOff = ClassName "ti-device-tv-off"
 
 tiDeviceTvOld :: ClassName
 tiDeviceTvOld = ClassName "ti-device-tv-old"
+
+tiDeviceUsb :: ClassName
+tiDeviceUsb = ClassName "ti-device-usb"
+
+tiDeviceVisionPro :: ClassName
+tiDeviceVisionPro = ClassName "ti-device-vision-pro"
 
 tiDeviceWatch :: ClassName
 tiDeviceWatch = ClassName "ti-device-watch"
@@ -5702,14 +6029,14 @@ tiDropletExclamation = ClassName "ti-droplet-exclamation"
 tiDropletFilled :: ClassName
 tiDropletFilled = ClassName "ti-droplet-filled"
 
-tiDropletFilled2 :: ClassName
-tiDropletFilled2 = ClassName "ti-droplet-filled-2"
-
 tiDropletHalf :: ClassName
 tiDropletHalf = ClassName "ti-droplet-half"
 
 tiDropletHalf2 :: ClassName
 tiDropletHalf2 = ClassName "ti-droplet-half-2"
+
+tiDropletHalf2Filled :: ClassName
+tiDropletHalf2Filled = ClassName "ti-droplet-half-2-filled"
 
 tiDropletHalfFilled :: ClassName
 tiDropletHalfFilled = ClassName "ti-droplet-half-filled"
@@ -5749,6 +6076,9 @@ tiDropletUp = ClassName "ti-droplet-up"
 
 tiDropletX :: ClassName
 tiDropletX = ClassName "ti-droplet-x"
+
+tiDroplets :: ClassName
+tiDroplets = ClassName "ti-droplets"
 
 tiDualScreen :: ClassName
 tiDualScreen = ClassName "ti-dual-screen"
@@ -5855,6 +6185,15 @@ tiError404 = ClassName "ti-error-404"
 tiError404Off :: ClassName
 tiError404Off = ClassName "ti-error-404-off"
 
+tiEscalator :: ClassName
+tiEscalator = ClassName "ti-escalator"
+
+tiEscalatorDown :: ClassName
+tiEscalatorDown = ClassName "ti-escalator-down"
+
+tiEscalatorUp :: ClassName
+tiEscalatorUp = ClassName "ti-escalator-up"
+
 tiExchange :: ClassName
 tiExchange = ClassName "ti-exchange"
 
@@ -5906,14 +6245,32 @@ tiExternalLinkOff = ClassName "ti-external-link-off"
 tiEye :: ClassName
 tiEye = ClassName "ti-eye"
 
+tiEyeBolt :: ClassName
+tiEyeBolt = ClassName "ti-eye-bolt"
+
+tiEyeCancel :: ClassName
+tiEyeCancel = ClassName "ti-eye-cancel"
+
 tiEyeCheck :: ClassName
 tiEyeCheck = ClassName "ti-eye-check"
 
 tiEyeClosed :: ClassName
 tiEyeClosed = ClassName "ti-eye-closed"
 
+tiEyeCode :: ClassName
+tiEyeCode = ClassName "ti-eye-code"
+
 tiEyeCog :: ClassName
 tiEyeCog = ClassName "ti-eye-cog"
+
+tiEyeDiscount :: ClassName
+tiEyeDiscount = ClassName "ti-eye-discount"
+
+tiEyeDollar :: ClassName
+tiEyeDollar = ClassName "ti-eye-dollar"
+
+tiEyeDown :: ClassName
+tiEyeDown = ClassName "ti-eye-down"
 
 tiEyeEdit :: ClassName
 tiEyeEdit = ClassName "ti-eye-edit"
@@ -5927,11 +6284,38 @@ tiEyeFilled = ClassName "ti-eye-filled"
 tiEyeHeart :: ClassName
 tiEyeHeart = ClassName "ti-eye-heart"
 
+tiEyeMinus :: ClassName
+tiEyeMinus = ClassName "ti-eye-minus"
+
 tiEyeOff :: ClassName
 tiEyeOff = ClassName "ti-eye-off"
 
+tiEyePause :: ClassName
+tiEyePause = ClassName "ti-eye-pause"
+
+tiEyePin :: ClassName
+tiEyePin = ClassName "ti-eye-pin"
+
+tiEyePlus :: ClassName
+tiEyePlus = ClassName "ti-eye-plus"
+
+tiEyeQuestion :: ClassName
+tiEyeQuestion = ClassName "ti-eye-question"
+
+tiEyeSearch :: ClassName
+tiEyeSearch = ClassName "ti-eye-search"
+
+tiEyeShare :: ClassName
+tiEyeShare = ClassName "ti-eye-share"
+
+tiEyeStar :: ClassName
+tiEyeStar = ClassName "ti-eye-star"
+
 tiEyeTable :: ClassName
 tiEyeTable = ClassName "ti-eye-table"
+
+tiEyeUp :: ClassName
+tiEyeUp = ClassName "ti-eye-up"
 
 tiEyeX :: ClassName
 tiEyeX = ClassName "ti-eye-x"
@@ -6146,6 +6530,75 @@ tiFileTextAi = ClassName "ti-file-text-ai"
 tiFileTime :: ClassName
 tiFileTime = ClassName "ti-file-time"
 
+tiFileTypeBmp :: ClassName
+tiFileTypeBmp = ClassName "ti-file-type-bmp"
+
+tiFileTypeCss :: ClassName
+tiFileTypeCss = ClassName "ti-file-type-css"
+
+tiFileTypeCsv :: ClassName
+tiFileTypeCsv = ClassName "ti-file-type-csv"
+
+tiFileTypeDoc :: ClassName
+tiFileTypeDoc = ClassName "ti-file-type-doc"
+
+tiFileTypeDocx :: ClassName
+tiFileTypeDocx = ClassName "ti-file-type-docx"
+
+tiFileTypeHtml :: ClassName
+tiFileTypeHtml = ClassName "ti-file-type-html"
+
+tiFileTypeJpg :: ClassName
+tiFileTypeJpg = ClassName "ti-file-type-jpg"
+
+tiFileTypeJs :: ClassName
+tiFileTypeJs = ClassName "ti-file-type-js"
+
+tiFileTypeJsx :: ClassName
+tiFileTypeJsx = ClassName "ti-file-type-jsx"
+
+tiFileTypePdf :: ClassName
+tiFileTypePdf = ClassName "ti-file-type-pdf"
+
+tiFileTypePhp :: ClassName
+tiFileTypePhp = ClassName "ti-file-type-php"
+
+tiFileTypePng :: ClassName
+tiFileTypePng = ClassName "ti-file-type-png"
+
+tiFileTypePpt :: ClassName
+tiFileTypePpt = ClassName "ti-file-type-ppt"
+
+tiFileTypeRs :: ClassName
+tiFileTypeRs = ClassName "ti-file-type-rs"
+
+tiFileTypeSql :: ClassName
+tiFileTypeSql = ClassName "ti-file-type-sql"
+
+tiFileTypeSvg :: ClassName
+tiFileTypeSvg = ClassName "ti-file-type-svg"
+
+tiFileTypeTs :: ClassName
+tiFileTypeTs = ClassName "ti-file-type-ts"
+
+tiFileTypeTsx :: ClassName
+tiFileTypeTsx = ClassName "ti-file-type-tsx"
+
+tiFileTypeTxt :: ClassName
+tiFileTypeTxt = ClassName "ti-file-type-txt"
+
+tiFileTypeVue :: ClassName
+tiFileTypeVue = ClassName "ti-file-type-vue"
+
+tiFileTypeXls :: ClassName
+tiFileTypeXls = ClassName "ti-file-type-xls"
+
+tiFileTypeXml :: ClassName
+tiFileTypeXml = ClassName "ti-file-type-xml"
+
+tiFileTypeZip :: ClassName
+tiFileTypeZip = ClassName "ti-file-type-zip"
+
 tiFileTypography :: ClassName
 tiFileTypography = ClassName "ti-file-typography"
 
@@ -6173,14 +6626,41 @@ tiFiles = ClassName "ti-files"
 tiFilesOff :: ClassName
 tiFilesOff = ClassName "ti-files-off"
 
+tiFilterBolt :: ClassName
+tiFilterBolt = ClassName "ti-filter-bolt"
+
+tiFilterCancel :: ClassName
+tiFilterCancel = ClassName "ti-filter-cancel"
+
+tiFilterCheck :: ClassName
+tiFilterCheck = ClassName "ti-filter-check"
+
+tiFilterCode :: ClassName
+tiFilterCode = ClassName "ti-filter-code"
+
 tiFilterCog :: ClassName
 tiFilterCog = ClassName "ti-filter-cog"
+
+tiFilterDiscount :: ClassName
+tiFilterDiscount = ClassName "ti-filter-discount"
 
 tiFilterDollar :: ClassName
 tiFilterDollar = ClassName "ti-filter-dollar"
 
+tiFilterDown :: ClassName
+tiFilterDown = ClassName "ti-filter-down"
+
 tiFilterEdit :: ClassName
 tiFilterEdit = ClassName "ti-filter-edit"
+
+tiFilterExclamation :: ClassName
+tiFilterExclamation = ClassName "ti-filter-exclamation"
+
+tiFilterFilled :: ClassName
+tiFilterFilled = ClassName "ti-filter-filled"
+
+tiFilterHeart :: ClassName
+tiFilterHeart = ClassName "ti-filter-heart"
 
 tiFilterMinus :: ClassName
 tiFilterMinus = ClassName "ti-filter-minus"
@@ -6188,11 +6668,29 @@ tiFilterMinus = ClassName "ti-filter-minus"
 tiFilterOff :: ClassName
 tiFilterOff = ClassName "ti-filter-off"
 
+tiFilterPause :: ClassName
+tiFilterPause = ClassName "ti-filter-pause"
+
+tiFilterPin :: ClassName
+tiFilterPin = ClassName "ti-filter-pin"
+
 tiFilterPlus :: ClassName
 tiFilterPlus = ClassName "ti-filter-plus"
 
+tiFilterQuestion :: ClassName
+tiFilterQuestion = ClassName "ti-filter-question"
+
+tiFilterSearch :: ClassName
+tiFilterSearch = ClassName "ti-filter-search"
+
+tiFilterShare :: ClassName
+tiFilterShare = ClassName "ti-filter-share"
+
 tiFilterStar :: ClassName
 tiFilterStar = ClassName "ti-filter-star"
+
+tiFilterUp :: ClassName
+tiFilterUp = ClassName "ti-filter-up"
 
 tiFilterX :: ClassName
 tiFilterX = ClassName "ti-filter-x"
@@ -6205,6 +6703,9 @@ tiFingerprint = ClassName "ti-fingerprint"
 
 tiFingerprintOff :: ClassName
 tiFingerprintOff = ClassName "ti-fingerprint-off"
+
+tiFireExtinguisher :: ClassName
+tiFireExtinguisher = ClassName "ti-fire-extinguisher"
 
 tiFireHydrant :: ClassName
 tiFireHydrant = ClassName "ti-fire-hydrant"
@@ -6257,11 +6758,71 @@ tiFlag3 = ClassName "ti-flag-3"
 tiFlag3Filled :: ClassName
 tiFlag3Filled = ClassName "ti-flag-3-filled"
 
+tiFlagBolt :: ClassName
+tiFlagBolt = ClassName "ti-flag-bolt"
+
+tiFlagCancel :: ClassName
+tiFlagCancel = ClassName "ti-flag-cancel"
+
+tiFlagCheck :: ClassName
+tiFlagCheck = ClassName "ti-flag-check"
+
+tiFlagCode :: ClassName
+tiFlagCode = ClassName "ti-flag-code"
+
+tiFlagCog :: ClassName
+tiFlagCog = ClassName "ti-flag-cog"
+
+tiFlagDiscount :: ClassName
+tiFlagDiscount = ClassName "ti-flag-discount"
+
+tiFlagDollar :: ClassName
+tiFlagDollar = ClassName "ti-flag-dollar"
+
+tiFlagDown :: ClassName
+tiFlagDown = ClassName "ti-flag-down"
+
+tiFlagExclamation :: ClassName
+tiFlagExclamation = ClassName "ti-flag-exclamation"
+
 tiFlagFilled :: ClassName
 tiFlagFilled = ClassName "ti-flag-filled"
 
+tiFlagHeart :: ClassName
+tiFlagHeart = ClassName "ti-flag-heart"
+
+tiFlagMinus :: ClassName
+tiFlagMinus = ClassName "ti-flag-minus"
+
 tiFlagOff :: ClassName
 tiFlagOff = ClassName "ti-flag-off"
+
+tiFlagPause :: ClassName
+tiFlagPause = ClassName "ti-flag-pause"
+
+tiFlagPin :: ClassName
+tiFlagPin = ClassName "ti-flag-pin"
+
+tiFlagPlus :: ClassName
+tiFlagPlus = ClassName "ti-flag-plus"
+
+tiFlagQuestion :: ClassName
+tiFlagQuestion = ClassName "ti-flag-question"
+
+tiFlagSearch :: ClassName
+tiFlagSearch = ClassName "ti-flag-search"
+
+tiFlagShare :: ClassName
+tiFlagShare = ClassName "ti-flag-share"
+
+tiFlagStar :: ClassName
+tiFlagStar = ClassName "ti-flag-star"
+
+tiFlagUp :: ClassName
+tiFlagUp = ClassName "ti-flag-up"
+
+tiFlagX :: ClassName
+tiFlagX = ClassName "ti-flag-x"
 
 tiFlame :: ClassName
 tiFlame = ClassName "ti-flame"
@@ -6371,6 +6932,9 @@ tiFolderMinus = ClassName "ti-folder-minus"
 tiFolderOff :: ClassName
 tiFolderOff = ClassName "ti-folder-off"
 
+tiFolderOpen :: ClassName
+tiFolderOpen = ClassName "ti-folder-open"
+
 tiFolderPause :: ClassName
 tiFolderPause = ClassName "ti-folder-pause"
 
@@ -6413,6 +6977,12 @@ tiForbid = ClassName "ti-forbid"
 tiForbid2 :: ClassName
 tiForbid2 = ClassName "ti-forbid-2"
 
+tiForbid2Filled :: ClassName
+tiForbid2Filled = ClassName "ti-forbid-2-filled"
+
+tiForbidFilled :: ClassName
+tiForbidFilled = ClassName "ti-forbid-filled"
+
 tiForklift :: ClassName
 tiForklift = ClassName "ti-forklift"
 
@@ -6421,6 +6991,9 @@ tiForms = ClassName "ti-forms"
 
 tiFountain :: ClassName
 tiFountain = ClassName "ti-fountain"
+
+tiFountainFilled :: ClassName
+tiFountainFilled = ClassName "ti-fountain-filled"
 
 tiFountainOff :: ClassName
 tiFountainOff = ClassName "ti-fountain-off"
@@ -6467,6 +7040,9 @@ tiFrustumPlus = ClassName "ti-frustum-plus"
 tiFunction :: ClassName
 tiFunction = ClassName "ti-function"
 
+tiFunctionFilled :: ClassName
+tiFunctionFilled = ClassName "ti-function-filled"
+
 tiFunctionOff :: ClassName
 tiFunctionOff = ClassName "ti-function-off"
 
@@ -6484,6 +7060,9 @@ tiGasStationOff = ClassName "ti-gas-station-off"
 
 tiGauge :: ClassName
 tiGauge = ClassName "ti-gauge"
+
+tiGaugeFilled :: ClassName
+tiGaugeFilled = ClassName "ti-gauge-filled"
 
 tiGaugeOff :: ClassName
 tiGaugeOff = ClassName "ti-gauge-off"
@@ -6557,6 +7136,9 @@ tiGhost2 = ClassName "ti-ghost-2"
 tiGhost2Filled :: ClassName
 tiGhost2Filled = ClassName "ti-ghost-2-filled"
 
+tiGhost3 :: ClassName
+tiGhost3 = ClassName "ti-ghost-3"
+
 tiGhostFilled :: ClassName
 tiGhostFilled = ClassName "ti-ghost-filled"
 
@@ -6571,6 +7153,9 @@ tiGift = ClassName "ti-gift"
 
 tiGiftCard :: ClassName
 tiGiftCard = ClassName "ti-gift-card"
+
+tiGiftCardFilled :: ClassName
+tiGiftCardFilled = ClassName "ti-gift-card-filled"
 
 tiGiftOff :: ClassName
 tiGiftOff = ClassName "ti-gift-off"
@@ -6614,11 +7199,17 @@ tiGlass = ClassName "ti-glass"
 tiGlassFull :: ClassName
 tiGlassFull = ClassName "ti-glass-full"
 
+tiGlassFullFilled :: ClassName
+tiGlassFullFilled = ClassName "ti-glass-full-filled"
+
 tiGlassOff :: ClassName
 tiGlassOff = ClassName "ti-glass-off"
 
 tiGlobe :: ClassName
 tiGlobe = ClassName "ti-globe"
+
+tiGlobeFilled :: ClassName
+tiGlobeFilled = ClassName "ti-globe-filled"
 
 tiGlobeOff :: ClassName
 tiGlobeOff = ClassName "ti-globe-off"
@@ -6767,6 +7358,9 @@ tiHash = ClassName "ti-hash"
 tiHaze :: ClassName
 tiHaze = ClassName "ti-haze"
 
+tiHazeMoon :: ClassName
+tiHazeMoon = ClassName "ti-haze-moon"
+
 tiHdr :: ClassName
 tiHdr = ClassName "ti-hdr"
 
@@ -6797,8 +7391,35 @@ tiHealthRecognition = ClassName "ti-health-recognition"
 tiHeart :: ClassName
 tiHeart = ClassName "ti-heart"
 
+tiHeartBolt :: ClassName
+tiHeartBolt = ClassName "ti-heart-bolt"
+
 tiHeartBroken :: ClassName
 tiHeartBroken = ClassName "ti-heart-broken"
+
+tiHeartCancel :: ClassName
+tiHeartCancel = ClassName "ti-heart-cancel"
+
+tiHeartCheck :: ClassName
+tiHeartCheck = ClassName "ti-heart-check"
+
+tiHeartCode :: ClassName
+tiHeartCode = ClassName "ti-heart-code"
+
+tiHeartCog :: ClassName
+tiHeartCog = ClassName "ti-heart-cog"
+
+tiHeartDiscount :: ClassName
+tiHeartDiscount = ClassName "ti-heart-discount"
+
+tiHeartDollar :: ClassName
+tiHeartDollar = ClassName "ti-heart-dollar"
+
+tiHeartDown :: ClassName
+tiHeartDown = ClassName "ti-heart-down"
+
+tiHeartExclamation :: ClassName
+tiHeartExclamation = ClassName "ti-heart-exclamation"
 
 tiHeartFilled :: ClassName
 tiHeartFilled = ClassName "ti-heart-filled"
@@ -6812,11 +7433,35 @@ tiHeartMinus = ClassName "ti-heart-minus"
 tiHeartOff :: ClassName
 tiHeartOff = ClassName "ti-heart-off"
 
+tiHeartPause :: ClassName
+tiHeartPause = ClassName "ti-heart-pause"
+
+tiHeartPin :: ClassName
+tiHeartPin = ClassName "ti-heart-pin"
+
 tiHeartPlus :: ClassName
 tiHeartPlus = ClassName "ti-heart-plus"
 
+tiHeartQuestion :: ClassName
+tiHeartQuestion = ClassName "ti-heart-question"
+
 tiHeartRateMonitor :: ClassName
 tiHeartRateMonitor = ClassName "ti-heart-rate-monitor"
+
+tiHeartSearch :: ClassName
+tiHeartSearch = ClassName "ti-heart-search"
+
+tiHeartShare :: ClassName
+tiHeartShare = ClassName "ti-heart-share"
+
+tiHeartStar :: ClassName
+tiHeartStar = ClassName "ti-heart-star"
+
+tiHeartUp :: ClassName
+tiHeartUp = ClassName "ti-heart-up"
+
+tiHeartX :: ClassName
+tiHeartX = ClassName "ti-heart-x"
 
 tiHeartbeat :: ClassName
 tiHeartbeat = ClassName "ti-heartbeat"
@@ -7010,6 +7655,12 @@ tiHexagonLetterY = ClassName "ti-hexagon-letter-y"
 tiHexagonLetterZ :: ClassName
 tiHexagonLetterZ = ClassName "ti-hexagon-letter-z"
 
+tiHexagonMinus :: ClassName
+tiHexagonMinus = ClassName "ti-hexagon-minus"
+
+tiHexagonMinus2 :: ClassName
+tiHexagonMinus2 = ClassName "ti-hexagon-minus-2"
+
 tiHexagonNumber0 :: ClassName
 tiHexagonNumber0 = ClassName "ti-hexagon-number-0"
 
@@ -7042,6 +7693,12 @@ tiHexagonNumber9 = ClassName "ti-hexagon-number-9"
 
 tiHexagonOff :: ClassName
 tiHexagonOff = ClassName "ti-hexagon-off"
+
+tiHexagonPlus :: ClassName
+tiHexagonPlus = ClassName "ti-hexagon-plus"
+
+tiHexagonPlus2 :: ClassName
+tiHexagonPlus2 = ClassName "ti-hexagon-plus-2"
 
 tiHexagonalPrism :: ClassName
 tiHexagonalPrism = ClassName "ti-hexagonal-prism"
@@ -7183,6 +7840,9 @@ tiHomeUp = ClassName "ti-home-up"
 
 tiHomeX :: ClassName
 tiHomeX = ClassName "ti-home-x"
+
+tiHorse :: ClassName
+tiHorse = ClassName "ti-horse"
 
 tiHorseToy :: ClassName
 tiHorseToy = ClassName "ti-horse-toy"
@@ -7379,8 +8039,17 @@ tiInnerShadowTopRight = ClassName "ti-inner-shadow-top-right"
 tiInnerShadowTopRightFilled :: ClassName
 tiInnerShadowTopRightFilled = ClassName "ti-inner-shadow-top-right-filled"
 
+tiInputAi :: ClassName
+tiInputAi = ClassName "ti-input-ai"
+
+tiInputCheck :: ClassName
+tiInputCheck = ClassName "ti-input-check"
+
 tiInputSearch :: ClassName
 tiInputSearch = ClassName "ti-input-search"
+
+tiInputX :: ClassName
+tiInputX = ClassName "ti-input-x"
 
 tiIroning :: ClassName
 tiIroning = ClassName "ti-ironing"
@@ -7469,20 +8138,38 @@ tiKeyframe = ClassName "ti-keyframe"
 tiKeyframeAlignCenter :: ClassName
 tiKeyframeAlignCenter = ClassName "ti-keyframe-align-center"
 
+tiKeyframeAlignCenterFilled :: ClassName
+tiKeyframeAlignCenterFilled = ClassName "ti-keyframe-align-center-filled"
+
 tiKeyframeAlignHorizontal :: ClassName
 tiKeyframeAlignHorizontal = ClassName "ti-keyframe-align-horizontal"
+
+tiKeyframeAlignHorizontalFilled :: ClassName
+tiKeyframeAlignHorizontalFilled = ClassName "ti-keyframe-align-horizontal-filled"
 
 tiKeyframeAlignVertical :: ClassName
 tiKeyframeAlignVertical = ClassName "ti-keyframe-align-vertical"
 
+tiKeyframeAlignVerticalFilled :: ClassName
+tiKeyframeAlignVerticalFilled = ClassName "ti-keyframe-align-vertical-filled"
+
+tiKeyframeFilled :: ClassName
+tiKeyframeFilled = ClassName "ti-keyframe-filled"
+
 tiKeyframes :: ClassName
 tiKeyframes = ClassName "ti-keyframes"
+
+tiKeyframesFilled :: ClassName
+tiKeyframesFilled = ClassName "ti-keyframes-filled"
 
 tiLadder :: ClassName
 tiLadder = ClassName "ti-ladder"
 
 tiLadderOff :: ClassName
 tiLadderOff = ClassName "ti-ladder-off"
+
+tiLadle :: ClassName
+tiLadle = ClassName "ti-ladle"
 
 tiLambda :: ClassName
 tiLambda = ClassName "ti-lambda"
@@ -7495,6 +8182,9 @@ tiLamp2 = ClassName "ti-lamp-2"
 
 tiLampOff :: ClassName
 tiLampOff = ClassName "ti-lamp-off"
+
+tiLane :: ClassName
+tiLane = ClassName "ti-lane"
 
 tiLanguage :: ClassName
 tiLanguage = ClassName "ti-language"
@@ -7574,8 +8264,17 @@ tiLayoutBottombar = ClassName "ti-layout-bottombar"
 tiLayoutBottombarCollapse :: ClassName
 tiLayoutBottombarCollapse = ClassName "ti-layout-bottombar-collapse"
 
+tiLayoutBottombarCollapseFilled :: ClassName
+tiLayoutBottombarCollapseFilled = ClassName "ti-layout-bottombar-collapse-filled"
+
 tiLayoutBottombarExpand :: ClassName
 tiLayoutBottombarExpand = ClassName "ti-layout-bottombar-expand"
+
+tiLayoutBottombarExpandFilled :: ClassName
+tiLayoutBottombarExpandFilled = ClassName "ti-layout-bottombar-expand-filled"
+
+tiLayoutBottombarFilled :: ClassName
+tiLayoutBottombarFilled = ClassName "ti-layout-bottombar-filled"
 
 tiLayoutCards :: ClassName
 tiLayoutCards = ClassName "ti-layout-cards"
@@ -7616,8 +8315,17 @@ tiLayoutNavbar = ClassName "ti-layout-navbar"
 tiLayoutNavbarCollapse :: ClassName
 tiLayoutNavbarCollapse = ClassName "ti-layout-navbar-collapse"
 
+tiLayoutNavbarCollapseFilled :: ClassName
+tiLayoutNavbarCollapseFilled = ClassName "ti-layout-navbar-collapse-filled"
+
 tiLayoutNavbarExpand :: ClassName
 tiLayoutNavbarExpand = ClassName "ti-layout-navbar-expand"
+
+tiLayoutNavbarExpandFilled :: ClassName
+tiLayoutNavbarExpandFilled = ClassName "ti-layout-navbar-expand-filled"
+
+tiLayoutNavbarFilled :: ClassName
+tiLayoutNavbarFilled = ClassName "ti-layout-navbar-filled"
 
 tiLayoutOff :: ClassName
 tiLayoutOff = ClassName "ti-layout-off"
@@ -7631,8 +8339,14 @@ tiLayoutSidebar = ClassName "ti-layout-sidebar"
 tiLayoutSidebarLeftCollapse :: ClassName
 tiLayoutSidebarLeftCollapse = ClassName "ti-layout-sidebar-left-collapse"
 
+tiLayoutSidebarLeftCollapseFilled :: ClassName
+tiLayoutSidebarLeftCollapseFilled = ClassName "ti-layout-sidebar-left-collapse-filled"
+
 tiLayoutSidebarLeftExpand :: ClassName
 tiLayoutSidebarLeftExpand = ClassName "ti-layout-sidebar-left-expand"
+
+tiLayoutSidebarLeftExpandFilled :: ClassName
+tiLayoutSidebarLeftExpandFilled = ClassName "ti-layout-sidebar-left-expand-filled"
 
 tiLayoutSidebarRight :: ClassName
 tiLayoutSidebarRight = ClassName "ti-layout-sidebar-right"
@@ -7640,8 +8354,14 @@ tiLayoutSidebarRight = ClassName "ti-layout-sidebar-right"
 tiLayoutSidebarRightCollapse :: ClassName
 tiLayoutSidebarRightCollapse = ClassName "ti-layout-sidebar-right-collapse"
 
+tiLayoutSidebarRightCollapseFilled :: ClassName
+tiLayoutSidebarRightCollapseFilled = ClassName "ti-layout-sidebar-right-collapse-filled"
+
 tiLayoutSidebarRightExpand :: ClassName
 tiLayoutSidebarRightExpand = ClassName "ti-layout-sidebar-right-expand"
+
+tiLayoutSidebarRightExpandFilled :: ClassName
+tiLayoutSidebarRightExpandFilled = ClassName "ti-layout-sidebar-right-expand-filled"
 
 tiLeaf :: ClassName
 tiLeaf = ClassName "ti-leaf"
@@ -7796,11 +8516,17 @@ tiListCheck = ClassName "ti-list-check"
 tiListDetails :: ClassName
 tiListDetails = ClassName "ti-list-details"
 
+tiListLetters :: ClassName
+tiListLetters = ClassName "ti-list-letters"
+
 tiListNumbers :: ClassName
 tiListNumbers = ClassName "ti-list-numbers"
 
 tiListSearch :: ClassName
 tiListSearch = ClassName "ti-list-search"
+
+tiListTree :: ClassName
+tiListTree = ClassName "ti-list-tree"
 
 tiLivePhoto :: ClassName
 tiLivePhoto = ClassName "ti-live-photo"
@@ -7829,14 +8555,74 @@ tiLoaderQuarter = ClassName "ti-loader-quarter"
 tiLocation :: ClassName
 tiLocation = ClassName "ti-location"
 
+tiLocationBolt :: ClassName
+tiLocationBolt = ClassName "ti-location-bolt"
+
 tiLocationBroken :: ClassName
 tiLocationBroken = ClassName "ti-location-broken"
+
+tiLocationCancel :: ClassName
+tiLocationCancel = ClassName "ti-location-cancel"
+
+tiLocationCheck :: ClassName
+tiLocationCheck = ClassName "ti-location-check"
+
+tiLocationCode :: ClassName
+tiLocationCode = ClassName "ti-location-code"
+
+tiLocationCog :: ClassName
+tiLocationCog = ClassName "ti-location-cog"
+
+tiLocationDiscount :: ClassName
+tiLocationDiscount = ClassName "ti-location-discount"
+
+tiLocationDollar :: ClassName
+tiLocationDollar = ClassName "ti-location-dollar"
+
+tiLocationDown :: ClassName
+tiLocationDown = ClassName "ti-location-down"
+
+tiLocationExclamation :: ClassName
+tiLocationExclamation = ClassName "ti-location-exclamation"
 
 tiLocationFilled :: ClassName
 tiLocationFilled = ClassName "ti-location-filled"
 
+tiLocationHeart :: ClassName
+tiLocationHeart = ClassName "ti-location-heart"
+
+tiLocationMinus :: ClassName
+tiLocationMinus = ClassName "ti-location-minus"
+
 tiLocationOff :: ClassName
 tiLocationOff = ClassName "ti-location-off"
+
+tiLocationPause :: ClassName
+tiLocationPause = ClassName "ti-location-pause"
+
+tiLocationPin :: ClassName
+tiLocationPin = ClassName "ti-location-pin"
+
+tiLocationPlus :: ClassName
+tiLocationPlus = ClassName "ti-location-plus"
+
+tiLocationQuestion :: ClassName
+tiLocationQuestion = ClassName "ti-location-question"
+
+tiLocationSearch :: ClassName
+tiLocationSearch = ClassName "ti-location-search"
+
+tiLocationShare :: ClassName
+tiLocationShare = ClassName "ti-location-share"
+
+tiLocationStar :: ClassName
+tiLocationStar = ClassName "ti-location-star"
+
+tiLocationUp :: ClassName
+tiLocationUp = ClassName "ti-location-up"
+
+tiLocationX :: ClassName
+tiLocationX = ClassName "ti-location-x"
 
 tiLock :: ClassName
 tiLock = ClassName "ti-lock"
@@ -7948,6 +8734,9 @@ tiLogicXor = ClassName "ti-logic-xor"
 
 tiLogin :: ClassName
 tiLogin = ClassName "ti-login"
+
+tiLogin2 :: ClassName
+tiLogin2 = ClassName "ti-login-2"
 
 tiLogout :: ClassName
 tiLogout = ClassName "ti-logout"
@@ -8084,11 +8873,56 @@ tiMap = ClassName "ti-map"
 tiMap2 :: ClassName
 tiMap2 = ClassName "ti-map-2"
 
+tiMapBolt :: ClassName
+tiMapBolt = ClassName "ti-map-bolt"
+
+tiMapCancel :: ClassName
+tiMapCancel = ClassName "ti-map-cancel"
+
+tiMapCheck :: ClassName
+tiMapCheck = ClassName "ti-map-check"
+
+tiMapCode :: ClassName
+tiMapCode = ClassName "ti-map-code"
+
+tiMapCog :: ClassName
+tiMapCog = ClassName "ti-map-cog"
+
+tiMapDiscount :: ClassName
+tiMapDiscount = ClassName "ti-map-discount"
+
+tiMapDollar :: ClassName
+tiMapDollar = ClassName "ti-map-dollar"
+
+tiMapDown :: ClassName
+tiMapDown = ClassName "ti-map-down"
+
+tiMapEast :: ClassName
+tiMapEast = ClassName "ti-map-east"
+
+tiMapExclamation :: ClassName
+tiMapExclamation = ClassName "ti-map-exclamation"
+
+tiMapHeart :: ClassName
+tiMapHeart = ClassName "ti-map-heart"
+
+tiMapMinus :: ClassName
+tiMapMinus = ClassName "ti-map-minus"
+
+tiMapNorth :: ClassName
+tiMapNorth = ClassName "ti-map-north"
+
 tiMapOff :: ClassName
 tiMapOff = ClassName "ti-map-off"
 
+tiMapPause :: ClassName
+tiMapPause = ClassName "ti-map-pause"
+
 tiMapPin :: ClassName
 tiMapPin = ClassName "ti-map-pin"
+
+tiMapPin2 :: ClassName
+tiMapPin2 = ClassName "ti-map-pin-2"
 
 tiMapPinBolt :: ClassName
 tiMapPinBolt = ClassName "ti-map-pin-bolt"
@@ -8156,8 +8990,35 @@ tiMapPinX = ClassName "ti-map-pin-x"
 tiMapPins :: ClassName
 tiMapPins = ClassName "ti-map-pins"
 
+tiMapPlus :: ClassName
+tiMapPlus = ClassName "ti-map-plus"
+
+tiMapQuestion :: ClassName
+tiMapQuestion = ClassName "ti-map-question"
+
+tiMapRoute :: ClassName
+tiMapRoute = ClassName "ti-map-route"
+
 tiMapSearch :: ClassName
 tiMapSearch = ClassName "ti-map-search"
+
+tiMapShare :: ClassName
+tiMapShare = ClassName "ti-map-share"
+
+tiMapSouth :: ClassName
+tiMapSouth = ClassName "ti-map-south"
+
+tiMapStar :: ClassName
+tiMapStar = ClassName "ti-map-star"
+
+tiMapUp :: ClassName
+tiMapUp = ClassName "ti-map-up"
+
+tiMapWest :: ClassName
+tiMapWest = ClassName "ti-map-west"
+
+tiMapX :: ClassName
+tiMapX = ClassName "ti-map-x"
 
 tiMarkdown :: ClassName
 tiMarkdown = ClassName "ti-markdown"
@@ -8309,6 +9170,9 @@ tiMedal2 = ClassName "ti-medal-2"
 tiMedicalCross :: ClassName
 tiMedicalCross = ClassName "ti-medical-cross"
 
+tiMedicalCrossCircle :: ClassName
+tiMedicalCrossCircle = ClassName "ti-medical-cross-circle"
+
 tiMedicalCrossFilled :: ClassName
 tiMedicalCrossFilled = ClassName "ti-medical-cross-filled"
 
@@ -8321,6 +9185,9 @@ tiMedicineSyrup = ClassName "ti-medicine-syrup"
 tiMeeple :: ClassName
 tiMeeple = ClassName "ti-meeple"
 
+tiMelon :: ClassName
+tiMelon = ClassName "ti-melon"
+
 tiMenorah :: ClassName
 tiMenorah = ClassName "ti-menorah"
 
@@ -8329,6 +9196,9 @@ tiMenu = ClassName "ti-menu"
 
 tiMenu2 :: ClassName
 tiMenu2 = ClassName "ti-menu-2"
+
+tiMenuDeep :: ClassName
+tiMenuDeep = ClassName "ti-menu-deep"
 
 tiMenuOrder :: ClassName
 tiMenuOrder = ClassName "ti-menu-order"
@@ -8554,6 +9424,15 @@ tiMeteor = ClassName "ti-meteor"
 
 tiMeteorOff :: ClassName
 tiMeteorOff = ClassName "ti-meteor-off"
+
+tiMichelinBibGourmand :: ClassName
+tiMichelinBibGourmand = ClassName "ti-michelin-bib-gourmand"
+
+tiMichelinStar :: ClassName
+tiMichelinStar = ClassName "ti-michelin-star"
+
+tiMichelinStarGreen :: ClassName
+tiMichelinStarGreen = ClassName "ti-michelin-star-green"
 
 tiMickey :: ClassName
 tiMickey = ClassName "ti-mickey"
@@ -8819,6 +9698,9 @@ tiMouse = ClassName "ti-mouse"
 tiMouse2 :: ClassName
 tiMouse2 = ClassName "ti-mouse-2"
 
+tiMouseFilled :: ClassName
+tiMouseFilled = ClassName "ti-mouse-filled"
+
 tiMouseOff :: ClassName
 tiMouseOff = ClassName "ti-mouse-off"
 
@@ -8861,17 +9743,140 @@ tiMushroomOff = ClassName "ti-mushroom-off"
 tiMusic :: ClassName
 tiMusic = ClassName "ti-music"
 
+tiMusicBolt :: ClassName
+tiMusicBolt = ClassName "ti-music-bolt"
+
+tiMusicCancel :: ClassName
+tiMusicCancel = ClassName "ti-music-cancel"
+
+tiMusicCheck :: ClassName
+tiMusicCheck = ClassName "ti-music-check"
+
+tiMusicCode :: ClassName
+tiMusicCode = ClassName "ti-music-code"
+
+tiMusicCog :: ClassName
+tiMusicCog = ClassName "ti-music-cog"
+
+tiMusicDiscount :: ClassName
+tiMusicDiscount = ClassName "ti-music-discount"
+
+tiMusicDollar :: ClassName
+tiMusicDollar = ClassName "ti-music-dollar"
+
+tiMusicDown :: ClassName
+tiMusicDown = ClassName "ti-music-down"
+
+tiMusicExclamation :: ClassName
+tiMusicExclamation = ClassName "ti-music-exclamation"
+
+tiMusicHeart :: ClassName
+tiMusicHeart = ClassName "ti-music-heart"
+
+tiMusicMinus :: ClassName
+tiMusicMinus = ClassName "ti-music-minus"
+
 tiMusicOff :: ClassName
 tiMusicOff = ClassName "ti-music-off"
+
+tiMusicPause :: ClassName
+tiMusicPause = ClassName "ti-music-pause"
+
+tiMusicPin :: ClassName
+tiMusicPin = ClassName "ti-music-pin"
+
+tiMusicPlus :: ClassName
+tiMusicPlus = ClassName "ti-music-plus"
+
+tiMusicQuestion :: ClassName
+tiMusicQuestion = ClassName "ti-music-question"
+
+tiMusicSearch :: ClassName
+tiMusicSearch = ClassName "ti-music-search"
+
+tiMusicShare :: ClassName
+tiMusicShare = ClassName "ti-music-share"
+
+tiMusicStar :: ClassName
+tiMusicStar = ClassName "ti-music-star"
+
+tiMusicUp :: ClassName
+tiMusicUp = ClassName "ti-music-up"
+
+tiMusicX :: ClassName
+tiMusicX = ClassName "ti-music-x"
 
 tiNavigation :: ClassName
 tiNavigation = ClassName "ti-navigation"
 
+tiNavigationBolt :: ClassName
+tiNavigationBolt = ClassName "ti-navigation-bolt"
+
+tiNavigationCancel :: ClassName
+tiNavigationCancel = ClassName "ti-navigation-cancel"
+
+tiNavigationCheck :: ClassName
+tiNavigationCheck = ClassName "ti-navigation-check"
+
+tiNavigationCode :: ClassName
+tiNavigationCode = ClassName "ti-navigation-code"
+
+tiNavigationCog :: ClassName
+tiNavigationCog = ClassName "ti-navigation-cog"
+
+tiNavigationDiscount :: ClassName
+tiNavigationDiscount = ClassName "ti-navigation-discount"
+
+tiNavigationDollar :: ClassName
+tiNavigationDollar = ClassName "ti-navigation-dollar"
+
+tiNavigationDown :: ClassName
+tiNavigationDown = ClassName "ti-navigation-down"
+
+tiNavigationExclamation :: ClassName
+tiNavigationExclamation = ClassName "ti-navigation-exclamation"
+
 tiNavigationFilled :: ClassName
 tiNavigationFilled = ClassName "ti-navigation-filled"
 
+tiNavigationHeart :: ClassName
+tiNavigationHeart = ClassName "ti-navigation-heart"
+
+tiNavigationMinus :: ClassName
+tiNavigationMinus = ClassName "ti-navigation-minus"
+
+tiNavigationNorth :: ClassName
+tiNavigationNorth = ClassName "ti-navigation-north"
+
 tiNavigationOff :: ClassName
 tiNavigationOff = ClassName "ti-navigation-off"
+
+tiNavigationPause :: ClassName
+tiNavigationPause = ClassName "ti-navigation-pause"
+
+tiNavigationPin :: ClassName
+tiNavigationPin = ClassName "ti-navigation-pin"
+
+tiNavigationPlus :: ClassName
+tiNavigationPlus = ClassName "ti-navigation-plus"
+
+tiNavigationQuestion :: ClassName
+tiNavigationQuestion = ClassName "ti-navigation-question"
+
+tiNavigationSearch :: ClassName
+tiNavigationSearch = ClassName "ti-navigation-search"
+
+tiNavigationShare :: ClassName
+tiNavigationShare = ClassName "ti-navigation-share"
+
+tiNavigationStar :: ClassName
+tiNavigationStar = ClassName "ti-navigation-star"
+
+tiNavigationUp :: ClassName
+tiNavigationUp = ClassName "ti-navigation-up"
+
+tiNavigationX :: ClassName
+tiNavigationX = ClassName "ti-navigation-x"
 
 tiNeedle :: ClassName
 tiNeedle = ClassName "ti-needle"
@@ -8975,14 +9980,29 @@ tiNumbers = ClassName "ti-numbers"
 tiNurse :: ClassName
 tiNurse = ClassName "ti-nurse"
 
+tiNut :: ClassName
+tiNut = ClassName "ti-nut"
+
 tiOctagon :: ClassName
 tiOctagon = ClassName "ti-octagon"
 
 tiOctagonFilled :: ClassName
 tiOctagonFilled = ClassName "ti-octagon-filled"
 
+tiOctagonMinus :: ClassName
+tiOctagonMinus = ClassName "ti-octagon-minus"
+
+tiOctagonMinus2 :: ClassName
+tiOctagonMinus2 = ClassName "ti-octagon-minus-2"
+
 tiOctagonOff :: ClassName
 tiOctagonOff = ClassName "ti-octagon-off"
+
+tiOctagonPlus :: ClassName
+tiOctagonPlus = ClassName "ti-octagon-plus"
+
+tiOctagonPlus2 :: ClassName
+tiOctagonPlus2 = ClassName "ti-octagon-plus-2"
 
 tiOctahedron :: ClassName
 tiOctahedron = ClassName "ti-octahedron"
@@ -9107,6 +10127,15 @@ tiParkingOff = ClassName "ti-parking-off"
 tiPassword :: ClassName
 tiPassword = ClassName "ti-password"
 
+tiPasswordFingerprint :: ClassName
+tiPasswordFingerprint = ClassName "ti-password-fingerprint"
+
+tiPasswordMobilePhone :: ClassName
+tiPasswordMobilePhone = ClassName "ti-password-mobile-phone"
+
+tiPasswordUser :: ClassName
+tiPasswordUser = ClassName "ti-password-user"
+
 tiPaw :: ClassName
 tiPaw = ClassName "ti-paw"
 
@@ -9125,14 +10154,68 @@ tiPeace = ClassName "ti-peace"
 tiPencil :: ClassName
 tiPencil = ClassName "ti-pencil"
 
+tiPencilBolt :: ClassName
+tiPencilBolt = ClassName "ti-pencil-bolt"
+
+tiPencilCancel :: ClassName
+tiPencilCancel = ClassName "ti-pencil-cancel"
+
+tiPencilCheck :: ClassName
+tiPencilCheck = ClassName "ti-pencil-check"
+
+tiPencilCode :: ClassName
+tiPencilCode = ClassName "ti-pencil-code"
+
+tiPencilCog :: ClassName
+tiPencilCog = ClassName "ti-pencil-cog"
+
+tiPencilDiscount :: ClassName
+tiPencilDiscount = ClassName "ti-pencil-discount"
+
+tiPencilDollar :: ClassName
+tiPencilDollar = ClassName "ti-pencil-dollar"
+
+tiPencilDown :: ClassName
+tiPencilDown = ClassName "ti-pencil-down"
+
+tiPencilExclamation :: ClassName
+tiPencilExclamation = ClassName "ti-pencil-exclamation"
+
+tiPencilHeart :: ClassName
+tiPencilHeart = ClassName "ti-pencil-heart"
+
 tiPencilMinus :: ClassName
 tiPencilMinus = ClassName "ti-pencil-minus"
 
 tiPencilOff :: ClassName
 tiPencilOff = ClassName "ti-pencil-off"
 
+tiPencilPause :: ClassName
+tiPencilPause = ClassName "ti-pencil-pause"
+
+tiPencilPin :: ClassName
+tiPencilPin = ClassName "ti-pencil-pin"
+
 tiPencilPlus :: ClassName
 tiPencilPlus = ClassName "ti-pencil-plus"
+
+tiPencilQuestion :: ClassName
+tiPencilQuestion = ClassName "ti-pencil-question"
+
+tiPencilSearch :: ClassName
+tiPencilSearch = ClassName "ti-pencil-search"
+
+tiPencilShare :: ClassName
+tiPencilShare = ClassName "ti-pencil-share"
+
+tiPencilStar :: ClassName
+tiPencilStar = ClassName "ti-pencil-star"
+
+tiPencilUp :: ClassName
+tiPencilUp = ClassName "ti-pencil-up"
+
+tiPencilX :: ClassName
+tiPencilX = ClassName "ti-pencil-x"
 
 tiPennant :: ClassName
 tiPennant = ClassName "ti-pennant"
@@ -9155,8 +10238,44 @@ tiPentagon = ClassName "ti-pentagon"
 tiPentagonFilled :: ClassName
 tiPentagonFilled = ClassName "ti-pentagon-filled"
 
+tiPentagonNumber0 :: ClassName
+tiPentagonNumber0 = ClassName "ti-pentagon-number-0"
+
+tiPentagonNumber1 :: ClassName
+tiPentagonNumber1 = ClassName "ti-pentagon-number-1"
+
+tiPentagonNumber2 :: ClassName
+tiPentagonNumber2 = ClassName "ti-pentagon-number-2"
+
+tiPentagonNumber3 :: ClassName
+tiPentagonNumber3 = ClassName "ti-pentagon-number-3"
+
+tiPentagonNumber4 :: ClassName
+tiPentagonNumber4 = ClassName "ti-pentagon-number-4"
+
+tiPentagonNumber5 :: ClassName
+tiPentagonNumber5 = ClassName "ti-pentagon-number-5"
+
+tiPentagonNumber6 :: ClassName
+tiPentagonNumber6 = ClassName "ti-pentagon-number-6"
+
+tiPentagonNumber7 :: ClassName
+tiPentagonNumber7 = ClassName "ti-pentagon-number-7"
+
+tiPentagonNumber8 :: ClassName
+tiPentagonNumber8 = ClassName "ti-pentagon-number-8"
+
+tiPentagonNumber9 :: ClassName
+tiPentagonNumber9 = ClassName "ti-pentagon-number-9"
+
 tiPentagonOff :: ClassName
 tiPentagonOff = ClassName "ti-pentagon-off"
+
+tiPentagonPlus :: ClassName
+tiPentagonPlus = ClassName "ti-pentagon-plus"
+
+tiPentagonX :: ClassName
+tiPentagonX = ClassName "ti-pentagon-x"
 
 tiPentagram :: ClassName
 tiPentagram = ClassName "ti-pentagram"
@@ -9227,6 +10346,15 @@ tiPhotoCancel = ClassName "ti-photo-cancel"
 tiPhotoCheck :: ClassName
 tiPhotoCheck = ClassName "ti-photo-check"
 
+tiPhotoCircle :: ClassName
+tiPhotoCircle = ClassName "ti-photo-circle"
+
+tiPhotoCircleMinus :: ClassName
+tiPhotoCircleMinus = ClassName "ti-photo-circle-minus"
+
+tiPhotoCirclePlus :: ClassName
+tiPhotoCirclePlus = ClassName "ti-photo-circle-plus"
+
 tiPhotoCode :: ClassName
 tiPhotoCode = ClassName "ti-photo-code"
 
@@ -9251,6 +10379,9 @@ tiPhotoFilled = ClassName "ti-photo-filled"
 tiPhotoHeart :: ClassName
 tiPhotoHeart = ClassName "ti-photo-heart"
 
+tiPhotoHexagon :: ClassName
+tiPhotoHexagon = ClassName "ti-photo-hexagon"
+
 tiPhotoMinus :: ClassName
 tiPhotoMinus = ClassName "ti-photo-minus"
 
@@ -9259,6 +10390,9 @@ tiPhotoOff = ClassName "ti-photo-off"
 
 tiPhotoPause :: ClassName
 tiPhotoPause = ClassName "ti-photo-pause"
+
+tiPhotoPentagon :: ClassName
+tiPhotoPentagon = ClassName "ti-photo-pentagon"
 
 tiPhotoPin :: ClassName
 tiPhotoPin = ClassName "ti-photo-pin"
@@ -9287,17 +10421,29 @@ tiPhotoShare = ClassName "ti-photo-share"
 tiPhotoShield :: ClassName
 tiPhotoShield = ClassName "ti-photo-shield"
 
+tiPhotoSquareRounded :: ClassName
+tiPhotoSquareRounded = ClassName "ti-photo-square-rounded"
+
 tiPhotoStar :: ClassName
 tiPhotoStar = ClassName "ti-photo-star"
 
 tiPhotoUp :: ClassName
 tiPhotoUp = ClassName "ti-photo-up"
 
+tiPhotoVideo :: ClassName
+tiPhotoVideo = ClassName "ti-photo-video"
+
 tiPhotoX :: ClassName
 tiPhotoX = ClassName "ti-photo-x"
 
 tiPhysotherapist :: ClassName
 tiPhysotherapist = ClassName "ti-physotherapist"
+
+tiPiano :: ClassName
+tiPiano = ClassName "ti-piano"
+
+tiPick :: ClassName
+tiPick = ClassName "ti-pick"
 
 tiPictureInPicture :: ClassName
 tiPictureInPicture = ClassName "ti-picture-in-picture"
@@ -9560,6 +10706,9 @@ tiPointerDown = ClassName "ti-pointer-down"
 tiPointerExclamation :: ClassName
 tiPointerExclamation = ClassName "ti-pointer-exclamation"
 
+tiPointerFilled :: ClassName
+tiPointerFilled = ClassName "ti-pointer-filled"
+
 tiPointerHeart :: ClassName
 tiPointerHeart = ClassName "ti-pointer-heart"
 
@@ -9734,6 +10883,9 @@ tiQuote = ClassName "ti-quote"
 tiQuoteOff :: ClassName
 tiQuoteOff = ClassName "ti-quote-off"
 
+tiQuotes :: ClassName
+tiQuotes = ClassName "ti-quotes"
+
 tiRadar :: ClassName
 tiRadar = ClassName "ti-radar"
 
@@ -9827,6 +10979,12 @@ tiRectangle = ClassName "ti-rectangle"
 tiRectangleFilled :: ClassName
 tiRectangleFilled = ClassName "ti-rectangle-filled"
 
+tiRectangleRoundedBottom :: ClassName
+tiRectangleRoundedBottom = ClassName "ti-rectangle-rounded-bottom"
+
+tiRectangleRoundedTop :: ClassName
+tiRectangleRoundedTop = ClassName "ti-rectangle-rounded-top"
+
 tiRectangleVertical :: ClassName
 tiRectangleVertical = ClassName "ti-rectangle-vertical"
 
@@ -9881,6 +11039,9 @@ tiRelationOneToOne = ClassName "ti-relation-one-to-one"
 tiReload :: ClassName
 tiReload = ClassName "ti-reload"
 
+tiReorder :: ClassName
+tiReorder = ClassName "ti-reorder"
+
 tiRepeat :: ClassName
 tiRepeat = ClassName "ti-repeat"
 
@@ -9922,6 +11083,9 @@ tiReservedLine = ClassName "ti-reserved-line"
 
 tiResize :: ClassName
 tiResize = ClassName "ti-resize"
+
+tiRestore :: ClassName
+tiRestore = ClassName "ti-restore"
 
 tiRewindBackward10 :: ClassName
 tiRewindBackward10 = ClassName "ti-rewind-backward-10"
@@ -10090,6 +11254,9 @@ tiRowInsertBottom = ClassName "ti-row-insert-bottom"
 
 tiRowInsertTop :: ClassName
 tiRowInsertTop = ClassName "ti-row-insert-top"
+
+tiRowRemove :: ClassName
+tiRowRemove = ClassName "ti-row-remove"
 
 tiRss :: ClassName
 tiRss = ClassName "ti-rss"
@@ -10526,17 +11693,98 @@ tiShoeOff = ClassName "ti-shoe-off"
 tiShoppingBag :: ClassName
 tiShoppingBag = ClassName "ti-shopping-bag"
 
+tiShoppingBagCheck :: ClassName
+tiShoppingBagCheck = ClassName "ti-shopping-bag-check"
+
+tiShoppingBagDiscount :: ClassName
+tiShoppingBagDiscount = ClassName "ti-shopping-bag-discount"
+
+tiShoppingBagEdit :: ClassName
+tiShoppingBagEdit = ClassName "ti-shopping-bag-edit"
+
+tiShoppingBagExclamation :: ClassName
+tiShoppingBagExclamation = ClassName "ti-shopping-bag-exclamation"
+
+tiShoppingBagMinus :: ClassName
+tiShoppingBagMinus = ClassName "ti-shopping-bag-minus"
+
+tiShoppingBagPlus :: ClassName
+tiShoppingBagPlus = ClassName "ti-shopping-bag-plus"
+
+tiShoppingBagSearch :: ClassName
+tiShoppingBagSearch = ClassName "ti-shopping-bag-search"
+
+tiShoppingBagX :: ClassName
+tiShoppingBagX = ClassName "ti-shopping-bag-x"
+
 tiShoppingCart :: ClassName
 tiShoppingCart = ClassName "ti-shopping-cart"
+
+tiShoppingCartBolt :: ClassName
+tiShoppingCartBolt = ClassName "ti-shopping-cart-bolt"
+
+tiShoppingCartCancel :: ClassName
+tiShoppingCartCancel = ClassName "ti-shopping-cart-cancel"
+
+tiShoppingCartCheck :: ClassName
+tiShoppingCartCheck = ClassName "ti-shopping-cart-check"
+
+tiShoppingCartCode :: ClassName
+tiShoppingCartCode = ClassName "ti-shopping-cart-code"
+
+tiShoppingCartCog :: ClassName
+tiShoppingCartCog = ClassName "ti-shopping-cart-cog"
+
+tiShoppingCartCopy :: ClassName
+tiShoppingCartCopy = ClassName "ti-shopping-cart-copy"
 
 tiShoppingCartDiscount :: ClassName
 tiShoppingCartDiscount = ClassName "ti-shopping-cart-discount"
 
+tiShoppingCartDollar :: ClassName
+tiShoppingCartDollar = ClassName "ti-shopping-cart-dollar"
+
+tiShoppingCartDown :: ClassName
+tiShoppingCartDown = ClassName "ti-shopping-cart-down"
+
+tiShoppingCartExclamation :: ClassName
+tiShoppingCartExclamation = ClassName "ti-shopping-cart-exclamation"
+
+tiShoppingCartFilled :: ClassName
+tiShoppingCartFilled = ClassName "ti-shopping-cart-filled"
+
+tiShoppingCartHeart :: ClassName
+tiShoppingCartHeart = ClassName "ti-shopping-cart-heart"
+
+tiShoppingCartMinus :: ClassName
+tiShoppingCartMinus = ClassName "ti-shopping-cart-minus"
+
 tiShoppingCartOff :: ClassName
 tiShoppingCartOff = ClassName "ti-shopping-cart-off"
 
+tiShoppingCartPause :: ClassName
+tiShoppingCartPause = ClassName "ti-shopping-cart-pause"
+
+tiShoppingCartPin :: ClassName
+tiShoppingCartPin = ClassName "ti-shopping-cart-pin"
+
 tiShoppingCartPlus :: ClassName
 tiShoppingCartPlus = ClassName "ti-shopping-cart-plus"
+
+tiShoppingCartQuestion :: ClassName
+tiShoppingCartQuestion = ClassName "ti-shopping-cart-question"
+
+tiShoppingCartSearch :: ClassName
+tiShoppingCartSearch = ClassName "ti-shopping-cart-search"
+
+tiShoppingCartShare :: ClassName
+tiShoppingCartShare = ClassName "ti-shopping-cart-share"
+
+tiShoppingCartStar :: ClassName
+tiShoppingCartStar = ClassName "ti-shopping-cart-star"
+
+tiShoppingCartUp :: ClassName
+tiShoppingCartUp = ClassName "ti-shopping-cart-up"
 
 tiShoppingCartX :: ClassName
 tiShoppingCartX = ClassName "ti-shopping-cart-x"
@@ -10820,17 +12068,32 @@ tiSquare9Filled = ClassName "ti-square-9-filled"
 tiSquareArrowDown :: ClassName
 tiSquareArrowDown = ClassName "ti-square-arrow-down"
 
+tiSquareArrowDownFilled :: ClassName
+tiSquareArrowDownFilled = ClassName "ti-square-arrow-down-filled"
+
 tiSquareArrowLeft :: ClassName
 tiSquareArrowLeft = ClassName "ti-square-arrow-left"
+
+tiSquareArrowLeftFilled :: ClassName
+tiSquareArrowLeftFilled = ClassName "ti-square-arrow-left-filled"
 
 tiSquareArrowRight :: ClassName
 tiSquareArrowRight = ClassName "ti-square-arrow-right"
 
+tiSquareArrowRightFilled :: ClassName
+tiSquareArrowRightFilled = ClassName "ti-square-arrow-right-filled"
+
 tiSquareArrowUp :: ClassName
 tiSquareArrowUp = ClassName "ti-square-arrow-up"
 
+tiSquareArrowUpFilled :: ClassName
+tiSquareArrowUpFilled = ClassName "ti-square-arrow-up-filled"
+
 tiSquareAsterisk :: ClassName
 tiSquareAsterisk = ClassName "ti-square-asterisk"
+
+tiSquareAsteriskFilled :: ClassName
+tiSquareAsteriskFilled = ClassName "ti-square-asterisk-filled"
 
 tiSquareCheck :: ClassName
 tiSquareCheck = ClassName "ti-square-check"
@@ -10841,29 +12104,56 @@ tiSquareCheckFilled = ClassName "ti-square-check-filled"
 tiSquareChevronDown :: ClassName
 tiSquareChevronDown = ClassName "ti-square-chevron-down"
 
+tiSquareChevronDownFilled :: ClassName
+tiSquareChevronDownFilled = ClassName "ti-square-chevron-down-filled"
+
 tiSquareChevronLeft :: ClassName
 tiSquareChevronLeft = ClassName "ti-square-chevron-left"
+
+tiSquareChevronLeftFilled :: ClassName
+tiSquareChevronLeftFilled = ClassName "ti-square-chevron-left-filled"
 
 tiSquareChevronRight :: ClassName
 tiSquareChevronRight = ClassName "ti-square-chevron-right"
 
+tiSquareChevronRightFilled :: ClassName
+tiSquareChevronRightFilled = ClassName "ti-square-chevron-right-filled"
+
 tiSquareChevronUp :: ClassName
 tiSquareChevronUp = ClassName "ti-square-chevron-up"
+
+tiSquareChevronUpFilled :: ClassName
+tiSquareChevronUpFilled = ClassName "ti-square-chevron-up-filled"
 
 tiSquareChevronsDown :: ClassName
 tiSquareChevronsDown = ClassName "ti-square-chevrons-down"
 
+tiSquareChevronsDownFilled :: ClassName
+tiSquareChevronsDownFilled = ClassName "ti-square-chevrons-down-filled"
+
 tiSquareChevronsLeft :: ClassName
 tiSquareChevronsLeft = ClassName "ti-square-chevrons-left"
+
+tiSquareChevronsLeftFilled :: ClassName
+tiSquareChevronsLeftFilled = ClassName "ti-square-chevrons-left-filled"
 
 tiSquareChevronsRight :: ClassName
 tiSquareChevronsRight = ClassName "ti-square-chevrons-right"
 
+tiSquareChevronsRightFilled :: ClassName
+tiSquareChevronsRightFilled = ClassName "ti-square-chevrons-right-filled"
+
 tiSquareChevronsUp :: ClassName
 tiSquareChevronsUp = ClassName "ti-square-chevrons-up"
 
+tiSquareChevronsUpFilled :: ClassName
+tiSquareChevronsUpFilled = ClassName "ti-square-chevrons-up-filled"
+
 tiSquareDot :: ClassName
 tiSquareDot = ClassName "ti-square-dot"
+
+tiSquareDotFilled :: ClassName
+tiSquareDotFilled = ClassName "ti-square-dot-filled"
 
 tiSquareF0 :: ClassName
 tiSquareF0 = ClassName "ti-square-f0"
@@ -10924,6 +12214,9 @@ tiSquareF9 = ClassName "ti-square-f9"
 
 tiSquareF9Filled :: ClassName
 tiSquareF9Filled = ClassName "ti-square-f9-filled"
+
+tiSquareFilled :: ClassName
+tiSquareFilled = ClassName "ti-square-filled"
 
 tiSquareForbid :: ClassName
 tiSquareForbid = ClassName "ti-square-forbid"
@@ -11018,6 +12311,9 @@ tiSquareLetterZ = ClassName "ti-square-letter-z"
 tiSquareMinus :: ClassName
 tiSquareMinus = ClassName "ti-square-minus"
 
+tiSquareMinusFilled :: ClassName
+tiSquareMinusFilled = ClassName "ti-square-minus-filled"
+
 tiSquareNumber0 :: ClassName
 tiSquareNumber0 = ClassName "ti-square-number-0"
 
@@ -11053,6 +12349,9 @@ tiSquareOff = ClassName "ti-square-off"
 
 tiSquarePlus :: ClassName
 tiSquarePlus = ClassName "ti-square-plus"
+
+tiSquarePlus2 :: ClassName
+tiSquarePlus2 = ClassName "ti-square-plus-2"
 
 tiSquareRoot :: ClassName
 tiSquareRoot = ClassName "ti-square-root"
@@ -11240,6 +12539,12 @@ tiSquareRoundedLetterZ = ClassName "ti-square-rounded-letter-z"
 tiSquareRoundedMinus :: ClassName
 tiSquareRoundedMinus = ClassName "ti-square-rounded-minus"
 
+tiSquareRoundedMinus2 :: ClassName
+tiSquareRoundedMinus2 = ClassName "ti-square-rounded-minus-2"
+
+tiSquareRoundedMinusFilled :: ClassName
+tiSquareRoundedMinusFilled = ClassName "ti-square-rounded-minus-filled"
+
 tiSquareRoundedNumber0 :: ClassName
 tiSquareRoundedNumber0 = ClassName "ti-square-rounded-number-0"
 
@@ -11303,6 +12608,9 @@ tiSquareRoundedNumber9Filled = ClassName "ti-square-rounded-number-9-filled"
 tiSquareRoundedPlus :: ClassName
 tiSquareRoundedPlus = ClassName "ti-square-rounded-plus"
 
+tiSquareRoundedPlus2 :: ClassName
+tiSquareRoundedPlus2 = ClassName "ti-square-rounded-plus-2"
+
 tiSquareRoundedPlusFilled :: ClassName
 tiSquareRoundedPlusFilled = ClassName "ti-square-rounded-plus-filled"
 
@@ -11320,6 +12628,9 @@ tiSquareToggleHorizontal = ClassName "ti-square-toggle-horizontal"
 
 tiSquareX :: ClassName
 tiSquareX = ClassName "ti-square-x"
+
+tiSquareXFilled :: ClassName
+tiSquareXFilled = ClassName "ti-square-x-filled"
 
 tiSquaresDiagonal :: ClassName
 tiSquaresDiagonal = ClassName "ti-squares-diagonal"
@@ -11510,6 +12821,9 @@ tiTable = ClassName "ti-table"
 tiTableAlias :: ClassName
 tiTableAlias = ClassName "ti-table-alias"
 
+tiTableColumn :: ClassName
+tiTableColumn = ClassName "ti-table-column"
+
 tiTableDown :: ClassName
 tiTableDown = ClassName "ti-table-down"
 
@@ -11537,6 +12851,9 @@ tiTableOptions = ClassName "ti-table-options"
 tiTablePlus :: ClassName
 tiTablePlus = ClassName "ti-table-plus"
 
+tiTableRow :: ClassName
+tiTableRow = ClassName "ti-table-row"
+
 tiTableShare :: ClassName
 tiTableShare = ClassName "ti-table-share"
 
@@ -11548,6 +12865,9 @@ tiTag = ClassName "ti-tag"
 
 tiTagOff :: ClassName
 tiTagOff = ClassName "ti-tag-off"
+
+tiTagStarred :: ClassName
+tiTagStarred = ClassName "ti-tag-starred"
 
 tiTags :: ClassName
 tiTags = ClassName "ti-tags"
@@ -11729,6 +13049,33 @@ tiTiltShift = ClassName "ti-tilt-shift"
 tiTiltShiftOff :: ClassName
 tiTiltShiftOff = ClassName "ti-tilt-shift-off"
 
+tiTimeDuration0 :: ClassName
+tiTimeDuration0 = ClassName "ti-time-duration-0"
+
+tiTimeDuration10 :: ClassName
+tiTimeDuration10 = ClassName "ti-time-duration-10"
+
+tiTimeDuration15 :: ClassName
+tiTimeDuration15 = ClassName "ti-time-duration-15"
+
+tiTimeDuration30 :: ClassName
+tiTimeDuration30 = ClassName "ti-time-duration-30"
+
+tiTimeDuration45 :: ClassName
+tiTimeDuration45 = ClassName "ti-time-duration-45"
+
+tiTimeDuration5 :: ClassName
+tiTimeDuration5 = ClassName "ti-time-duration-5"
+
+tiTimeDuration60 :: ClassName
+tiTimeDuration60 = ClassName "ti-time-duration-60"
+
+tiTimeDuration90 :: ClassName
+tiTimeDuration90 = ClassName "ti-time-duration-90"
+
+tiTimeDurationOff :: ClassName
+tiTimeDurationOff = ClassName "ti-time-duration-off"
+
 tiTimeline :: ClassName
 tiTimeline = ClassName "ti-timeline"
 
@@ -11870,11 +13217,17 @@ tiTrafficLightsOff = ClassName "ti-traffic-lights-off"
 tiTrain :: ClassName
 tiTrain = ClassName "ti-train"
 
+tiTransfer :: ClassName
+tiTransfer = ClassName "ti-transfer"
+
 tiTransferIn :: ClassName
 tiTransferIn = ClassName "ti-transfer-in"
 
 tiTransferOut :: ClassName
 tiTransferOut = ClassName "ti-transfer-out"
+
+tiTransferVertical :: ClassName
+tiTransferVertical = ClassName "ti-transfer-vertical"
 
 tiTransform :: ClassName
 tiTransform = ClassName "ti-transform"
@@ -11951,11 +13304,26 @@ tiTriangleInverted = ClassName "ti-triangle-inverted"
 tiTriangleInvertedFilled :: ClassName
 tiTriangleInvertedFilled = ClassName "ti-triangle-inverted-filled"
 
+tiTriangleMinus :: ClassName
+tiTriangleMinus = ClassName "ti-triangle-minus"
+
+tiTriangleMinus2 :: ClassName
+tiTriangleMinus2 = ClassName "ti-triangle-minus-2"
+
 tiTriangleOff :: ClassName
 tiTriangleOff = ClassName "ti-triangle-off"
 
+tiTrianglePlus :: ClassName
+tiTrianglePlus = ClassName "ti-triangle-plus"
+
+tiTrianglePlus2 :: ClassName
+tiTrianglePlus2 = ClassName "ti-triangle-plus-2"
+
 tiTriangleSquareCircle :: ClassName
 tiTriangleSquareCircle = ClassName "ti-triangle-square-circle"
+
+tiTriangleSquareCircleFilled :: ClassName
+tiTriangleSquareCircleFilled = ClassName "ti-triangle-square-circle-filled"
 
 tiTriangles :: ClassName
 tiTriangles = ClassName "ti-triangles"
@@ -12068,6 +13436,9 @@ tiUserExclamation = ClassName "ti-user-exclamation"
 tiUserHeart :: ClassName
 tiUserHeart = ClassName "ti-user-heart"
 
+tiUserHexagon :: ClassName
+tiUserHexagon = ClassName "ti-user-hexagon"
+
 tiUserMinus :: ClassName
 tiUserMinus = ClassName "ti-user-minus"
 
@@ -12076,6 +13447,9 @@ tiUserOff = ClassName "ti-user-off"
 
 tiUserPause :: ClassName
 tiUserPause = ClassName "ti-user-pause"
+
+tiUserPentagon :: ClassName
+tiUserPentagon = ClassName "ti-user-pentagon"
 
 tiUserPin :: ClassName
 tiUserPin = ClassName "ti-user-pin"
@@ -12094,6 +13468,12 @@ tiUserShare = ClassName "ti-user-share"
 
 tiUserShield :: ClassName
 tiUserShield = ClassName "ti-user-shield"
+
+tiUserSquare :: ClassName
+tiUserSquare = ClassName "ti-user-square"
+
+tiUserSquareRounded :: ClassName
+tiUserSquareRounded = ClassName "ti-user-square-rounded"
 
 tiUserStar :: ClassName
 tiUserStar = ClassName "ti-user-star"
@@ -12257,6 +13637,9 @@ tiVolume3 = ClassName "ti-volume-3"
 tiVolumeOff :: ClassName
 tiVolumeOff = ClassName "ti-volume-off"
 
+tiVs :: ClassName
+tiVs = ClassName "ti-vs"
+
 tiWalk :: ClassName
 tiWalk = ClassName "ti-walk"
 
@@ -12394,6 +13777,9 @@ tiWebhookOff = ClassName "ti-webhook-off"
 
 tiWeight :: ClassName
 tiWeight = ClassName "ti-weight"
+
+tiWheel :: ClassName
+tiWheel = ClassName "ti-wheel"
 
 tiWheelchair :: ClassName
 tiWheelchair = ClassName "ti-wheelchair"
@@ -12571,6 +13957,9 @@ tiXboxY = ClassName "ti-xbox-y"
 
 tiXd :: ClassName
 tiXd = ClassName "ti-xd"
+
+tiXxx :: ClassName
+tiXxx = ClassName "ti-xxx"
 
 tiYinYang :: ClassName
 tiYinYang = ClassName "ti-yin-yang"

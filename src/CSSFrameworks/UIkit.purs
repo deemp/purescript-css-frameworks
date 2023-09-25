@@ -1238,6 +1238,9 @@ ukNavbarCenterRight = ClassName "uk-navbar-center-right"
 ukNavbarContainer :: ClassName
 ukNavbarContainer = ClassName "uk-navbar-container"
 
+ukNavbarDropbarBehind :: ClassName
+ukNavbarDropbarBehind = ClassName "uk-navbar-dropbar-behind"
+
 ukNavbarDropdown :: ClassName
 ukNavbarDropdown = ClassName "uk-navbar-dropdown"
 

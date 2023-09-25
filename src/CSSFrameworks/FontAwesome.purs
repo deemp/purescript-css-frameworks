@@ -1880,6 +1880,9 @@ faDeaf = ClassName "fa-deaf"
 faDeafness :: ClassName
 faDeafness = ClassName "fa-deafness"
 
+faDebian :: ClassName
+faDebian = ClassName "fa-debian"
+
 faDedent :: ClassName
 faDedent = ClassName "fa-dedent"
 
@@ -6098,6 +6101,9 @@ faSquareSnapchat = ClassName "fa-square-snapchat"
 faSquareSteam :: ClassName
 faSquareSteam = ClassName "fa-square-steam"
 
+faSquareThreads :: ClassName
+faSquareThreads = ClassName "fa-square-threads"
+
 faSquareTumblr :: ClassName
 faSquareTumblr = ClassName "fa-square-tumblr"
 
@@ -6118,6 +6124,9 @@ faSquareVirus = ClassName "fa-square-virus"
 
 faSquareWhatsapp :: ClassName
 faSquareWhatsapp = ClassName "fa-square-whatsapp"
+
+faSquareXTwitter :: ClassName
+faSquareXTwitter = ClassName "fa-square-x-twitter"
 
 faSquareXing :: ClassName
 faSquareXing = ClassName "fa-square-xing"
@@ -6601,6 +6610,9 @@ faThermometerThreeQuarters = ClassName "fa-thermometer-three-quarters"
 
 faThinkPeaks :: ClassName
 faThinkPeaks = ClassName "fa-think-peaks"
+
+faThreads :: ClassName
+faThreads = ClassName "fa-threads"
 
 faThumbTack :: ClassName
 faThumbTack = ClassName "fa-thumb-tack"
@@ -7429,6 +7441,9 @@ faX = ClassName "fa-x"
 
 faXRay :: ClassName
 faXRay = ClassName "fa-x-ray"
+
+faXTwitter :: ClassName
+faXTwitter = ClassName "fa-x-twitter"
 
 faXbox :: ClassName
 faXbox = ClassName "fa-xbox"

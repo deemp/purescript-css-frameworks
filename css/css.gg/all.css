@@ -98,7 +98,9 @@
   transform: rotate(-30deg);
   left: 4px;
   bottom: -14px;
-  box-shadow: 7px -2px, 14px -4px;
+  box-shadow:
+    7px -2px,
+    14px -4px;
 }
 .gg-airplane {
   box-sizing: border-box;
@@ -107,10 +109,9 @@
   width: 18px;
   height: 18px;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 22px, transparent 0)
-      no-repeat center/16px 2px,
-    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat right
-      center/2px 2px;
+  background:
+    linear-gradient(to left, currentColor 22px, transparent 0) no-repeat center/16px 2px,
+    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat right center/2px 2px;
 }
 .gg-airplane::after,
 .gg-airplane::before {
@@ -135,10 +136,9 @@
   box-shadow: -4px -3px 0 -2px;
 }
 .gg-alarm {
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-      no-repeat 4.5px 6px/5px 2px,
-    linear-gradient(to left, currentColor 7px, transparent 0) no-repeat 4.5px
-      2px/2px 6px;
+  background:
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4.5px 6px/5px 2px,
+    linear-gradient(to left, currentColor 7px, transparent 0) no-repeat 4.5px 2px/2px 6px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -178,7 +178,10 @@
   border-left: 7px solid transparent;
   border-right: 3px solid transparent;
   border-bottom: 8px solid transparent;
-  box-shadow: 0 0 0 2px, inset 6px 4px 0 -4px, inset -6px 4px 0 -4px;
+  box-shadow:
+    0 0 0 2px,
+    inset 6px 4px 0 -4px,
+    inset -6px 4px 0 -4px;
   border-radius: 3px;
 }
 .gg-album::after,
@@ -404,8 +407,7 @@
   left: -2px;
 }
 .gg-apple-watch {
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-    no-repeat 13px 4px/2px 4px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 13px 4px/2px 4px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -484,7 +486,9 @@
   border: 2px solid;
   left: 4px;
   top: 4px;
-  box-shadow: -5px -5px 0 -1px, 5px 5px 0 -1px;
+  box-shadow:
+    -5px -5px 0 -1px,
+    5px 5px 0 -1px;
 }
 .gg-arrow-align-h {
   box-sizing: border-box;
@@ -493,12 +497,10 @@
   transform: scale(var(--ggs, 1));
   width: 20px;
   height: 10px;
-  background: linear-gradient(to left, currentColor 15px, transparent 0)
-      no-repeat 2px 4px/6px 2px,
-    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 12px
-      4px/6px 2px,
-    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat
-      center/2px 10px;
+  background:
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 2px 4px/6px 2px,
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 12px 4px/6px 2px,
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat center/2px 10px;
 }
 .gg-arrow-align-h::after,
 .gg-arrow-align-h::before {
@@ -528,12 +530,10 @@
   transform: scale(var(--ggs, 1));
   width: 10px;
   height: 20px;
-  background: linear-gradient(to left, currentColor 15px, transparent 0)
-      no-repeat 4px 2px/2px 6px,
-    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 4px
-      12px/2px 6px,
-    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat
-      center/10px 2px;
+  background:
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 4px 2px/2px 6px,
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 4px 12px/2px 6px,
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat center/10px 2px;
 }
 .gg-arrow-align-v::after,
 .gg-arrow-align-v::before {
@@ -1944,14 +1944,11 @@
   transform: scale(var(--ggs, 1));
   width: 20px;
   height: 10px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat center left/8px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center
-      right/8px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 7px
-      center/2px 10px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 11px
-      center/2px 10px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center left/8px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center right/8px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 7px center/2px 10px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 11px center/2px 10px;
 }
 .gg-arrows-breake-h::after,
 .gg-arrows-breake-h::before {
@@ -1980,14 +1977,11 @@
   transform: scale(var(--ggs, 1));
   width: 10px;
   height: 20px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat center top/2px 8px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center
-      bottom/2px 8px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center
-      7px/10px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center
-      11px/10px 2px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center top/2px 8px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center bottom/2px 8px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 7px/10px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 11px/10px 2px;
 }
 .gg-arrows-breake-v::after,
 .gg-arrows-breake-v::before {
@@ -2204,7 +2198,9 @@
   width: 14px;
   height: 14px;
   margin: 2px;
-  box-shadow: 6px 6px 0 -4px, -6px -6px 0 -4px;
+  box-shadow:
+    6px 6px 0 -4px,
+    -6px -6px 0 -4px;
 }
 .gg-arrows-expand-left-alt::after,
 .gg-arrows-expand-left-alt::before {
@@ -2236,7 +2232,9 @@
   transform: scale(var(--ggs, 1));
   width: 14px;
   height: 14px;
-  box-shadow: 6px 6px 0 -4px, -6px -6px 0 -4px;
+  box-shadow:
+    6px 6px 0 -4px,
+    -6px -6px 0 -4px;
 }
 .gg-arrows-expand-left::before {
   content: "";
@@ -2259,7 +2257,9 @@
   width: 14px;
   height: 14px;
   margin: 2px;
-  box-shadow: -6px 6px 0 -4px, 6px -6px 0 -4px;
+  box-shadow:
+    -6px 6px 0 -4px,
+    6px -6px 0 -4px;
 }
 .gg-arrows-expand-right-alt::after,
 .gg-arrows-expand-right-alt::before {
@@ -2292,7 +2292,9 @@
   width: 14px;
   height: 14px;
   margin: 2px;
-  box-shadow: -6px 6px 0 -4px, 6px -6px 0 -4px;
+  box-shadow:
+    -6px 6px 0 -4px,
+    6px -6px 0 -4px;
 }
 .gg-arrows-expand-right::before {
   content: "";
@@ -2382,8 +2384,7 @@
   transform: scale(var(--ggs, 1));
   width: 20px;
   height: 10px;
-  background: linear-gradient(to left, currentColor 18px, transparent 0)
-    no-repeat 2px 4px/16px 2px;
+  background: linear-gradient(to left, currentColor 18px, transparent 0) no-repeat 2px 4px/16px 2px;
 }
 .gg-arrows-h-alt::after,
 .gg-arrows-h-alt::before {
@@ -2413,10 +2414,9 @@
   transform: scale(var(--ggs, 1));
   width: 20px;
   height: 10px;
-  background: linear-gradient(to left, currentColor 15px, transparent 0)
-      no-repeat 2px 4px/6px 2px,
-    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 12px
-      4px/6px 2px;
+  background:
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 2px 4px/6px 2px,
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 12px 4px/6px 2px;
 }
 .gg-arrows-h::after,
 .gg-arrows-h::before {
@@ -2446,14 +2446,11 @@
   transform: scale(var(--ggs, 1));
   width: 22px;
   height: 12px;
-  background: linear-gradient(to left, currentColor 12px, transparent 0)
-      no-repeat center left/8px 2px,
-    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat center
-      right/8px 2px,
-    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 20px
-      center/2px 12px,
-    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 0
-      center/2px 12px;
+  background:
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat center left/8px 2px,
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat center right/8px 2px,
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 20px center/2px 12px,
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 0 center/2px 12px;
 }
 .gg-arrows-merge-alt-h::after,
 .gg-arrows-merge-alt-h::before {
@@ -2483,14 +2480,11 @@
   transform: scale(var(--ggs, 1));
   width: 12px;
   height: 22px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat center top/2px 8px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center
-      bottom/2px 8px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center
-      20px/10px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center
-      0/10px 2px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center top/2px 8px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center bottom/2px 8px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 20px/10px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 0/10px 2px;
 }
 .gg-arrows-merge-alt-v::after,
 .gg-arrows-merge-alt-v::before {
@@ -2575,12 +2569,10 @@
   transform: scale(var(--ggs, 1));
   width: 20px;
   height: 10px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat center center/10px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 18px
-      center/2px 10px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 0px
-      center/2px 10px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center center/10px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 18px center/2px 10px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 0px center/2px 10px;
 }
 .gg-arrows-shrink-h::after,
 .gg-arrows-shrink-h::before {
@@ -2610,12 +2602,10 @@
   transform: scale(var(--ggs, 1));
   width: 10px;
   height: 20px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat center center/2px 10px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center
-      18px/10px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center
-      0/10px 2px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center center/2px 10px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 18px/10px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 0/10px 2px;
 }
 .gg-arrows-shrink-v::after,
 .gg-arrows-shrink-v::before {
@@ -2645,8 +2635,7 @@
   transform: scale(var(--ggs, 1));
   width: 10px;
   height: 20px;
-  background: linear-gradient(to left, currentColor 16px, transparent 0)
-    no-repeat 4px 2px/2px 16px;
+  background: linear-gradient(to left, currentColor 16px, transparent 0) no-repeat 4px 2px/2px 16px;
 }
 .gg-arrows-v-alt::after,
 .gg-arrows-v-alt::before {
@@ -2676,10 +2665,9 @@
   transform: scale(var(--ggs, 1));
   width: 10px;
   height: 20px;
-  background: linear-gradient(to left, currentColor 15px, transparent 0)
-      no-repeat 4px 2px/2px 6px,
-    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 4px
-      12px/2px 6px;
+  background:
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 4px 2px/2px 6px,
+    linear-gradient(to left, currentColor 15px, transparent 0) no-repeat 4px 12px/2px 6px;
 }
 .gg-arrows-v::after,
 .gg-arrows-v::before {
@@ -2719,7 +2707,11 @@
   position: absolute;
   width: 12px;
   height: 12px;
-  box-shadow: -5px -5px 0 -3px, 5px 5px 0 -3px, 5px -5px 0 -3px, -5px 5px 0 -3px;
+  box-shadow:
+    -5px -5px 0 -3px,
+    5px 5px 0 -3px,
+    5px -5px 0 -3px,
+    -5px 5px 0 -3px;
   left: -3px;
   top: -3px;
 }
@@ -2828,14 +2820,11 @@
   transform: scale(var(--ggs, 1));
   width: 16px;
   height: 18px;
-  background: linear-gradient(to left, currentColor 14px, transparent 0)
-      no-repeat 1px 2px/8px 2px,
-    linear-gradient(to left, currentColor 14px, transparent 0) no-repeat 6px
-      14px/6px 2px,
-    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 10px
-      12px/6px 6px,
-    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 0 0/6px
-      6px;
+  background:
+    linear-gradient(to left, currentColor 14px, transparent 0) no-repeat 1px 2px/8px 2px,
+    linear-gradient(to left, currentColor 14px, transparent 0) no-repeat 6px 14px/6px 2px,
+    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 10px 12px/6px 6px,
+    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 0 0/6px 6px;
 }
 .gg-attribution::after,
 .gg-attribution::before {
@@ -2871,7 +2860,9 @@
   border: 4px solid transparent;
   border-top: 12px solid transparent;
   border-bottom: 0;
-  box-shadow: inset 4px 0 0 -2px, inset -4px 0 0 -2px;
+  box-shadow:
+    inset 4px 0 0 -2px,
+    inset -4px 0 0 -2px;
 }
 .gg-awards::after,
 .gg-awards::before {
@@ -2919,8 +2910,7 @@
   position: absolute;
 }
 .gg-backspace::before {
-  background: linear-gradient(to left, currentColor 18px, transparent 0)
-    no-repeat center center/10px 2px;
+  background: linear-gradient(to left, currentColor 18px, transparent 0) no-repeat center center/10px 2px;
   border-right: 3px solid transparent;
   box-shadow: inset 0 0 0 2px;
   right: 2px;
@@ -2969,7 +2959,10 @@
   width: 2px;
   height: 2px;
   background: currentColor;
-  box-shadow: 0 4px 0, 4px 0 0, 4px 4px 0;
+  box-shadow:
+    0 4px 0,
+    4px 0 0,
+    4px 4px 0;
   border-radius: 22px;
   left: 7px;
   top: 1px;
@@ -3070,11 +3063,12 @@
   height: 20px;
   transform: scale(var(--ggs, 1));
   border-radius: 22px;
-  background: linear-gradient(to left, currentColor 12px, transparent 0)
-      no-repeat center 6px/12px 2px,
-    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat center
-      10px/12px 2px;
-  box-shadow: 0 4px 0 -2px, 0 7px 0 -4px;
+  background:
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat center 6px/12px 2px,
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat center 10px/12px 2px;
+  box-shadow:
+    0 4px 0 -2px,
+    0 7px 0 -4px;
 }
 .gg-bee::after,
 .gg-bee::before {
@@ -3130,7 +3124,9 @@
   height: 10px;
   border: 6px solid transparent;
   border-top: 1px solid transparent;
-  box-shadow: inset 0 0 0 4px, 0 -2px 0 0;
+  box-shadow:
+    inset 0 0 0 4px,
+    0 -2px 0 0;
   top: 14px;
   left: -3px;
   border-bottom-left-radius: 100px;
@@ -3144,8 +3140,7 @@
   height: 15px;
   transform: scale(var(--ggs, 1));
   border-top: 5px solid;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-    no-repeat center bottom/10px 5px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center bottom/10px 5px;
 }
 .gg-bitbucket::after,
 .gg-bitbucket::before {
@@ -3219,7 +3214,10 @@
   height: 12px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  box-shadow: 0 0 0 2px, inset 2px 0 0, inset -2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 2px 0 0,
+    inset -2px 0 0;
   border-radius: 2px;
 }
 .gg-bolt {
@@ -3450,7 +3448,11 @@
   border-left: 8px solid transparent;
   border-bottom: 1px solid transparent;
   border-radius: 12px;
-  box-shadow: 0 0 0 2px, -4px 0 0 -1px, 4px 0 0 -1px, inset 0 -4px 0 -2px;
+  box-shadow:
+    0 0 0 2px,
+    -4px 0 0 -1px,
+    4px 0 0 -1px,
+    inset 0 -4px 0 -2px;
 }
 .gg-bot::after,
 .gg-bot::before {
@@ -3628,7 +3630,9 @@
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 2px 0, inset 16px 74px 0;
+  box-shadow:
+    0 2px 0,
+    inset 16px 74px 0;
   top: 4px;
 }
 .gg-browse {
@@ -3640,10 +3644,9 @@
   height: 22px;
   border: 2px solid;
   border-radius: 3px;
-  background: linear-gradient(to left, currentcolor 10px, transparent 0)
-      no-repeat center 2px/8px 2px,
-    linear-gradient(to left, currentcolor 10px, transparent 0) no-repeat center
-      6px/8px 2px;
+  background:
+    linear-gradient(to left, currentcolor 10px, transparent 0) no-repeat center 2px/8px 2px,
+    linear-gradient(to left, currentcolor 10px, transparent 0) no-repeat center 6px/8px 2px;
 }
 .gg-browse::after,
 .gg-browse::before {
@@ -3692,7 +3695,9 @@
 .gg-browser::after {
   border-radius: 3px;
   width: 2px;
-  box-shadow: 3px 0 0, 6px 0 0;
+  box-shadow:
+    3px 0 0,
+    6px 0 0;
   top: 1px;
   left: 1px;
 }
@@ -3703,10 +3708,9 @@
   box-sizing: border-box;
   width: 14px;
   height: 18px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat 4px bottom/2px 5px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 8px
-      bottom/2px 5px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 4px bottom/2px 5px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 8px bottom/2px 5px;
 }
 .gg-brush::after,
 .gg-brush::before {
@@ -3732,10 +3736,9 @@
   border-radius: 3px;
   border-top-left-radius: 1px;
   border-top-right-radius: 1px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat left top/4px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat right
-      top/4px 2px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat left top/4px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat right top/4px 2px;
   bottom: 0;
 }
 .gg-bulb {
@@ -3762,7 +3765,10 @@
   border-bottom-right-radius: 18px;
   top: 10px;
   border-bottom: 2px solid transparent;
-  box-shadow: 0 5px 0 -2px, inset 2px 0 0 0, inset -2px 0 0 0,
+  box-shadow:
+    0 5px 0 -2px,
+    inset 2px 0 0 0,
+    inset -2px 0 0 0,
     inset 0 -4px 0 -2px;
   width: 8px;
   height: 8px;
@@ -3833,8 +3839,16 @@
 }
 .gg-calculator::after {
   width: 2px;
-  box-shadow: 4px 0 0, 8px 0 0, 0 4px 0, 4px 4px 0, 8px 4px 0, 0 8px 0,
-    4px 8px 0, 8px 8px 0, 8px 6px 0;
+  box-shadow:
+    4px 0 0,
+    8px 0 0,
+    0 4px 0,
+    4px 4px 0,
+    8px 4px 0,
+    0 8px 0,
+    4px 8px 0,
+    8px 8px 0,
+    8px 6px 0;
   top: 6px;
 }
 .gg-calendar-dates {
@@ -3860,7 +3874,12 @@
 .gg-calendar-dates::before {
   background: currentColor;
   width: 2px;
-  box-shadow: 4px 0 0, 8px 0 0, 0 4px 0, 4px 4px 0, 8px 4px 0;
+  box-shadow:
+    4px 0 0,
+    8px 0 0,
+    0 4px 0,
+    4px 4px 0,
+    8px 4px 0;
   top: 6px;
 }
 .gg-calendar-dates::after {
@@ -3910,7 +3929,9 @@
   border-bottom: 4px solid transparent;
   border-right: 4px solid transparent;
   border-left: 3px solid transparent;
-  box-shadow: 0 0 0 2px, inset 0 -2px 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 -2px 0;
   border-radius: 1px;
 }
 .gg-calendar-next::after,
@@ -4098,7 +4119,9 @@
   border-bottom: 2px solid transparent;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  box-shadow: 0 0 0 2px, inset 12px 0 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 12px 0 0 0;
   bottom: -8px;
   width: 18px;
   height: 6px;
@@ -4161,7 +4184,9 @@
   height: 4px;
   left: 5px;
   top: 4px;
-  box-shadow: -2.5px 4px 0, 2.5px 4px 0;
+  box-shadow:
+    -2.5px 4px 0,
+    2.5px 4px 0;
 }
 .gg-card-diamonds {
   box-sizing: border-box;
@@ -4270,13 +4295,14 @@
   background: currentColor;
   top: 16px;
   left: 6px;
-  box-shadow: -3px -4px 0, 3px -4px 0;
+  box-shadow:
+    -3px -4px 0,
+    3px -4px 0;
 }
 .gg-cast {
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-      no-repeat bottom right/6px 2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat top
-      left/2px 2px;
+  background:
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat bottom right/6px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat top left/2px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -5052,8 +5078,7 @@
   width: 24px;
   height: 24px;
   border: 4px solid;
-  background: linear-gradient(to left, currentColor 8px, transparent 0)
-    no-repeat -2px center/8px 3px;
+  background: linear-gradient(to left, currentColor 8px, transparent 0) no-repeat -2px center/8px 3px;
 }
 .gg-circleci::before {
   content: "";
@@ -5357,7 +5382,9 @@
 .gg-coffee::before {
   left: 2px;
   background: currentColor;
-  box-shadow: 4px 0 0, 8px 0 0;
+  box-shadow:
+    4px 0 0,
+    8px 0 0;
   border-radius: 3px;
   width: 2px;
   height: 4px;
@@ -5510,7 +5537,9 @@
   height: 16px;
   border: 2px solid;
   border-bottom: 0;
-  box-shadow: -6px 8px 0 -6px, 6px 8px 0 -6px;
+  box-shadow:
+    -6px 8px 0 -6px,
+    6px 8px 0 -6px;
 }
 .gg-comment::after,
 .gg-comment::before {
@@ -5563,22 +5592,15 @@
   transform: rotate(45deg) scale(var(--ggs, 1));
   width: 14px;
   height: 14px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat 0 0/2px 6px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 4px 0/2px
-      6px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 8px 0/2px
-      6px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 12px 0/2px
-      6px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 0 8px/2px
-      6px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 4px 8px/2px
-      6px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 8px 8px/2px
-      6px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 12px
-      8px/2px 6px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 0 0/2px 6px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 4px 0/2px 6px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 8px 0/2px 6px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 12px 0/2px 6px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 0 8px/2px 6px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 4px 8px/2px 6px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 8px 8px/2px 6px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 12px 8px/2px 6px;
 }
 .gg-components::after,
 .gg-components::before {
@@ -5734,7 +5756,11 @@
   position: absolute;
   width: 14px;
   height: 14px;
-  box-shadow: -6px -6px 0 -4px, 6px 6px 0 -4px, 6px -6px 0 -4px, -6px 6px 0 -4px;
+  box-shadow:
+    -6px -6px 0 -4px,
+    6px 6px 0 -4px,
+    6px -6px 0 -4px,
+    -6px 6px 0 -4px;
   left: -5px;
   top: -5px;
   transform: rotate(45deg);
@@ -5758,10 +5784,9 @@
   position: absolute;
 }
 .gg-copy::before {
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-      no-repeat right top/5px 2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat left
-      bottom/ 2px 5px;
+  background:
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat right top/5px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat left bottom/ 2px 5px;
   box-shadow: inset -4px -4px 0 -2px;
   bottom: -6px;
   right: -6px;
@@ -5774,7 +5799,9 @@
   background: currentColor;
   left: 2px;
   top: 2px;
-  box-shadow: 0 4px 0, 0 8px 0;
+  box-shadow:
+    0 4px 0,
+    0 8px 0;
 }
 .gg-copyright,
 .gg-copyright::after {
@@ -6534,8 +6561,7 @@
   left: 2px;
 }
 .gg-data::after {
-  background: linear-gradient(to left, currentColor 8px, transparent 0)
-    no-repeat bottom center/2px 8px;
+  background: linear-gradient(to left, currentColor 8px, transparent 0) no-repeat bottom center/2px 8px;
   width: 22px;
   height: 22px;
   top: -6px;
@@ -6557,7 +6583,10 @@
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
   border-left: 6px solid transparent;
-  box-shadow: 0 0 0 2px, inset 0 2px 0 0, inset 0 -2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 2px 0 0,
+    inset 0 -2px 0 0;
   border-radius: 1px;
 }
 .gg-database::after,
@@ -6615,8 +6644,14 @@
   border-radius: 5px;
   top: 4px;
   left: 2px;
-  box-shadow: 0 4px 0, -6px -2px 0, -6px 2px 0, -6px 6px 0, 6px -2px 0,
-    6px 2px 0, 6px 6px 0;
+  box-shadow:
+    0 4px 0,
+    -6px -2px 0,
+    -6px 2px 0,
+    -6px 6px 0,
+    6px -2px 0,
+    6px 2px 0,
+    6px 6px 0;
 }
 .gg-designmodo {
   display: block;
@@ -6625,8 +6660,7 @@
   transform: scale(var(--ggs, 1));
   width: 20px;
   height: 16px;
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-    no-repeat right 3px/8px 3px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat right 3px/8px 3px;
 }
 .gg-designmodo::after,
 .gg-designmodo::before {
@@ -6680,7 +6714,9 @@
   border-radius: 4px;
   bottom: 2px;
   left: 4px;
-  box-shadow: 4px 0 0, 8px 0 0;
+  box-shadow:
+    4px 0 0,
+    8px 0 0;
 }
 .gg-details-less {
   box-sizing: border-box;
@@ -6742,7 +6778,9 @@
 }
 .gg-dialpad,
 .gg-dialpad::before {
-  box-shadow: -5px 0 0, 5px 0 0;
+  box-shadow:
+    -5px 0 0,
+    5px 0 0;
 }
 .gg-dialpad,
 .gg-dialpad::after,
@@ -6764,7 +6802,10 @@
   bottom: 5px;
 }
 .gg-dialpad::after {
-  box-shadow: -5px 0 0, 5px 0 0, 0 5px 0;
+  box-shadow:
+    -5px 0 0,
+    5px 0 0,
+    0 5px 0;
   top: 5px;
 }
 .gg-dice-1 {
@@ -6833,7 +6874,9 @@
   border-radius: 4px;
   left: 2px;
   top: 2px;
-  box-shadow: 5px 5px 0, 10px 10px 0;
+  box-shadow:
+    5px 5px 0,
+    10px 10px 0;
 }
 .gg-dice-4 {
   display: block;
@@ -6856,7 +6899,10 @@
   border-radius: 4px;
   left: 2px;
   top: 2px;
-  box-shadow: 0 10px 0, 10px 0 0, 10px 10px 0;
+  box-shadow:
+    0 10px 0,
+    10px 0 0,
+    10px 10px 0;
 }
 .gg-dice-5 {
   display: block;
@@ -6879,7 +6925,11 @@
   border-radius: 4px;
   left: 2px;
   top: 2px;
-  box-shadow: 0 10px 0, 10px 0 0, 10px 10px 0, 5px 5px 0;
+  box-shadow:
+    0 10px 0,
+    10px 0 0,
+    10px 10px 0,
+    5px 5px 0;
 }
 .gg-dice-6 {
   display: block;
@@ -6902,7 +6952,12 @@
   border-radius: 4px;
   left: 2px;
   top: 2px;
-  box-shadow: 0 5px 0, 0 10px 0, 10px 0 0, 10px 5px 0, 10px 10px 0;
+  box-shadow:
+    0 5px 0,
+    0 10px 0,
+    10px 0 0,
+    10px 5px 0,
+    10px 10px 0;
 }
 .gg-digitalocean {
   position: relative;
@@ -6910,10 +6965,9 @@
   transform: scale(var(--ggs, 1));
   width: 20px;
   height: 20px;
-  background: linear-gradient(to left, currentColor 4px, transparent 0)
-      no-repeat 1px 14px/2px 2px,
-    linear-gradient(to left, currentColor 4px, transparent 0) no-repeat 3px 16px/3px
-      3px;
+  background:
+    linear-gradient(to left, currentColor 4px, transparent 0) no-repeat 1px 14px/2px 2px,
+    linear-gradient(to left, currentColor 4px, transparent 0) no-repeat 3px 16px/3px 3px;
 }
 .gg-digitalocean::after,
 .gg-digitalocean::before {
@@ -6977,7 +7031,10 @@
   height: 14px;
   width: 16px;
   border: 2px solid transparent;
-  box-shadow: 0 0 0 2px, inset -2px 0 0 0, inset 2px 0 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset -2px 0 0 0,
+    inset 2px 0 0 0;
 }
 .gg-display-fullwidth {
   box-sizing: border-box;
@@ -6986,7 +7043,10 @@
   transform: scale(var(--ggs, 1));
   height: 14px;
   width: 16px;
-  box-shadow: inset 0 0 0 2px, 0 2px 0 0, 0 -2px 0 0;
+  box-shadow:
+    inset 0 0 0 2px,
+    0 2px 0 0,
+    0 -2px 0 0;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
 }
@@ -7023,7 +7083,10 @@
   transform: scale(var(--ggs, 1));
   height: 14px;
   width: 14px;
-  box-shadow: inset 0 0 0 2px, 2px 0 0 0, -2px 0 0 0;
+  box-shadow:
+    inset 0 0 0 2px,
+    2px 0 0 0,
+    -2px 0 0 0;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
 }
@@ -7308,7 +7371,9 @@
   height: 10px;
   border: 2px solid transparent;
   border-bottom: 4px solid transparent;
-  box-shadow: 0 0 0 2px, inset 0 -2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 -2px 0 0;
   margin-left: -4px;
   margin-top: 4px;
 }
@@ -7449,8 +7514,7 @@
   width: 18px;
   height: 18px;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 22px, transparent 0)
-    no-repeat center/2px 22px;
+  background: linear-gradient(to left, currentColor 22px, transparent 0) no-repeat center/2px 22px;
 }
 .gg-edit-flip-h::after,
 .gg-edit-flip-h::before {
@@ -7482,8 +7546,7 @@
   width: 18px;
   height: 18px;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 22px, transparent 0)
-    no-repeat center/22px 2px;
+  background: linear-gradient(to left, currentColor 22px, transparent 0) no-repeat center/22px 2px;
 }
 .gg-edit-flip-v::after,
 .gg-edit-flip-v::before {
@@ -7528,13 +7591,7 @@
   width: 6px;
   height: 14px;
   top: -1px;
-  background: repeating-linear-gradient(
-    to bottom,
-    currentColor,
-    currentColor 2px,
-    transparent 0px,
-    transparent 3px
-  );
+  background: repeating-linear-gradient(to bottom, currentColor, currentColor 2px, transparent 0px, transparent 3px);
 }
 .gg-edit-highlight::after {
   content: "";
@@ -7606,7 +7663,11 @@
   background: currentColor;
   top: 6px;
   left: 6px;
-  box-shadow: 0 7px 0 1px, 0 -7px 0 1px, -7px 0 0 1px, 7px 0 0 1px;
+  box-shadow:
+    0 7px 0 1px,
+    0 -7px 0 1px,
+    -7px 0 0 1px,
+    7px 0 0 1px;
 }
 .gg-edit-noise {
   box-sizing: border-box;
@@ -7629,7 +7690,9 @@
   height: 12px;
   background-image: radial-gradient(circle, currentColor 25%, transparent 25%),
     radial-gradient(circle, currentColor 25%, transparent 25%);
-  background-position: 4px 4px, 2px 2px;
+  background-position:
+    4px 4px,
+    2px 2px;
   background-size: 4px 4px;
 }
 .gg-edit-shadows {
@@ -7653,13 +7716,7 @@
   height: 14px;
   right: 0;
   top: -1px;
-  background: repeating-linear-gradient(
-    to bottom,
-    currentColor,
-    currentColor 2px,
-    transparent 0px,
-    transparent 3px
-  );
+  background: repeating-linear-gradient(to bottom, currentColor, currentColor 2px, transparent 0px, transparent 3px);
 }
 .gg-edit-shadows::after {
   content: "";
@@ -7678,10 +7735,9 @@
   width: 22px;
   height: 16px;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 22px, transparent 0)
-      no-repeat left center/4px 2px,
-    linear-gradient(to left, currentColor 22px, transparent 0) no-repeat right
-      center/4px 2px;
+  background:
+    linear-gradient(to left, currentColor 22px, transparent 0) no-repeat left center/4px 2px,
+    linear-gradient(to left, currentColor 22px, transparent 0) no-repeat right center/4px 2px;
 }
 .gg-edit-straight::after,
 .gg-edit-straight::before {
@@ -7724,7 +7780,11 @@
   background: currentColor;
   top: 6px;
   left: 6px;
-  box-shadow: 0 7px 0 1px, 0 -7px 0 1px, -7px 0 0 1px, 7px 0 0 1px;
+  box-shadow:
+    0 7px 0 1px,
+    0 -7px 0 1px,
+    -7px 0 0 1px,
+    7px 0 0 1px;
 }
 .gg-eject {
   box-sizing: border-box;
@@ -7768,7 +7828,9 @@
   height: 18px;
   border: 2px solid;
   border-left: 0;
-  box-shadow: -8px -6px 0 -6px, -8px 6px 0 -6px;
+  box-shadow:
+    -8px -6px 0 -6px,
+    -8px 6px 0 -6px;
 }
 .gg-enter::after,
 .gg-enter::before {
@@ -7812,7 +7874,9 @@
   height: 14px;
   border-bottom: 4px solid transparent;
   border-radius: 1px;
-  box-shadow: 0 0 0 2px, inset 0 -2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 -2px 0 0;
   left: 7px;
   top: 2px;
   transform: rotate(45deg);
@@ -7850,7 +7914,9 @@
 .gg-ereader::after {
   width: 5px;
   height: 2px;
-  box-shadow: 0 4px 0, 0 8px 0;
+  box-shadow:
+    0 4px 0,
+    0 8px 0;
   top: 2px;
   right: 2px;
 }
@@ -7873,7 +7939,9 @@
   width: 16px;
   height: 4px;
   border-radius: 4px;
-  box-shadow: 3px -6px 0, -3px 6px 0;
+  box-shadow:
+    3px -6px 0,
+    -3px 6px 0;
   top: 7px;
   left: 2px;
 }
@@ -8006,7 +8074,9 @@
   height: 14px;
   border: 2px solid;
   border-top: 0;
-  box-shadow: -6px -8px 0 -6px, 6px -8px 0 -6px;
+  box-shadow:
+    -6px -8px 0 -6px,
+    6px -8px 0 -6px;
 }
 .gg-export::after,
 .gg-export::before {
@@ -8036,10 +8106,9 @@
   position: relative;
   display: block;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat 10px 2px/6px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 12px 0/2px
-      6px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 10px 2px/6px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 12px 0/2px 6px;
   width: 16px;
   height: 16px;
 }
@@ -8085,8 +8154,7 @@
   position: relative;
   display: block;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-    no-repeat 10px 4px/6px 2px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 10px 4px/6px 2px;
   width: 16px;
   height: 16px;
 }
@@ -8141,7 +8209,10 @@
   transform: scale(var(--ggs, 1));
   width: 12px;
   height: 12px;
-  box-shadow: -2px 2px 0 0, -4px -4px 0 -2px, 4px 4px 0 -2px;
+  box-shadow:
+    -2px 2px 0 0,
+    -4px -4px 0 -2px,
+    4px 4px 0 -2px;
   margin-left: -2px;
   margin-top: 1px;
 }
@@ -8188,7 +8259,9 @@
 }
 .gg-eye-alt::after {
   top: 2px;
-  box-shadow: inset 0 -8px 0 2px, inset 0 0 0 2px;
+  box-shadow:
+    inset 0 -8px 0 2px,
+    inset 0 0 0 2px;
   width: 24px;
   height: 24px;
 }
@@ -8196,7 +8269,11 @@
   width: 8px;
   height: 8px;
   border: 2px solid transparent;
-  box-shadow: inset 0 0 0 6px, 0 0 0 4px, 6px 0 0 0, -6px 0 0 0;
+  box-shadow:
+    inset 0 0 0 6px,
+    0 0 0 4px,
+    6px 0 0 0,
+    -6px 0 0 0;
   bottom: 4px;
   left: 8px;
 }
@@ -8221,7 +8298,9 @@
 }
 .gg-eye::after {
   top: 2px;
-  box-shadow: inset 0 -8px 0 2px, inset 0 0 0 2px;
+  box-shadow:
+    inset 0 -8px 0 2px,
+    inset 0 0 0 2px;
   width: 24px;
   height: 24px;
 }
@@ -8303,10 +8382,9 @@
   width: 14px;
   height: 20px;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 3px, transparent 0)
-      no-repeat 3px 7px/3px 6px,
-    linear-gradient(to left, currentColor 3px, transparent 0) no-repeat 3px 14px/3px
-      3px;
+  background:
+    linear-gradient(to left, currentColor 3px, transparent 0) no-repeat 3px 7px/3px 6px,
+    linear-gradient(to left, currentColor 3px, transparent 0) no-repeat 3px 14px/3px 3px;
 }
 .gg-figma::after,
 .gg-figma::before {
@@ -8322,11 +8400,12 @@
 .gg-figma::after {
   width: 6px;
   top: 7px;
-  box-shadow: 7px 0 0, 0 7px 0;
+  box-shadow:
+    7px 0 0,
+    0 7px 0;
 }
 .gg-file-add {
-  background: linear-gradient(to bottom, currentColor 5px, transparent 0)
-    no-repeat 2px 9px/6px 2px;
+  background: linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat 2px 9px/6px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -8386,7 +8465,9 @@
 }
 .gg-file-document::before {
   background: currentColor;
-  box-shadow: 0 4px 0, -6px -4px 0;
+  box-shadow:
+    0 4px 0,
+    -6px -4px 0;
   left: 0;
   width: 10px;
   height: 2px;
@@ -8484,7 +8565,12 @@
   background: currentColor;
   left: 2px;
   top: 2px;
-  box-shadow: 0 4px 0, 0 8px 0, 12px 0 0, 12px 4px 0, 12px 8px 0;
+  box-shadow:
+    0 4px 0,
+    0 8px 0,
+    12px 0 0,
+    12px 4px 0,
+    12px 8px 0;
 }
 .gg-filters {
   display: block;
@@ -8572,8 +8658,7 @@
   left: 7px;
 }
 .gg-folder-add {
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-    no-repeat center center/2px 6px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center center/2px 6px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -8678,8 +8763,7 @@
   transform: scale(var(--ggs, 1));
   border-top: 2px solid;
   border-bottom: 2px solid;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-    no-repeat center 8px/6px 2px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 8px/6px 2px;
 }
 .gg-font-height::after,
 .gg-font-height::before {
@@ -8710,8 +8794,7 @@
   transform: scale(var(--ggs, 1));
   border-left: 2px solid;
   border-right: 2px solid;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-    no-repeat center 8px/6px 2px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 8px/6px 2px;
 }
 .gg-font-spacing::after,
 .gg-font-spacing::before {
@@ -8785,7 +8868,9 @@
   background: currentColor;
   transform: scale(var(--ggs, 1));
   border-radius: 3px;
-  box-shadow: -2px 8px 0 0, 2px 8px 0 0;
+  box-shadow:
+    -2px 8px 0 0,
+    2px 8px 0 0;
 }
 .gg-format-color::after,
 .gg-format-color::before {
@@ -8968,7 +9053,11 @@
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
   border-left: 4px solid transparent;
-  box-shadow: -2px 0 0 0, 2px -4px 0 -2px, 2px 4px 0 -2px, inset 0 2px 0 0,
+  box-shadow:
+    -2px 0 0 0,
+    2px -4px 0 -2px,
+    2px 4px 0 -2px,
+    inset 0 2px 0 0,
     inset 0 -2px 0 0;
 }
 .gg-format-line-height::after,
@@ -9033,7 +9122,10 @@
   left: 3px;
   opacity: 0.5;
   width: 12px;
-  box-shadow: 0 4px 0 0, 0 8px 0 0, 0 16px 0 0;
+  box-shadow:
+    0 4px 0 0,
+    0 8px 0 0,
+    0 16px 0 0;
 }
 .gg-format-slash {
   box-sizing: border-box;
@@ -9054,7 +9146,9 @@
   height: 3px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  box-shadow: 0 -2px 0 0, inset 0 0 0 2px;
+  box-shadow:
+    0 -2px 0 0,
+    inset 0 0 0 2px;
 }
 .gg-format-strike::after,
 .gg-format-strike::before {
@@ -9083,7 +9177,9 @@
   height: 8px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  box-shadow: 0 -2px 0 0, inset 0 0 0 2px;
+  box-shadow:
+    0 -2px 0 0,
+    inset 0 0 0 2px;
 }
 .gg-format-text::after {
   content: "";
@@ -9132,7 +9228,9 @@
   height: 8px;
   border-left: 3px solid transparent;
   border-right: 3px solid transparent;
-  box-shadow: 0 -2px 0 0, inset 0 0 0 2px;
+  box-shadow:
+    0 -2px 0 0,
+    inset 0 0 0 2px;
 }
 .gg-format-uppercase::after {
   content: "";
@@ -9186,7 +9284,9 @@
   height: 12px;
   border: 3px solid transparent;
   border-left: 6px solid transparent;
-  box-shadow: 0 0 0 2px, inset 2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 2px 0 0;
   border-radius: 40px;
 }
 .gg-games::after,
@@ -9206,7 +9306,10 @@
 .gg-games::after {
   border-radius: 3px;
   width: 2px;
-  box-shadow: 0 4px 0, -2px 2px 0, 2px 2px 0;
+  box-shadow:
+    0 4px 0,
+    -2px 2px 0,
+    2px 2px 0;
   top: 0;
   right: 2px;
 }
@@ -9285,10 +9388,9 @@
   border-top-left-radius: 22px;
   border-top-right-radius: 22px;
   overflow: hidden;
-  background: radial-gradient(circle, currentColor 60%, transparent 40%)
-      no-repeat 2px 4px/2px 2px,
-    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 6px 4px/2px
-      2px;
+  background:
+    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 2px 4px/2px 2px,
+    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 6px 4px/2px 2px;
 }
 .gg-ghost-character::after,
 .gg-ghost-character::before {
@@ -9316,8 +9418,7 @@
   transform: scale(var(--ggs, 1));
   width: 18px;
   height: 16px;
-  background: linear-gradient(to left, currentColor 40px, transparent 0)
-    no-repeat -6px center/40px 4px;
+  background: linear-gradient(to left, currentColor 40px, transparent 0) no-repeat -6px center/40px 4px;
   overflow: hidden;
 }
 .gg-ghost::after,
@@ -9346,14 +9447,24 @@
   height: 14px;
   margin-top: 8px;
   border: 2px solid transparent;
-  box-shadow: inset 2px 0 0, inset -2px 0 0, 0 -2px 0, inset 0 2px 0,
+  box-shadow:
+    inset 2px 0 0,
+    inset -2px 0 0,
+    0 -2px 0,
+    inset 0 2px 0,
     inset 0 -2px 0;
   background: linear-gradient(to left, currentColor 10px, transparent 0),
     linear-gradient(to left, currentColor 10px, transparent 0),
     linear-gradient(to left, currentColor 10px, transparent 0);
   background-repeat: no-repeat;
-  background-size: 2px 10px, 2px 10px, 2px 10px;
-  background-position: 8px 0, 18px -8px, -2px -8px;
+  background-size:
+    2px 10px,
+    2px 10px,
+    2px 10px;
+  background-position:
+    8px 0,
+    18px -8px,
+    -2px -8px;
 }
 .gg-gift::after,
 .gg-gift::before {
@@ -9437,7 +9548,9 @@
   width: 4px;
   height: 4px;
   background: currentColor;
-  box-shadow: 0 12px 0 0, 6px 6px 0 0;
+  box-shadow:
+    0 12px 0 0,
+    6px 6px 0 0;
   border-radius: 100%;
   left: -1px;
   top: -1px;
@@ -9494,7 +9607,9 @@
   width: 4px;
   height: 4px;
   background: currentColor;
-  box-shadow: 0 12px 0 0, 6px 2px 0 0;
+  box-shadow:
+    0 12px 0 0,
+    6px 2px 0 0;
   border-radius: 100%;
   left: -1px;
   top: -1px;
@@ -9528,7 +9643,9 @@
   width: 4px;
   height: 4px;
   background: currentColor;
-  box-shadow: 0 12px 0 0, 6px 8px 0 0;
+  box-shadow:
+    0 12px 0 0,
+    6px 8px 0 0;
   border-radius: 100%;
   left: -1px;
   top: -1px;
@@ -9542,7 +9659,9 @@
   height: 18px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  box-shadow: inset 2px 0 0, inset -2px 0 0;
+  box-shadow:
+    inset 2px 0 0,
+    inset -2px 0 0;
 }
 .gg-gitter::after,
 .gg-gitter::before {
@@ -9584,8 +9703,7 @@
   left: 2px;
   border-bottom-left-radius: 4px;
   border-bottom-right-radius: 4px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-    no-repeat center 2px/6px 2px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat center 2px/6px 2px;
 }
 .gg-glass {
   box-sizing: border-box;
@@ -9597,7 +9715,9 @@
   border-top: 8px solid transparent;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
-  box-shadow: inset 0 0 0 2px, 0 2px 0 0;
+  box-shadow:
+    inset 0 0 0 2px,
+    0 2px 0 0;
 }
 .gg-glass::before {
   content: "";
@@ -9665,7 +9785,9 @@
 .gg-globe::before {
   top: 11px;
   border-right: 2px solid transparent;
-  box-shadow: 0 2px 0, inset -2px 0 0;
+  box-shadow:
+    0 2px 0,
+    inset -2px 0 0;
   left: 1px;
   width: 6px;
   height: 2px;
@@ -9757,7 +9879,11 @@
   position: absolute;
 }
 .gg-gym::before {
-  box-shadow: -3px 0 0 -1px, 3px 0 0 -1px, inset 2px 0 0 0, inset -2px 0 0 0;
+  box-shadow:
+    -3px 0 0 -1px,
+    3px 0 0 -1px,
+    inset 2px 0 0 0,
+    inset -2px 0 0 0;
   width: 14px;
   height: 8px;
   border-left: 1px solid transparent;
@@ -9840,11 +9966,8 @@
 .gg-heart {
   box-sizing: border-box;
   position: relative;
-  transform: translate(
-      calc(-10px / 2 * var(--ggs, 1)),
-      calc(-6px / 2 * var(--ggs, 1))
-    )
-    rotate(-45deg) scale(var(--ggs, 1));
+  transform: translate(calc(-10px / 2 * var(--ggs, 1)), calc(-6px / 2 * var(--ggs, 1))) rotate(-45deg)
+    scale(var(--ggs, 1));
   display: block;
 }
 .gg-heart::after,
@@ -9967,17 +10090,24 @@
 }
 .gg-home-screen::after {
   top: 1px;
-  box-shadow: 3px 0, 6px 0, 0 3px, 3px 3px, 6px 3px, 0 6px;
+  box-shadow:
+    3px 0,
+    6px 0,
+    0 3px,
+    3px 3px,
+    6px 3px,
+    0 6px;
 }
 .gg-home-screen::before {
   bottom: 1px;
-  box-shadow: 3px 0 0, 6px 0 0;
+  box-shadow:
+    3px 0 0,
+    6px 0 0;
 }
 .gg-home {
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-      no-repeat 0 bottom/4px 2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat right
-      bottom/4px 2px;
+  background:
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 0 bottom/4px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat right bottom/4px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -10067,14 +10197,11 @@
   transform: scale(var(--ggs, 1));
   width: 14px;
   height: 14px;
-  background: linear-gradient(to left, currentColor 18px, transparent 0)
-      no-repeat center center/4px 18px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px
-      top/4px 4px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px 5px/4px
-      4px,
-    linear-gradient(to left, currentColor 14px, transparent 0) no-repeat 0 5px/4px
-      14px;
+  background:
+    linear-gradient(to left, currentColor 18px, transparent 0) no-repeat center center/4px 18px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px top/4px 4px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px 5px/4px 4px,
+    linear-gradient(to left, currentColor 14px, transparent 0) no-repeat 0 5px/4px 14px;
 }
 .gg-if-design::before {
   content: "";
@@ -10128,7 +10255,9 @@
   height: 14px;
   border: 2px solid;
   border-top: 0;
-  box-shadow: -6px -8px 0 -6px, 6px -8px 0 -6px;
+  box-shadow:
+    -6px -8px 0 -6px,
+    6px -8px 0 -6px;
 }
 .gg-import::after,
 .gg-import::before {
@@ -10207,14 +10336,12 @@
   right: 0;
   border-left: 3px solid;
   border-right: 3px solid;
-  background: linear-gradient(to left, currentColor 14px, transparent 0)
-    no-repeat 0 center/14px 3px;
+  background: linear-gradient(to left, currentColor 14px, transparent 0) no-repeat 0 center/14px 3px;
 }
 .gg-infinity {
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-      no-repeat -4px 4px/2px 2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 4px/2px
-      2px;
+  background:
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat -4px 4px/2px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 4px/2px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -10307,7 +10434,9 @@
   border-radius: 20px;
 }
 .gg-insert-after-o::before {
-  box-shadow: -2px 12px 0, 2px 12px 0;
+  box-shadow:
+    -2px 12px 0,
+    2px 12px 0;
 }
 .gg-insert-after-o::after,
 .gg-insert-after-o::before {
@@ -10339,7 +10468,9 @@
   border-radius: 4px;
 }
 .gg-insert-after-r::before {
-  box-shadow: -2px 12px 0, 2px 12px 0;
+  box-shadow:
+    -2px 12px 0,
+    2px 12px 0;
 }
 .gg-insert-after-r::after,
 .gg-insert-after-r::before {
@@ -10369,7 +10500,9 @@
   height: 18px;
 }
 .gg-insert-after::before {
-  box-shadow: -2px 10px 0, 2px 10px 0;
+  box-shadow:
+    -2px 10px 0,
+    2px 10px 0;
 }
 .gg-insert-after::after,
 .gg-insert-after::before {
@@ -10401,7 +10534,9 @@
   border-radius: 20px;
 }
 .gg-insert-before-o::before {
-  box-shadow: -2px -12px 0, 2px -12px 0;
+  box-shadow:
+    -2px -12px 0,
+    2px -12px 0;
 }
 .gg-insert-before-o::after,
 .gg-insert-before-o::before {
@@ -10433,7 +10568,9 @@
   border-radius: 4px;
 }
 .gg-insert-before-r::before {
-  box-shadow: -2px -12px 0, 2px -12px 0;
+  box-shadow:
+    -2px -12px 0,
+    2px -12px 0;
 }
 .gg-insert-before-r::after,
 .gg-insert-before-r::before {
@@ -10463,7 +10600,9 @@
   height: 18px;
 }
 .gg-insert-before::before {
-  box-shadow: -2px -10px 0, 2px -10px 0;
+  box-shadow:
+    -2px -10px 0,
+    2px -10px 0;
 }
 .gg-insert-before::after,
 .gg-insert-before::before {
@@ -10552,7 +10691,10 @@
   transform: scale(var(--ggs, 1));
   width: 12px;
   height: 12px;
-  box-shadow: -2px 2px 0 0, -4px -4px 0 -2px, 4px 4px 0 -2px;
+  box-shadow:
+    -2px 2px 0 0,
+    -4px -4px 0 -2px,
+    4px 4px 0 -2px;
   margin-left: -2px;
   margin-top: 1px;
 }
@@ -10632,7 +10774,12 @@
 }
 .gg-keyboard::before {
   top: 2px;
-  box-shadow: 4px 0 0, 8px 0 0, 0 4px 0, 4px 4px 0, 8px 4px 0;
+  box-shadow:
+    4px 0 0,
+    8px 0 0,
+    0 4px 0,
+    4px 4px 0,
+    8px 4px 0;
   width: 2px;
   left: 2px;
 }
@@ -10716,7 +10863,9 @@
 .gg-lastpass::before {
   width: 4px;
   height: 4px;
-  box-shadow: 6px 0 0, 12px 0 0;
+  box-shadow:
+    6px 0 0,
+    12px 0 0;
   top: 4px;
 }
 .gg-lastpass::after {
@@ -10822,7 +10971,11 @@
   border-radius: 4px;
   top: 3px;
   left: 3px;
-  box-shadow: -7px 0 0, 7px 0 0, 0 -7px 0, 0 7px 0;
+  box-shadow:
+    -7px 0 0,
+    7px 0 0,
+    0 -7px 0,
+    0 7px 0;
 }
 .gg-linear {
   display: block;
@@ -10849,7 +11002,9 @@
 }
 .gg-linear::after {
   width: 2px;
-  box-shadow: -3px 4px 0 0, -6px -2px 0 0;
+  box-shadow:
+    -3px 4px 0 0,
+    -6px -2px 0 0;
   top: -3px;
   left: 6px;
 }
@@ -10894,14 +11049,11 @@
   width: 22px;
   height: 22px;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentcolor 8px, transparent 0)
-      no-repeat left top/8px 8px,
-    linear-gradient(to left, currentcolor 8px, transparent 0) no-repeat center
-      3px/8px 2px,
-    linear-gradient(to left, currentcolor 8px, transparent 0) no-repeat 10px
-      17px/6px 2px,
-    linear-gradient(to left, currentcolor 8px, transparent 0) no-repeat 10px 3px/2px
-      16px;
+  background:
+    linear-gradient(to left, currentcolor 8px, transparent 0) no-repeat left top/8px 8px,
+    linear-gradient(to left, currentcolor 8px, transparent 0) no-repeat center 3px/8px 2px,
+    linear-gradient(to left, currentcolor 8px, transparent 0) no-repeat 10px 17px/6px 2px,
+    linear-gradient(to left, currentcolor 8px, transparent 0) no-repeat 10px 3px/2px 16px;
 }
 .gg-list-tree::after,
 .gg-list-tree::before {
@@ -10938,7 +11090,9 @@
   background: currentColor;
   top: 3px;
   left: 3px;
-  box-shadow: 0 4px 0, 0 8px 0;
+  box-shadow:
+    0 4px 0,
+    0 8px 0;
 }
 .gg-list::after {
   border-radius: 3px;
@@ -10966,7 +11120,9 @@
   border: 1px solid transparent;
   top: 4px;
   left: 4px;
-  box-shadow: 0 0 0 2px, inset 0 0 0 2px currentColor;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 2px currentColor;
 }
 @keyframes loadbaralt {
   0%,
@@ -11302,10 +11458,9 @@
   border-radius: 22px;
   border-bottom-right-radius: 6px;
   overflow: hidden;
-  background: linear-gradient(to left, currentColor 8px, transparent 0)
-      no-repeat center/8px 2px,
-    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat
-      center/2px 8px;
+  background:
+    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat center/8px 2px,
+    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat center/2px 8px;
 }
 .gg-loupe::after {
   content: "";
@@ -11535,7 +11690,11 @@
   transform: scale(var(--ggs, 1));
   width: 14px;
   height: 14px;
-  box-shadow: -6px -6px 0 -4px, 6px 6px 0 -4px, 6px -6px 0 -4px, -6px 6px 0 -4px;
+  box-shadow:
+    -6px -6px 0 -4px,
+    6px 6px 0 -4px,
+    6px -6px 0 -4px,
+    -6px 6px 0 -4px;
 }
 .gg-maximize-alt::after,
 .gg-maximize-alt::before {
@@ -11562,7 +11721,11 @@
   transform: scale(var(--ggs, 1));
   width: 14px;
   height: 14px;
-  box-shadow: -6px -6px 0 -4px, 6px 6px 0 -4px, 6px -6px 0 -4px, -6px 6px 0 -4px;
+  box-shadow:
+    -6px -6px 0 -4px,
+    6px 6px 0 -4px,
+    6px -6px 0 -4px,
+    -6px 6px 0 -4px;
 }
 .gg-maze {
   display: block;
@@ -11679,7 +11842,9 @@
   border-radius: 3px;
   top: 2px;
   left: 2px;
-  box-shadow: 0 4px 0, 0 8px 0;
+  box-shadow:
+    0 4px 0,
+    0 8px 0;
 }
 .gg-menu-cake {
   box-sizing: border-box;
@@ -11701,7 +11866,9 @@
 }
 .gg-menu-cake::before {
   width: 18px;
-  box-shadow: 0 -4px 0, 0 -8px 0;
+  box-shadow:
+    0 -4px 0,
+    0 -8px 0;
   left: 1px;
   bottom: 2px;
 }
@@ -11730,7 +11897,9 @@
   width: 18px;
   background: currentColor;
   border-radius: 22px;
-  box-shadow: 0 -6px 0, 0 -12px 0;
+  box-shadow:
+    0 -6px 0,
+    0 -12px 0;
   bottom: 0;
 }
 .gg-menu-cheese::after {
@@ -11757,8 +11926,15 @@
   width: 4px;
   height: 4px;
   background: currentColor;
-  box-shadow: 0 6px 0, 6px 6px 0, 12px 6px 0, 6px 12px 0, 12px 12px 0, 6px 0 0,
-    12px 0 0, 0 12px 0;
+  box-shadow:
+    0 6px 0,
+    6px 6px 0,
+    12px 6px 0,
+    6px 12px 0,
+    12px 12px 0,
+    6px 0 0,
+    12px 0 0,
+    0 12px 0;
   border-radius: 22px;
 }
 .gg-menu-grid-r {
@@ -11777,8 +11953,15 @@
   width: 4px;
   height: 4px;
   background: currentColor;
-  box-shadow: 0 6px 0, 6px 6px 0, 12px 6px 0, 6px 12px 0, 12px 12px 0, 6px 0 0,
-    12px 0 0, 0 12px 0;
+  box-shadow:
+    0 6px 0,
+    6px 6px 0,
+    12px 6px 0,
+    6px 12px 0,
+    12px 12px 0,
+    6px 0 0,
+    12px 0 0,
+    0 12px 0;
 }
 .gg-menu-hotdog {
   box-sizing: border-box;
@@ -11870,7 +12053,9 @@
   width: 10px;
   height: 2px;
   bottom: 0;
-  box-shadow: 4px -6px 0, 8px -12px 0;
+  box-shadow:
+    4px -6px 0,
+    8px -12px 0;
   border-radius: 4px;
   background: currentColor;
 }
@@ -11971,7 +12156,9 @@
   border-radius: 3px;
   top: 4px;
   left: 4px;
-  box-shadow: 0 4px 0, 0 8px 0;
+  box-shadow:
+    0 4px 0,
+    0 8px 0;
 }
 .gg-menu {
   transform: scale(var(--ggs, 1));
@@ -12093,7 +12280,9 @@
   top: 12px;
   left: 1px;
   border-right: 4px solid transparent;
-  box-shadow: 0 2px 0, inset -2px 0 0;
+  box-shadow:
+    0 2px 0,
+    inset -2px 0 0;
 }
 .gg-microbit,
 .gg-microbit::before {
@@ -12202,8 +12391,15 @@
   transform: scale(var(--ggs, 1));
   width: 4px;
   height: 4px;
-  box-shadow: -8px -4px 0 -1px, -6px -4px 0 -1px, 8px 4px 0 -1px, 6px 4px 0 -1px,
-    8px -4px 0 -1px, 6px -4px 0 -1px, -8px 4px 0 -1px, -6px 4px 0 -1px;
+  box-shadow:
+    -8px -4px 0 -1px,
+    -6px -4px 0 -1px,
+    8px 4px 0 -1px,
+    6px 4px 0 -1px,
+    8px -4px 0 -1px,
+    6px -4px 0 -1px,
+    -8px 4px 0 -1px,
+    -6px 4px 0 -1px;
 }
 .gg-minimize::after,
 .gg-minimize::before {
@@ -12354,7 +12550,9 @@
   border-radius: 20px;
   top: 8px;
   left: 8px;
-  box-shadow: -5px 0 0, 5px 0 0;
+  box-shadow:
+    -5px 0 0,
+    5px 0 0;
 }
 .gg-more-r {
   box-sizing: border-box;
@@ -12377,7 +12575,9 @@
   border-radius: 20px;
   top: 6px;
   left: 8px;
-  box-shadow: -5px 0 0, 5px 0 0;
+  box-shadow:
+    -5px 0 0,
+    5px 0 0;
 }
 .gg-more-vertical-alt {
   transform: scale(var(--ggs, 1));
@@ -12427,7 +12627,9 @@
   border-radius: 20px;
   top: 8px;
   left: 8px;
-  box-shadow: 0 -5px 0, 0 5px 0;
+  box-shadow:
+    0 -5px 0,
+    0 5px 0;
 }
 .gg-more-vertical-r {
   box-sizing: border-box;
@@ -12450,7 +12652,9 @@
   border-radius: 20px;
   top: 8px;
   left: 6px;
-  box-shadow: 0 -5px 0, 0 5px 0;
+  box-shadow:
+    0 -5px 0,
+    0 5px 0;
 }
 .gg-more-vertical {
   transform: scale(var(--ggs, 1));
@@ -12794,7 +12998,11 @@
   position: absolute;
   width: 12px;
   height: 12px;
-  box-shadow: -5px -5px 0 -3px, 5px 5px 0 -3px, 5px -5px 0 -3px, -5px 5px 0 -3px;
+  box-shadow:
+    -5px -5px 0 -3px,
+    5px 5px 0 -3px,
+    5px -5px 0 -3px,
+    -5px 5px 0 -3px;
   left: -5px;
   top: -5px;
 }
@@ -12820,7 +13028,9 @@
   left: 2px;
 }
 .gg-notes::before {
-  box-shadow: 0 4px 0, 0 8px 0;
+  box-shadow:
+    0 4px 0,
+    0 8px 0;
   width: 12px;
   top: 2px;
 }
@@ -12835,10 +13045,9 @@
   transform: scale(var(--ggs, 1));
   width: 14px;
   height: 14px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat right bottom/2px 8px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat left
-      top/8px 2px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat right bottom/2px 8px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat left top/8px 2px;
 }
 .gg-notifications::after,
 .gg-notifications::before {
@@ -12925,7 +13134,9 @@
   transform: scale(var(--ggs, 1));
   width: 10px;
   height: 2px;
-  box-shadow: -3px 4px 0 0, 3px -4px 0 0;
+  box-shadow:
+    -3px 4px 0 0,
+    3px -4px 0 0;
 }
 .gg-options::after,
 .gg-options::before {
@@ -12947,14 +13158,11 @@
   right: -4px;
 }
 .gg-organisation {
-  background: linear-gradient(to bottom, currentColor 5px, transparent 0)
-      no-repeat center 2px/12px 2px,
-    linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat center
-      6px/12px 2px,
-    linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat center
-      10px/12px 2px,
-    linear-gradient(to bottom, currentColor 18px, transparent 0) no-repeat
-      center/2px 18px;
+  background:
+    linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat center 2px/12px 2px,
+    linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat center 6px/12px 2px,
+    linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat center 10px/12px 2px,
+    linear-gradient(to bottom, currentColor 18px, transparent 0) no-repeat center/2px 18px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -12974,7 +13182,10 @@
   background: currentColor;
   right: -8px;
   top: 6px;
-  box-shadow: 0 4px 0, -4px 4px 0, -4px 0 0;
+  box-shadow:
+    0 4px 0,
+    -4px 4px 0,
+    -4px 0 0;
   width: 2px;
   height: 2px;
 }
@@ -13075,7 +13286,9 @@
 .gg-password::before {
   left: 2px;
   top: 2px;
-  box-shadow: 6px 0 0, 12px 0 0;
+  box-shadow:
+    6px 0 0,
+    12px 0 0;
   height: 4px;
   border-radius: 100%;
 }
@@ -13132,8 +13345,7 @@
   opacity: 0.5;
 }
 .gg-path-crop::before {
-  background: linear-gradient(to left, currentColor 4px, transparent 0)
-    no-repeat top left/4px 4px;
+  background: linear-gradient(to left, currentColor 4px, transparent 0) no-repeat top left/4px 4px;
   bottom: 0;
   right: 0;
 }
@@ -13159,8 +13371,7 @@
   border-left: 4px solid;
 }
 .gg-path-divide::before {
-  background: linear-gradient(to left, currentColor 4px, transparent 0)
-    no-repeat 1px 1px/4px 4px;
+  background: linear-gradient(to left, currentColor 4px, transparent 0) no-repeat 1px 1px/4px 4px;
   border-right: 4px solid;
   border-bottom: 4px solid;
   bottom: 0;
@@ -13238,8 +13449,7 @@
   height: 10px;
 }
 .gg-path-intersect::before {
-  background: linear-gradient(to left, currentColor 4px, transparent 0)
-    no-repeat top left/4px 4px;
+  background: linear-gradient(to left, currentColor 4px, transparent 0) no-repeat top left/4px 4px;
   bottom: 0;
   right: 0;
 }
@@ -13342,10 +13552,9 @@
   width: 16px;
   height: 18px;
   transform: skew(-10deg) scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 20px, transparent 0)
-      no-repeat 3px bottom/4px 2px,
-    linear-gradient(to left, currentColor 20px, transparent 0) no-repeat 5px
-      bottom/3px 10px;
+  background:
+    linear-gradient(to left, currentColor 20px, transparent 0) no-repeat 3px bottom/4px 2px,
+    linear-gradient(to left, currentColor 20px, transparent 0) no-repeat 5px bottom/3px 10px;
 }
 .gg-paypal::after,
 .gg-paypal::before {
@@ -13377,7 +13586,9 @@
   width: 14px;
   height: 4px;
   border-right: 2px solid transparent;
-  box-shadow: 0 0 0 2px, inset -2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset -2px 0 0;
   border-top-right-radius: 1px;
   border-bottom-right-radius: 1px;
   margin-right: -2px;
@@ -13672,8 +13883,7 @@
   transform: skew(0deg, 30deg);
 }
 .gg-performance {
-  background: linear-gradient(to left, currentColor 8px, transparent 0)
-    no-repeat center/2px 6px;
+  background: linear-gradient(to left, currentColor 8px, transparent 0) no-repeat center/2px 6px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -13768,10 +13978,9 @@
   border-bottom: 4px solid;
   left: 2px;
   bottom: 2px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat right 11px/6px 4px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat -1px 0/4px
-      6px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat right 11px/6px 4px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat -1px 0/4px 6px;
 }
 .gg-phone::before {
   width: 20px;
@@ -13804,7 +14013,9 @@
   width: 4px;
   height: 4px;
   border-radius: 20px;
-  box-shadow: 0 0 0 2px, inset 0 0 0 2px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 2px;
   border: 1px solid transparent;
 }
 .gg-piano {
@@ -13825,7 +14036,9 @@
   position: absolute;
   height: 10px;
   background: currentColor;
-  box-shadow: 5px 0 0, 10px 0 0;
+  box-shadow:
+    5px 0 0,
+    10px 0 0;
 }
 .gg-piano::before {
   top: -2px;
@@ -14097,7 +14310,10 @@
   height: 6px;
   border-top: 0 solid transparent;
   border-bottom: 2px solid transparent;
-  box-shadow: inset 0 -2px 0, -2px 4px 0 -2px, 0 -2px 0 0;
+  box-shadow:
+    inset 0 -2px 0,
+    -2px 4px 0 -2px,
+    0 -2px 0 0;
 }
 .gg-play-list-add::after,
 .gg-play-list-add::before {
@@ -14126,7 +14342,10 @@
   height: 6px;
   border-top: 0 solid transparent;
   border-bottom: 2px solid transparent;
-  box-shadow: inset 0 -2px 0, -2px 4px 0 -2px, 0 -2px 0 0;
+  box-shadow:
+    inset 0 -2px 0,
+    -2px 4px 0 -2px,
+    0 -2px 0 0;
 }
 .gg-play-list-check::after {
   content: "";
@@ -14150,7 +14369,10 @@
   height: 6px;
   border-top: 0 solid transparent;
   border-bottom: 2px solid transparent;
-  box-shadow: inset 0 -2px 0, -2px 4px 0 -2px, 0 -2px 0 0;
+  box-shadow:
+    inset 0 -2px 0,
+    -2px 4px 0 -2px,
+    0 -2px 0 0;
 }
 .gg-play-list-remove::after,
 .gg-play-list-remove::before {
@@ -14180,7 +14402,10 @@
   height: 6px;
   border-top: 0 solid transparent;
   border-bottom: 2px solid transparent;
-  box-shadow: inset 0 -2px 0, -2px 4px 0 -2px, 0 -2px 0 0;
+  box-shadow:
+    inset 0 -2px 0,
+    -2px 4px 0 -2px,
+    0 -2px 0 0;
 }
 .gg-play-list-search::after,
 .gg-play-list-search::before {
@@ -14213,7 +14438,10 @@
   height: 6px;
   border-top: 0 solid transparent;
   border-bottom: 2px solid transparent;
-  box-shadow: inset 0 -2px 0, -2px 4px 0 -2px, 0 -2px 0 0;
+  box-shadow:
+    inset 0 -2px 0,
+    -2px 4px 0 -2px,
+    0 -2px 0 0;
 }
 .gg-play-list::after {
   content: "";
@@ -14532,7 +14760,10 @@
   background: currentColor;
   left: 2px;
   border-radius: 22px;
-  box-shadow: 6px 0 0, 3px 14px 0, 3px 16px 0;
+  box-shadow:
+    6px 0 0,
+    3px 14px 0,
+    3px 16px 0;
 }
 .gg-pocket {
   box-sizing: border-box;
@@ -14574,7 +14805,9 @@
   width: 18px;
   height: 18px;
   border: 5px solid transparent;
-  box-shadow: 0 0 0 2px, inset 0 0 0 2px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 2px;
   border-radius: 100%;
 }
 .gg-pokemon::before {
@@ -14609,7 +14842,9 @@
   height: 16px;
   border: 3px solid transparent;
   border-top: 6px solid transparent;
-  box-shadow: 0 0 0 2px, inset 2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 2px 0 0;
   border-radius: 1px;
 }
 .gg-poll::after,
@@ -14664,12 +14899,10 @@
   top: 8px;
 }
 .gg-printer {
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-      no-repeat 0 10px/6px 2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 14px
-      10px/6px 2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 4px/2px
-      2px;
+  background:
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 0 10px/6px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 14px 10px/6px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 4px/2px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -14678,7 +14911,11 @@
   height: 14px;
   border: 2px solid transparent;
   border-bottom: 0;
-  box-shadow: inset 0 2px 0, inset 2px 2px 0, inset -2px 2px 0, inset -2px 2px 0;
+  box-shadow:
+    inset 0 2px 0,
+    inset 2px 2px 0,
+    inset -2px 2px 0,
+    inset -2px 2px 0;
 }
 .gg-printer::after,
 .gg-printer::before {
@@ -15284,7 +15521,11 @@
   display: block;
   width: 14px;
   height: 14px;
-  box-shadow: -6px -6px 0 -4px, 6px 6px 0 -4px, 6px -6px 0 -4px, -6px 6px 0 -4px;
+  box-shadow:
+    -6px -6px 0 -4px,
+    6px 6px 0 -4px,
+    6px -6px 0 -4px,
+    -6px 6px 0 -4px;
 }
 .gg-qr::after {
   content: "";
@@ -15292,7 +15533,10 @@
   width: 4px;
   height: 4px;
   background: currentColor;
-  box-shadow: 0 6px 0, 6px 6px 0, 6px 0 0;
+  box-shadow:
+    0 6px 0,
+    6px 6px 0,
+    6px 0 0;
   top: 2px;
   left: 2px;
 }
@@ -15459,12 +15703,10 @@
   box-shadow: 0 0 0 2px;
   border-radius: 1px;
   bottom: -1px;
-  background: linear-gradient(to left, currentColor 4px, transparent 0)
-      no-repeat center 5px/4px 2px,
-    linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center
-      2px/4px 2px,
-    linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center
-      8px/4px 2px;
+  background:
+    linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center 5px/4px 2px,
+    linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center 2px/4px 2px,
+    linear-gradient(to left, currentColor 4px, transparent 0) no-repeat center 8px/4px 2px;
 }
 .gg-readme::before {
   border-top-right-radius: 3px;
@@ -15482,7 +15724,9 @@
   width: 20px;
   height: 20px;
   border: 6px solid transparent;
-  box-shadow: 0 0 0 2px, inset 0 0 0 10px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 10px;
   border-radius: 100px;
 }
 .gg-redo {
@@ -15589,8 +15833,7 @@
   width: 20px;
   height: 16px;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 22px, transparent 0)
-    no-repeat 6px center/2px 22px;
+  background: linear-gradient(to left, currentColor 22px, transparent 0) no-repeat 6px center/2px 22px;
 }
 .gg-rename::after,
 .gg-rename::before {
@@ -15647,14 +15890,19 @@
   height: 2px;
   opacity: 0.5;
   background: currentColor;
-  box-shadow: 0 8px 0 0, 0 12px 0 0, 0 16px 0 0;
+  box-shadow:
+    0 8px 0 0,
+    0 12px 0 0,
+    0 16px 0 0;
 }
 .gg-repeat {
   box-sizing: border-box;
   position: relative;
   display: block;
   transform: scale(var(--ggs, 1));
-  box-shadow: -2px -2px 0 0, 2px 2px 0 0;
+  box-shadow:
+    -2px -2px 0 0,
+    2px 2px 0 0;
   width: 14px;
   height: 6px;
 }
@@ -15827,7 +16075,9 @@
   border-bottom-right-radius: 14px;
   top: 0;
   left: 3px;
-  box-shadow: 0 0 0 2px, inset 2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 2px 0 0;
 }
 .gg-scan {
   box-sizing: border-box;
@@ -15836,8 +16086,7 @@
   width: 18px;
   height: 18px;
   transform: scale(var(--ggs, 1));
-  background: linear-gradient(to left, currentColor 22px, transparent 0)
-    no-repeat center/2px 22px;
+  background: linear-gradient(to left, currentColor 22px, transparent 0) no-repeat center/2px 22px;
 }
 .gg-scan::after,
 .gg-scan::before {
@@ -16118,7 +16367,9 @@
   border-radius: 100%;
   top: 5px;
   left: 5px;
-  box-shadow: -3px 0 0, 3px 0 0;
+  box-shadow:
+    -3px 0 0,
+    3px 0 0;
 }
 .gg-search {
   box-sizing: border-box;
@@ -16285,7 +16536,9 @@
   position: absolute;
   display: block;
   height: 3px;
-  box-shadow: 0 5px 0, 0 10px 0;
+  box-shadow:
+    0 5px 0,
+    0 10px 0;
   transform: skew(-20deg);
 }
 .gg-serverless::before {
@@ -16423,7 +16676,9 @@
   height: 6px;
   background: currentColor;
   border-radius: 100px;
-  box-shadow: 10px -6px 0, 10px 6px 0;
+  box-shadow:
+    10px -6px 0,
+    10px 6px 0;
 }
 .gg-share::after,
 .gg-share::before {
@@ -16508,16 +16763,12 @@
   transform: scale(var(--ggs, 1));
   width: 20px;
   height: 21px;
-  background: linear-gradient(to left, currentColor 12px, transparent 0)
-      no-repeat -1px 6px/18px 2px,
-    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 6px
-      14px/11px 2px,
-    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 0 2px/4px
-      2px,
-    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 12px
-      17px/4px 4px,
-    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 6px
-      17px/4px 4px;
+  background:
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat -1px 6px/18px 2px,
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 6px 14px/11px 2px,
+    linear-gradient(to left, currentColor 12px, transparent 0) no-repeat 0 2px/4px 2px,
+    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 12px 17px/4px 4px,
+    radial-gradient(circle, currentColor 60%, transparent 40%) no-repeat 6px 17px/4px 4px;
 }
 .gg-shopping-cart::after,
 .gg-shopping-cart::before {
@@ -16718,8 +16969,7 @@
   transform: scale(var(--ggs, 1));
   width: 22px;
   height: 18px;
-  background: linear-gradient(to left, currentColor 16px, transparent 0)
-    no-repeat center 6px/6px 2px;
+  background: linear-gradient(to left, currentColor 16px, transparent 0) no-repeat center 6px/6px 2px;
 }
 .gg-sketch::after,
 .gg-sketch::before {
@@ -16750,18 +17000,13 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-      no-repeat 7px 2px/2px 2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 15px 7px/2px
-      2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 2px 10px/2px
-      2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px
-      15px/2px 2px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px 2px/4px
-      5px,
-    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 5px 12px/4px
-      5px;
+  background:
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 7px 2px/2px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 15px 7px/2px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 2px 10px/2px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px 15px/2px 2px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 10px 2px/4px 5px,
+    linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 5px 12px/4px 5px;
 }
 .gg-slack::after,
 .gg-slack::before {
@@ -16781,7 +17026,13 @@
 .gg-slack::after {
   width: 4px;
   left: 5px;
-  box-shadow: -5px 10px 0, 0 10px 0, 0 15px 0, 5px 15px 0, 5px 5px 0, 5px 0 0,
+  box-shadow:
+    -5px 10px 0,
+    0 10px 0,
+    0 15px 0,
+    5px 15px 0,
+    5px 5px 0,
+    5px 0 0,
     10px 5px 0;
 }
 .gg-sleep,
@@ -16816,8 +17067,7 @@
   border-radius: 2px;
   border-top-left-radius: 4px;
   border-top-right-radius: 4px;
-  background: linear-gradient(to left, currentColor 14px, transparent 0)
-    no-repeat center 4px/14px 2px;
+  background: linear-gradient(to left, currentColor 14px, transparent 0) no-repeat center 4px/14px 2px;
 }
 .gg-smart-home-boiler::before {
   content: "";
@@ -16841,8 +17091,7 @@
   height: 18px;
   border: 2px solid;
   border-radius: 4px;
-  background: linear-gradient(to left, currentColor 18px, transparent 0)
-    no-repeat center 2px/18px 2px;
+  background: linear-gradient(to left, currentColor 18px, transparent 0) no-repeat center 2px/18px 2px;
 }
 .gg-smart-home-cooker::after,
 .gg-smart-home-cooker::before {
@@ -16861,7 +17110,9 @@
 }
 .gg-smart-home-cooker::after {
   height: 3px;
-  box-shadow: 0 -2px 0, inset 0 0 0 2px;
+  box-shadow:
+    0 -2px 0,
+    inset 0 0 0 2px;
   border-left: 2px solid transparent;
   border-right: 2px solid transparent;
   top: -4px;
@@ -16875,8 +17126,7 @@
   height: 14px;
   border: 2px solid;
   border-radius: 22px;
-  background: linear-gradient(to left, currentColor 24px, transparent 0)
-    no-repeat center 2px/10px 2px;
+  background: linear-gradient(to left, currentColor 24px, transparent 0) no-repeat center 2px/10px 2px;
 }
 .gg-smart-home-heat::after,
 .gg-smart-home-heat::before {
@@ -16972,8 +17222,7 @@
   width: 18px;
   height: 20px;
   border: 2px solid;
-  background: linear-gradient(to left, currentColor 18px, transparent 0)
-    no-repeat center 4px/18px 2px;
+  background: linear-gradient(to left, currentColor 18px, transparent 0) no-repeat center 4px/18px 2px;
   border-radius: 3px;
 }
 .gg-smart-home-wash-machine::after,
@@ -16990,7 +17239,9 @@
   width: 8px;
   height: 8px;
   border: 2px solid;
-  box-shadow: 5px -9px 0 -3px, 2px -9px 0 -3px;
+  box-shadow:
+    5px -9px 0 -3px,
+    2px -9px 0 -3px;
 }
 .gg-smart-home-wash-machine::after {
   top: 1px;
@@ -17020,8 +17271,18 @@
   left: -3px;
   top: -9px;
   background: currentColor;
-  box-shadow: 4px 0 0, 8px 0 0, 0 20px 0, 4px 20px 0, -6px 6px 0, 14px 6px 0,
-    14px 10px 0, 14px 14px 0, -6px 10px 0, -6px 14px 0, 8px 20px 0;
+  box-shadow:
+    4px 0 0,
+    8px 0 0,
+    0 20px 0,
+    4px 20px 0,
+    -6px 6px 0,
+    14px 6px 0,
+    14px 10px 0,
+    14px 14px 0,
+    -6px 10px 0,
+    -6px 14px 0,
+    8px 20px 0;
 }
 .gg-smartphone-ram {
   box-sizing: border-box;
@@ -17048,13 +17309,20 @@
   left: 2px;
 }
 .gg-smartphone-ram::after {
-  box-shadow: 4px 0 0, 8px 0 0, 12px 0 0, 16px 0 0, 0 18px 0, 4px 18px 0,
-    8px 18px 0, 12px 18px 0, 16px 18px 0;
+  box-shadow:
+    4px 0 0,
+    8px 0 0,
+    12px 0 0,
+    16px 0 0,
+    0 18px 0,
+    4px 18px 0,
+    8px 18px 0,
+    12px 18px 0,
+    16px 18px 0;
   top: -5px;
 }
 .gg-smartphone-shake {
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-    no-repeat 4px 12px/2px 2px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 12px/2px 2px;
   box-sizing: border-box;
   position: relative;
   transform: scale(var(--ggs, 1));
@@ -17074,7 +17342,9 @@
   width: 6px;
   border: 2px solid transparent;
   overflow: hidden;
-  box-shadow: 2px 0 0, inset -2px 0 0;
+  box-shadow:
+    2px 0 0,
+    inset -2px 0 0;
   top: 3px;
   left: -12px;
 }
@@ -17083,8 +17353,7 @@
   left: 16px;
 }
 .gg-smartphone {
-  background: linear-gradient(to left, currentColor 5px, transparent 0)
-    no-repeat 4px 12px/2px 2px;
+  background: linear-gradient(to left, currentColor 5px, transparent 0) no-repeat 4px 12px/2px 2px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -17671,7 +17940,9 @@
   height: 12px;
   border-radius: 1px;
   border: 3px solid transparent;
-  box-shadow: 0 0 0 3px, inset 0 0 0 3px;
+  box-shadow:
+    0 0 0 3px,
+    inset 0 0 0 3px;
 }
 .gg-stack,
 .gg-stack::after,
@@ -17737,8 +18008,7 @@
   top: 0;
 }
 .gg-stopwatch {
-  background: linear-gradient(to left, currentColor 7px, transparent 0)
-    no-repeat 6px 2px/2px 6px;
+  background: linear-gradient(to left, currentColor 7px, transparent 0) no-repeat 6px 2px/2px 6px;
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -17821,7 +18091,9 @@
 .gg-style {
   position: relative;
   transform: scale(var(--ggs, 1));
-  box-shadow: -3px 3px 0 -1px, 3px -3px 0 -1px;
+  box-shadow:
+    -3px 3px 0 -1px,
+    3px -3px 0 -1px;
 }
 .gg-style::after,
 .gg-style::before {
@@ -17844,14 +18116,11 @@
   transform: scale(var(--ggs, 1));
   width: 24px;
   height: 24px;
-  background: linear-gradient(to bottom, currentColor 4px, transparent 0)
-      no-repeat 5px -6px/2px 6px,
-    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 5px
-      14px/2px 6px,
-    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat -8px 5px/6px
-      2px,
-    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 14px
-      5px/6px 2px;
+  background:
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 5px -6px/2px 6px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 5px 14px/2px 6px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat -8px 5px/6px 2px,
+    linear-gradient(to bottom, currentColor 4px, transparent 0) no-repeat 14px 5px/6px 2px;
   border-radius: 100px;
   box-shadow: inset 0 0 0 2px;
   border: 6px solid transparent;
@@ -17883,7 +18152,9 @@
   height: 20px;
   transform: rotate(45deg) scale(var(--ggs, 1));
   border: 5px solid transparent;
-  box-shadow: 0 0 0 2px, inset 0 0 0 2px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 2px;
   border-radius: 40px;
 }
 .gg-support::after,
@@ -17914,7 +18185,9 @@
   position: relative;
   display: block;
   transform: rotate(90deg) scale(var(--ggs, 1));
-  box-shadow: -2px 2px 0, 2px -2px 0;
+  box-shadow:
+    -2px 2px 0,
+    2px -2px 0;
   width: 6px;
   height: 2px;
 }
@@ -17944,7 +18217,9 @@
   position: relative;
   display: block;
   transform: scale(var(--ggs, 1));
-  box-shadow: -2px 2px 0, 2px -2px 0;
+  box-shadow:
+    -2px 2px 0,
+    2px -2px 0;
   width: 6px;
   height: 2px;
 }
@@ -18175,7 +18450,9 @@
   height: 10px;
   border: 2px solid transparent;
   border-bottom-width: 5px;
-  box-shadow: 0 0 0 2px, inset 0 0 0 2px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 2px;
   left: 7px;
   bottom: 2px;
 }
@@ -18206,7 +18483,9 @@
   width: 6px;
   height: 10px;
   border-bottom-width: 5px;
-  box-shadow: 0 0 0 2px, inset 0 0 0 2px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 2px;
   left: 5px;
   top: 8px;
 }
@@ -18351,7 +18630,9 @@
 .gg-thermometer::before {
   height: 12px;
   border: 2px solid transparent;
-  box-shadow: 0 0 0 2px, inset 0 0 0 6px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 6px;
   right: 6px;
   top: 1px;
 }
@@ -18383,8 +18664,7 @@
   border-top-color: transparent;
   bottom: 0;
   border-radius: 100px;
-  background: radial-gradient(circle, currentColor 20%, transparent 20%)
-    no-repeat center;
+  background: radial-gradient(circle, currentColor 20%, transparent 20%) no-repeat center;
 }
 .gg-thermostat::before {
   width: 8px;
@@ -18401,20 +18681,14 @@
   transform: scale(var(--ggs, 1));
   width: 18px;
   height: 18px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-      no-repeat 10px 0/8px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 10px
-      6px/8px 2px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 10px
-      10px/2px 8px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 13px
-      10px/2px 8px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 16px
-      10px/2px 8px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 16px 0/2px
-      8px,
-    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 10px 0/2px
-      8px;
+  background:
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 10px 0/8px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 10px 6px/8px 2px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 10px 10px/2px 8px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 13px 10px/2px 8px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 16px 10px/2px 8px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 16px 0/2px 8px,
+    linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 10px 0/2px 8px;
 }
 .gg-tikcode::after,
 .gg-tikcode::before {
@@ -18492,8 +18766,7 @@
   border-radius: 40px;
 }
 .gg-timer {
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-    no-repeat 6px -2px/2px 6px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 6px -2px/2px 6px;
   box-sizing: border-box;
   transform: scale(var(--ggs, 1));
   position: relative;
@@ -18650,7 +18923,9 @@
   transform: scale(var(--ggs, 1));
   width: 18px;
   height: 12px;
-  box-shadow: 0 0 0 2px, inset 0 -2px 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 -2px 0;
   border: 2px solid transparent;
   border-radius: 1px;
 }
@@ -18661,7 +18936,9 @@
   transform: scale(var(--ggs, 1));
   width: 18px;
   height: 12px;
-  box-shadow: 0 0 0 2px, inset 2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 2px 0 0;
   border: 2px solid transparent;
   border-radius: 1px;
 }
@@ -18672,7 +18949,9 @@
   transform: scale(var(--ggs, 1));
   width: 18px;
   height: 12px;
-  box-shadow: 0 0 0 2px, inset -2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset -2px 0 0;
   border: 2px solid transparent;
   border-radius: 1px;
 }
@@ -18683,7 +18962,9 @@
   transform: scale(var(--ggs, 1));
   width: 18px;
   height: 12px;
-  box-shadow: 0 0 0 2px, inset 0 2px 0;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 2px 0;
   border: 2px solid transparent;
   border-radius: 1px;
 }
@@ -18719,7 +19000,10 @@
   height: 2px;
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
-  box-shadow: 0 -2px 0, inset 4px 0 0, inset -4px 0 0;
+  box-shadow:
+    0 -2px 0,
+    inset 4px 0 0,
+    inset -4px 0 0;
   top: 4px;
 }
 .gg-touchpad {
@@ -18762,7 +19046,9 @@
   width: 10px;
   height: 10px;
   border: 2px solid transparent;
-  box-shadow: 0 0 0 2px, inset 0 0 0 10px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 10px;
   border-radius: 100px;
 }
 .gg-track::after,
@@ -18866,7 +19152,10 @@
   width: 10px;
   height: 12px;
   border: 2px solid transparent;
-  box-shadow: 0 0 0 2px, inset -2px 0 0, inset 2px 0 0;
+  box-shadow:
+    0 0 0 2px,
+    inset -2px 0 0,
+    inset 2px 0 0;
   border-bottom-left-radius: 1px;
   border-bottom-right-radius: 1px;
   margin-top: 4px;
@@ -18934,7 +19223,9 @@
   border-left: 4px solid transparent;
   border-right: 3px solid transparent;
   border-top: 10px solid transparent;
-  box-shadow: inset 2px 0 0, inset -2px 0 0;
+  box-shadow:
+    inset 2px 0 0,
+    inset -2px 0 0;
 }
 .gg-trees::after,
 .gg-trees::before {
@@ -19069,7 +19360,9 @@
   position: absolute;
 }
 .gg-trophy::before {
-  box-shadow: inset 0 0 0 2px, 0 2px 0 0;
+  box-shadow:
+    inset 0 0 0 2px,
+    0 2px 0 0;
   bottom: -4px;
   width: 6px;
   height: 4px;
@@ -19171,8 +19464,7 @@
   border-left: 4px solid;
   border-bottom: 4px solid;
   border-bottom-left-radius: 6px;
-  background: linear-gradient(to left, currentColor 12px, transparent 0)
-    no-repeat center 2px/10px 4px;
+  background: linear-gradient(to left, currentColor 12px, transparent 0) no-repeat center 2px/10px 4px;
   top: 4px;
 }
 .gg-twitter::after {
@@ -19181,7 +19473,9 @@
   background: currentColor;
   border-radius: 20px;
   top: 2px;
-  box-shadow: 7px 4px 0, 7px 12px 0;
+  box-shadow:
+    7px 4px 0,
+    7px 12px 0;
 }
 .gg-ui-kit,
 .gg-ui-kit::after,
@@ -19226,8 +19520,7 @@
   position: relative;
   width: 22px;
   height: 22px;
-  background: linear-gradient(to bottom, currentColor 20px, transparent 0)
-    no-repeat center 10px/2px 8px;
+  background: linear-gradient(to bottom, currentColor 20px, transparent 0) no-repeat center 10px/2px 8px;
 }
 .gg-umbrella::after,
 .gg-umbrella::before {
@@ -19375,7 +19668,9 @@
   height: 6px;
   border: 2px solid transparent;
   border-radius: 100px;
-  box-shadow: 0 0 0 2px, inset 0 0 0 10px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 10px;
 }
 .gg-usb,
 .gg-usb::before {
@@ -19401,7 +19696,10 @@
   border-right: 1px solid transparent;
   border-top: 1px solid transparent;
   border-bottom: 2px solid transparent;
-  box-shadow: 0 0 0 2px, inset 5px 4px 0 -4px, inset -5px 4px 0 -4px;
+  box-shadow:
+    0 0 0 2px,
+    inset 5px 4px 0 -4px,
+    inset -5px 4px 0 -4px;
   top: -7px;
   left: 2px;
 }
@@ -19411,10 +19709,9 @@
   box-sizing: border-box;
   width: 20px;
   height: 18px;
-  background: linear-gradient(to left, currentColor 8px, transparent 0)
-      no-repeat 14px 6px/6px 2px,
-    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat 16px 4px/2px
-      6px;
+  background:
+    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat 14px 6px/6px 2px,
+    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat 16px 4px/2px 6px;
 }
 .gg-user-add::after,
 .gg-user-add::before {
@@ -19445,12 +19742,10 @@
   box-sizing: border-box;
   width: 20px;
   height: 18px;
-  background: linear-gradient(to left, currentColor 8px, transparent 0)
-      no-repeat 14px 4px/6px 2px,
-    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat 14px 8px/6px
-      2px,
-    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat 14px
-      12px/6px 2px;
+  background:
+    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat 14px 4px/6px 2px,
+    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat 14px 8px/6px 2px,
+    linear-gradient(to left, currentColor 8px, transparent 0) no-repeat 14px 12px/6px 2px;
 }
 .gg-user-list::after,
 .gg-user-list::before {
@@ -19481,8 +19776,7 @@
   box-sizing: border-box;
   width: 20px;
   height: 18px;
-  background: linear-gradient(to left, currentColor 8px, transparent 0)
-    no-repeat 14px 6px/6px 2px;
+  background: linear-gradient(to left, currentColor 8px, transparent 0) no-repeat 14px 6px/6px 2px;
 }
 .gg-user-remove::after,
 .gg-user-remove::before {
@@ -19728,7 +20022,9 @@
   top: -2px;
   left: 3px;
   background: currentColor;
-  box-shadow: 4px 0 0, 8px 0 0;
+  box-shadow:
+    4px 0 0,
+    8px 0 0;
 }
 .gg-view-month::before {
   width: 20px;
@@ -19766,7 +20062,9 @@
   width: 8px;
   height: 8px;
   border: 3px solid transparent;
-  box-shadow: 0 0 0 6px, inset 0 0 0 2px;
+  box-shadow:
+    0 0 0 6px,
+    inset 0 0 0 2px;
   border-radius: 22px;
 }
 .gg-voicemail-o {
@@ -19776,8 +20074,7 @@
   transform: scale(var(--ggs, 1));
   width: 22px;
   height: 22px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-    no-repeat 5px 10px/8px 2px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 5px 10px/8px 2px;
   border-radius: 30px;
   border: 2px solid;
 }
@@ -19806,8 +20103,7 @@
   transform: scale(var(--ggs, 1));
   width: 21px;
   height: 14px;
-  background: linear-gradient(to left, currentColor 10px, transparent 0)
-    no-repeat 5px 6px/7px 2px;
+  background: linear-gradient(to left, currentColor 10px, transparent 0) no-repeat 5px 6px/7px 2px;
   border-radius: 3px;
   border: 2px solid;
 }
@@ -19902,7 +20198,9 @@
   width: 8px;
   height: 8px;
   border: 2px solid transparent;
-  box-shadow: 0 0 0 2px, inset 0 0 0 2px;
+  box-shadow:
+    0 0 0 2px,
+    inset 0 0 0 2px;
   border-radius: 100px;
   margin-top: -4px;
 }
@@ -19914,7 +20212,9 @@
   width: 10px;
   height: 4px;
   border-right: 4px solid transparent;
-  box-shadow: 0 2px 0, inset -2px 0 0;
+  box-shadow:
+    0 2px 0,
+    inset -2px 0 0;
   bottom: -6px;
   left: -3px;
 }
@@ -19941,7 +20241,9 @@
 .gg-website::before {
   background: currentColor;
   left: 2px;
-  box-shadow: 0 4px 0, 0 8px 0;
+  box-shadow:
+    0 4px 0,
+    0 8px 0;
   border-radius: 3px;
   height: 2px;
 }
@@ -19968,7 +20270,10 @@
   width: 7px;
   height: 6px;
   background: currentColor;
-  box-shadow: 8px 0 0, 8px 7px 0, 0 7px 0;
+  box-shadow:
+    8px 0 0,
+    8px 7px 0,
+    0 7px 0;
   transform: perspective(30px) rotateY(-30deg);
 }
 .gg-work-alt,
@@ -20022,8 +20327,14 @@
 .gg-yinyang::after {
   border: 2px solid transparent;
   right: 0;
-  box-shadow: inset 0 0 0 4px, 0 -3px 0 1px, -2px -4px 0 1px, -8px -5px 0 -1px,
-    -11px -3px 0 -2px, -12px -1px 0 -3px, -6px -6px 0 -1px;
+  box-shadow:
+    inset 0 0 0 4px,
+    0 -3px 0 1px,
+    -2px -4px 0 1px,
+    -8px -5px 0 -1px,
+    -11px -3px 0 -2px,
+    -12px -1px 0 -3px,
+    -6px -6px 0 -1px;
 }
 .gg-youtube {
   box-sizing: border-box;
@@ -20046,7 +20357,7 @@
   border-top: 3px solid transparent;
   border-bottom: 3px solid transparent;
 }
-.gg-zeit {
+.gg-vercel {
   box-sizing: border-box;
   position: relative;
   display: block;
@@ -20066,8 +20377,7 @@
   height: 16px;
   border: 2px solid;
   border-radius: 100%;
-  background: linear-gradient(to bottom, currentColor 5px, transparent 0)
-    no-repeat 2px 5px/8px 2px;
+  background: linear-gradient(to bottom, currentColor 5px, transparent 0) no-repeat 2px 5px/8px 2px;
   margin-top: -4px;
 }
 .gg-zoom-in::after,
