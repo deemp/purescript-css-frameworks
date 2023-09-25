@@ -58,7 +58,7 @@ Framework lists were taken from [purescript-react-icons](https://github.com/andy
 
 ## Documentation
 
-Module documentation [on Pursuit](http://pursuit.purescript.org/packages/purescript-css-frameworks) (coming soon).
+Module documentation [on Pursuit](http://pursuit.purescript.org/packages/purescript-css-frameworks).
 
 ## Contribute
 
