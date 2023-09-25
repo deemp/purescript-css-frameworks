@@ -129,7 +129,7 @@ This repo provides a [Nix flake](https://nixos.wiki/wiki/Flakes) with `PureScrip
     git push --follow-tags
     ```
 
-- Publish the package and docs.
+- Publish the package and docs. A GitHub token for `npx pulp login` doesn't need any permissions.
 
     ```console
     npx pulp login
