@@ -8,5 +8,6 @@
 /.purs*
 /.psa*
 /.spago
+/spago.lock
 .vscode
 .direnv
