@@ -1,0 +1,11 @@
+package:
+  name: css-frameworks
+  publish:
+    version: 1.1.1
+    license: Apache-2.0
+    location:
+      githubOwner: deemp
+      githubRepo: purescript-css-frameworks
+  dependencies:
+    - web-html: ">=4.1.0 <5.0.0"
+workspace: {}

@@ -116,11 +116,14 @@ This repo provides a [Nix flake](https://nixos.wiki/wiki/Flakes) with `PureScrip
 
 ## Release new version
 
-- Commit all changes.
-- Update the version appropriately.
+- Update `package.publish.version` in `spago.yaml` appropriately.
+- Build the package, commit all changes, and tag the commit with the matching version.
 
     ```console
-    spago bump-version patch --no-dry-run
+    spago build
+    git add spago.yaml
+    git commit -m "Prepare release"
+    git tag -a vVERSION -m "vVERSION"
     ```
 
 - Push to `GitHub`.
@@ -129,11 +132,10 @@ This repo provides a [Nix flake](https://nixos.wiki/wiki/Flakes) with `PureScrip
     git push --follow-tags
     ```
 
-- Publish the package and docs. A GitHub token for `npx pulp login` doesn't need any permissions.
+- Publish the package and docs from the Nix devshell.
 
     ```console
-    npx pulp login
-    npx pulp publish
+    spago publish
     ```
 
 ## License
